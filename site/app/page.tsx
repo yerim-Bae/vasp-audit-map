@@ -1,5 +1,6 @@
 import Explorer from './explorer';
 
+import auditGuideline from '@/data/audit-guideline.json';
 import auditReports from '@/data/audit-reports.json';
 import auditRisks from '@/data/audit-risks.json';
 import cryptoNotes from '@/data/crypto-notes.json';
@@ -15,6 +16,7 @@ export default function Home() {
   return (
     <Explorer
       datasets={{
+        auditGuideline,
         auditReports,
         auditRisks,
         cryptoNotes,

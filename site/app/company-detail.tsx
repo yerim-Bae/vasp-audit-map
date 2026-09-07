@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import type { AuditReport, AuditRisk, CryptoNote, Financial, Project, Relation, Review, Token, Vasp } from './site-types';
 import { compactAmount, display, EvidenceQuote, formatFigure, isUnknown, KeyValue, LinkList, marketLabel, opinionLabel, reportingBasisLabel, scopeLabel, SectionTitle } from './view-helpers';
 
-const deepDiveIds = new Set(['upbit', 'bithumb', 'coinone', 'korbit', 'gopax', 'wavebridge']);
+const deepDiveIds = new Set(['upbit', 'bithumb', 'coinone', 'korbit', 'gopax', 'wavebridge', 'wemade', 'netmarble', 'com2us_holdings', 'kakaogames']);
 const categoryLabels: Record<string, string> = { exchange: '거래', transfer: '이전', custody: '보관', broker: '중개', staking: '스테이킹' };
 const revenueLabels: Record<string, string> = { trading_fee: '거래수수료', withdrawal_fee: '출금수수료', custody_fee: '보관수수료', staking_fee: '스테이킹 수익', spread: '매매 스프레드', other_operating: '기타 영업수익', fee_revenue: '수수료 수익', total_operating_revenue: '영업수익 합계' };
 const figureLabels: Record<string, string> = {
@@ -24,7 +24,7 @@ export default function CompanyDetail({ vasp, reports, financials, notes, risks,
       {!hasAudit ? <NoAuditDetail vasp={vasp} /> : (
         <div className="space-y-10 p-5 sm:p-7">
           <RevenueSection vasp={vasp} financials={financials} />
-          <CustodySection financials={financials} notes={notes} />
+          {vasp.entity_type !== 'listed_issuer_holder' && <CustodySection financials={financials} notes={notes} />}
           <AccountingSection reports={reports} notes={notes} />
           <AuditFinancialSection reports={reports} financials={financials} />
           <CompanyMattersSection reports={reports} notes={notes} risks={risks} />
@@ -44,10 +44,11 @@ function RevenueSection({ vasp, financials }: { vasp: Vasp; financials: Financia
   const separate = financials.filter((item) => item.statement_type === 'separate').sort((a, b) => b.fiscal_year - a.fiscal_year).slice(0, 3);
   const factModels = (vasp.revenue_models ?? []).filter((item) => item.status === 'fact');
   const categories = (vasp.business_categories ?? []).map((item) => categoryLabels[item] ?? item);
-  const businessLine = `${vasp.service_names.join(' · ') || vasp.legal_name_ko} · ${marketLabel(vasp.market_type)} ${categories.includes('거래') ? '거래소' : '사업자'}${categories.filter((item) => item !== '거래').length ? ` · ${categories.filter((item) => item !== '거래').join('·')} 제공` : ''}`;
+  const isIssuer = vasp.entity_type === 'listed_issuer_holder';
+  const businessLine = isIssuer ? `${vasp.legal_name_ko} · 가상자산 발행·보유 상장사 (FIU 신고 대상 아님) · 본업 매출은 게임 등, 가상자산은 수익원이 아니라 보유·발행 자산` : `${vasp.service_names.join(' · ') || vasp.legal_name_ko} · ${marketLabel(vasp.market_type)} ${categories.includes('거래') ? '거래소' : '사업자'}${categories.filter((item) => item !== '거래').length ? ` · ${categories.filter((item) => item !== '거래').join('·')} 제공` : ''}`;
   const breakdownKeys = Array.from(new Set(separate.flatMap((item) => (item.revenue_breakdown ?? []).filter((row) => row.normalized !== 'total_operating_revenue').map((row) => row.normalized))));
   const feeLinks = (vasp.links ?? []).filter((link) => ['fee_schedule', 'terms_of_service'].includes(link.link_type));
-  return <section><SectionTitle icon={CircleDollarSign} title="① 수익 구조 — 이 회사는 어떻게 돈을 버나" /><div className="rounded-xl border border-rust/30 bg-rust/10/[0.045] p-4"><p className="font-medium text-rust">{businessLine}</p><div className="mt-3 flex flex-wrap gap-2">{factModels.length ? factModels.map((model) => <span key={model.classification} title={display(model.rationale)} className="rounded-full border border-ink-14 bg-paper/[0.04] px-3 py-1 text-sm text-ink">{revenueLabels[model.classification] ?? model.classification}</span>) : <span className="text-sm text-ink-60">확인된 수익원 없음</span>}</div></div>
+  return <section><SectionTitle icon={CircleDollarSign} title="① 수익 구조 — 이 회사는 어떻게 돈을 버나" /><div className="rounded-xl border border-rust/30 bg-rust/10/[0.045] p-4"><p className="font-medium text-rust">{businessLine}</p><div className="mt-3 flex flex-wrap gap-2">{isIssuer ? <span className="text-sm text-ink-60">가상자산 관련 수익: 용역 제공 대가로 토큰 수령(넷마블·컴투스홀딩스), 노드 운영 보상(카카오게임즈) — ③ 회계처리 참조</span> : factModels.length ? factModels.map((model) => <span key={model.classification} title={display(model.rationale)} className="rounded-full border border-ink-14 bg-paper/[0.04] px-3 py-1 text-sm text-ink">{revenueLabels[model.classification] ?? model.classification}</span>) : <span className="text-sm text-ink-60">확인된 수익원 없음</span>}</div></div>
     <div className="mt-4 overflow-hidden rounded-xl border border-ink-14"><div className="border-b border-ink-14 bg-paper/[0.025] px-4 py-3"><h4 className="font-semibold text-ink">최근 3개년 수익원</h4></div>{breakdownKeys.length ? <div className="overflow-x-auto"><table className="w-full min-w-[680px] text-left text-sm"><thead><tr className="border-b border-ink-14 text-ink-60"><th className="px-4 py-3">수익원</th>{separate.map((row) => <th key={row.fiscal_year} className="px-4 py-3">FY{row.fiscal_year}</th>)}</tr></thead><tbody>{breakdownKeys.map((key) => <tr key={key} className="border-b border-ink-14 last:border-0"><th className="px-4 py-3 font-medium text-ink">{revenueLabels[key] ?? key}</th>{separate.map((year) => { const item = (year.revenue_breakdown ?? []).find((row) => row.normalized === key); return <td key={year.fiscal_year} title={[item?.original_account_name ? `원계정: ${item.original_account_name}` : null, item?.notes].filter(Boolean).join(' · ')} className="px-4 py-3 text-ink">{item?.amount === null || item?.amount === undefined ? '확인되지 않음' : <>{compactAmount(item.amount)}{item.share_of_total !== null && <span className="ml-1 text-xs text-ink-60">({(item.share_of_total * 100).toFixed(1)}%)</span>}</>}</td>; })}</tr>)}</tbody></table></div> : <p className="px-4 py-5 text-sm text-ink-60">수익 세분 미공시</p>}</div>
     <div className="mt-4 grid gap-3 md:grid-cols-2">{separate.map((year) => <div key={year.fiscal_year} className="rounded-xl border border-ink-14 bg-paper p-4"><p className="text-xs text-ink-60">FY{year.fiscal_year} · 별도</p><dl className="mt-2 grid gap-2 text-sm"><MiniValue label="영업수익" value={compactAmount(year.figures.revenue?.amount)} /><MiniValue label="영업이익" value={compactAmount(year.figures.operating_income?.amount)} /></dl></div>)}</div>
     {feeLinks.length > 0 && <div className="mt-4"><LinkList links={feeLinks} /></div>}
@@ -62,7 +63,7 @@ function CustodySection({ financials, notes }: { financials: Financial[]; notes:
 
 function AccountingSection({ reports, notes }: { reports: AuditReport[]; notes: CryptoNote[] }) {
   const basis = reports.filter((item) => item.statement_scope === 'separate').sort((a, b) => b.fiscal_year - a.fiscal_year)[0]?.reporting_basis ?? null;
-  const topics = ['company_owned_crypto', 'crypto_valuation_policy', 'impairment_or_fair_value', 'fee_revenue_recognition_timing', 'gross_vs_net_revenue'];
+  const topics = ['company_owned_crypto', 'token_issuance_and_reserve', 'issuer_revenue_recognition', 'crypto_valuation_policy', 'impairment_or_fair_value', 'fee_revenue_recognition_timing', 'gross_vs_net_revenue'];
   return <section><SectionTitle icon={BookOpenText} title="③ 회계처리" aside={reportingBasisLabel(basis)} /><TopicCards notes={latestTopicNotes(notes, topics)} /></section>;
 }
 

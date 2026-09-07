@@ -2,7 +2,7 @@
  "_meta": {
   "generated_at": "2026-09-06T01:31:01.638751+00:00",
   "basis_date": "2026-09-06",
-  "record_count": 43,
+  "record_count": 56,
   "status": "SOURCE_REGISTER"
  },
  "records": [
@@ -834,6 +834,261 @@
    ],
    "local_copy": "seed/raw/가상자산사업자 신고에 관한 정보공개현황(2024.7.30. 기준).xlsx",
    "notes": "미갱신 사업자의 사업자등록번호·당시 대표·소재지 확인용. 현재 신고 상태의 근거로는 쓰지 않음(2026-08-31 명단이 우선)."
+  },
+  {
+   "source_id": "dart_wemade_2023_20240412003722",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412003722",
+   "source_title": "(주)위메이드 2023 사업보고서(첨부 감사보고서 포함)",
+   "source_authority": "DART",
+   "receipt_number": "20240412003722",
+   "published_at": "2024-04-12",
+   "retrieved_at": "2026-09-07",
+   "vasp_ids": [
+    "wemade"
+   ],
+   "used_in": [
+    "vasps",
+    "audit-reports",
+    "financials",
+    "crypto-notes"
+   ],
+   "local_copy": "downloads/20240412003722.zip",
+   "notes": "발행·보유 상장사 사례"
+  },
+  {
+   "source_id": "dart_wemade_2024_20250320001699",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250320001699",
+   "source_title": "(주)위메이드 2024 사업보고서(첨부 감사보고서 포함)",
+   "source_authority": "DART",
+   "receipt_number": "20250320001699",
+   "published_at": "2025-03-20",
+   "retrieved_at": "2026-09-07",
+   "vasp_ids": [
+    "wemade"
+   ],
+   "used_in": [
+    "vasps",
+    "audit-reports",
+    "financials",
+    "crypto-notes"
+   ],
+   "local_copy": "downloads/20250320001699.zip",
+   "notes": "발행·보유 상장사 사례"
+  },
+  {
+   "source_id": "dart_wemade_2025_20260319000853",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260319000853",
+   "source_title": "(주)위메이드 2025 사업보고서(첨부 감사보고서 포함)",
+   "source_authority": "DART",
+   "receipt_number": "20260319000853",
+   "published_at": "2026-03-19",
+   "retrieved_at": "2026-09-07",
+   "vasp_ids": [
+    "wemade"
+   ],
+   "used_in": [
+    "vasps",
+    "audit-reports",
+    "financials",
+    "crypto-notes"
+   ],
+   "local_copy": "downloads/20260319000853.zip",
+   "notes": "발행·보유 상장사 사례"
+  },
+  {
+   "source_id": "dart_netmarble_2023_20240320001885",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320001885",
+   "source_title": "넷마블(주) 2023 사업보고서(첨부 감사보고서 포함)",
+   "source_authority": "DART",
+   "receipt_number": "20240320001885",
+   "published_at": "2024-03-20",
+   "retrieved_at": "2026-09-07",
+   "vasp_ids": [
+    "netmarble"
+   ],
+   "used_in": [
+    "vasps",
+    "audit-reports",
+    "financials",
+    "crypto-notes"
+   ],
+   "local_copy": "downloads/20240320001885.zip",
+   "notes": "발행·보유 상장사 사례"
+  },
+  {
+   "source_id": "dart_netmarble_2024_20250321001686",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001686",
+   "source_title": "넷마블(주) 2024 사업보고서(첨부 감사보고서 포함)",
+   "source_authority": "DART",
+   "receipt_number": "20250321001686",
+   "published_at": "2025-03-21",
+   "retrieved_at": "2026-09-07",
+   "vasp_ids": [
+    "netmarble"
+   ],
+   "used_in": [
+    "vasps",
+    "audit-reports",
+    "financials",
+    "crypto-notes"
+   ],
+   "local_copy": "downloads/20250321001686.zip",
+   "notes": "발행·보유 상장사 사례"
+  },
+  {
+   "source_id": "dart_netmarble_2025_20260318001170",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001170",
+   "source_title": "넷마블(주) 2025 사업보고서(첨부 감사보고서 포함)",
+   "source_authority": "DART",
+   "receipt_number": "20260318001170",
+   "published_at": "2026-03-18",
+   "retrieved_at": "2026-09-07",
+   "vasp_ids": [
+    "netmarble"
+   ],
+   "used_in": [
+    "vasps",
+    "audit-reports",
+    "financials",
+    "crypto-notes"
+   ],
+   "local_copy": "downloads/20260318001170.zip",
+   "notes": "발행·보유 상장사 사례"
+  },
+  {
+   "source_id": "dart_com2us_holdings_2023_20240322000009",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240322000009",
+   "source_title": "(주)컴투스홀딩스 2023 사업보고서(첨부 감사보고서 포함)",
+   "source_authority": "DART",
+   "receipt_number": "20240322000009",
+   "published_at": "2024-03-22",
+   "retrieved_at": "2026-09-07",
+   "vasp_ids": [
+    "com2us_holdings"
+   ],
+   "used_in": [
+    "vasps",
+    "audit-reports",
+    "financials",
+    "crypto-notes"
+   ],
+   "local_copy": "downloads/20240322000009.zip",
+   "notes": "발행·보유 상장사 사례"
+  },
+  {
+   "source_id": "dart_com2us_holdings_2024_20250321001866",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001866",
+   "source_title": "(주)컴투스홀딩스 2024 사업보고서(첨부 감사보고서 포함)",
+   "source_authority": "DART",
+   "receipt_number": "20250321001866",
+   "published_at": "2025-03-21",
+   "retrieved_at": "2026-09-07",
+   "vasp_ids": [
+    "com2us_holdings"
+   ],
+   "used_in": [
+    "vasps",
+    "audit-reports",
+    "financials",
+    "crypto-notes"
+   ],
+   "local_copy": "downloads/20250321001866.zip",
+   "notes": "발행·보유 상장사 사례"
+  },
+  {
+   "source_id": "dart_com2us_holdings_2025_20260320001317",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260320001317",
+   "source_title": "(주)컴투스홀딩스 2025 사업보고서(첨부 감사보고서 포함)",
+   "source_authority": "DART",
+   "receipt_number": "20260320001317",
+   "published_at": "2026-03-20",
+   "retrieved_at": "2026-09-07",
+   "vasp_ids": [
+    "com2us_holdings"
+   ],
+   "used_in": [
+    "vasps",
+    "audit-reports",
+    "financials",
+    "crypto-notes"
+   ],
+   "local_copy": "downloads/20260320001317.zip",
+   "notes": "발행·보유 상장사 사례"
+  },
+  {
+   "source_id": "dart_kakaogames_2023_20240320002052",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320002052",
+   "source_title": "(주)카카오게임즈 2023 사업보고서(첨부 감사보고서 포함)",
+   "source_authority": "DART",
+   "receipt_number": "20240320002052",
+   "published_at": "2024-03-20",
+   "retrieved_at": "2026-09-07",
+   "vasp_ids": [
+    "kakaogames"
+   ],
+   "used_in": [
+    "vasps",
+    "audit-reports",
+    "financials",
+    "crypto-notes"
+   ],
+   "local_copy": "downloads/20240320002052.zip",
+   "notes": "발행·보유 상장사 사례"
+  },
+  {
+   "source_id": "dart_kakaogames_2024_20250318001434",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250318001434",
+   "source_title": "(주)카카오게임즈 2024 사업보고서(첨부 감사보고서 포함)",
+   "source_authority": "DART",
+   "receipt_number": "20250318001434",
+   "published_at": "2025-03-18",
+   "retrieved_at": "2026-09-07",
+   "vasp_ids": [
+    "kakaogames"
+   ],
+   "used_in": [
+    "vasps",
+    "audit-reports",
+    "financials",
+    "crypto-notes"
+   ],
+   "local_copy": "downloads/20250318001434.zip",
+   "notes": "발행·보유 상장사 사례"
+  },
+  {
+   "source_id": "dart_kakaogames_2025_20260318001659",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001659",
+   "source_title": "(주)카카오게임즈 2025 사업보고서(첨부 감사보고서 포함)",
+   "source_authority": "DART",
+   "receipt_number": "20260318001659",
+   "published_at": "2026-03-18",
+   "retrieved_at": "2026-09-07",
+   "vasp_ids": [
+    "kakaogames"
+   ],
+   "used_in": [
+    "vasps",
+    "audit-reports",
+    "financials",
+    "crypto-notes"
+   ],
+   "local_copy": "downloads/20260318001659.zip",
+   "notes": "발행·보유 상장사 사례"
+  },
+  {
+   "source_id": "kicpa_guideline_2023_12",
+   "source_url": "https://www.kicpa.or.kr",
+   "source_title": "한국공인회계사회 「가상자산에 대한 감사 가이드라인」 (2023.12 공표)",
+   "source_authority": "OTHER",
+   "receipt_number": null,
+   "published_at": "2023-12",
+   "retrieved_at": "2026-09-07",
+   "vasp_ids": [],
+   "used_in": [
+    "audit-risks"
+   ],
+   "local_copy": "docs/references/가상자산에 대한 감사 가이드라인_202312_공표.pdf",
+   "notes": "data/audit-guideline.json 의 원문. 회계사회 사이트의 정확한 게시 URL 은 확인 필요"
   }
  ]
 }

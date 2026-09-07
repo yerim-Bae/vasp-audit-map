@@ -13,7 +13,7 @@ export function display(value: unknown, empty = '확인되지 않음') {
 }
 
 export function marketLabel(value: string | null) {
-  return value === 'krw' ? '원화마켓' : value === 'coin_only' ? '코인마켓' : '시장유형 미확인';
+  return value === 'krw' ? '원화마켓' : value === 'coin_only' ? '코인마켓' : value === 'non_exchange' ? '비거래소' : '시장유형 미확인';
 }
 
 export function scopeLabel(value: string) {

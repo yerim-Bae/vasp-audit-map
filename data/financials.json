@@ -2,7 +2,7 @@
  "_meta": {
   "generated_at": "2026-09-06T01:25:09.198091+00:00",
   "basis_date": "2026-09-06",
-  "record_count": 20,
+  "record_count": 44,
   "status": "CORE_FIGURES_EXTRACTED",
   "currency": "KRW",
   "unit": "KRW"
@@ -3007,6 +3007,3222 @@
      "notes": null
     }
    ]
+  },
+  {
+   "vasp_id": "wemade",
+   "corp_code": "00444329",
+   "fiscal_year": 2023,
+   "fiscal_period_end": "2023-12-31",
+   "statement_type": "separate",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 317513225758,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20240412003722",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412003722",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": -156993072678,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20240412003722",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412003722",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": -205822717370,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20240412003722",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412003722",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 532007590484,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20240412003722",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412003722",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 233349728095,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20240412003722",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412003722",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 298657862389,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20240412003722",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412003722",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 75378357512,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20240412003722",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412003722",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": 7831279000,
+     "original_account_name": "무형자산 중 가상자산(디지털자산·암호화자산)",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20240412003722",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412003722",
+     "notes": "2024 보고서 무형자산 변동표의 디지털자산 기초 | 천원→원 환산"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": 14953455981,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20240412003722",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412003722",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412003722",
+   "source_title": "(주)위메이드 2023 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20240412003722",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
+  },
+  {
+   "vasp_id": "wemade",
+   "corp_code": "00444329",
+   "fiscal_year": 2023,
+   "fiscal_period_end": "2023-12-31",
+   "statement_type": "consolidated",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 605252428314,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20240412003722",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412003722",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": -110440776864,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20240412003722",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412003722",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": -206682445625,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20240412003722",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412003722",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 1417739361214,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20240412003722",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412003722",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 1016961075732,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20240412003722",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412003722",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 400778285482,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20240412003722",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412003722",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 314809390192,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20240412003722",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412003722",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "연결 기준 미추출"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": 169581838998,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20240412003722",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412003722",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412003722",
+   "source_title": "(주)위메이드 2023 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20240412003722",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
+  },
+  {
+   "vasp_id": "wemade",
+   "corp_code": "00444329",
+   "fiscal_year": 2024,
+   "fiscal_period_end": "2024-12-31",
+   "statement_type": "separate",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 385139135712,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20250320001699",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250320001699",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": -59722252727,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20250320001699",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250320001699",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": 119127215444,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20250320001699",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250320001699",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 626292253454,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20250320001699",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250320001699",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 181975015861,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20250320001699",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250320001699",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 444317237593,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20250320001699",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250320001699",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 57729470582,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20250320001699",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250320001699",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": 18694481000,
+     "original_account_name": "무형자산 중 가상자산(디지털자산·암호화자산)",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20250320001699",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250320001699",
+     "notes": "무형자산 주석 14 디지털자산 열 기말 | 천원→원 환산"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": 24355587030,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20250320001699",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250320001699",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250320001699",
+   "source_title": "(주)위메이드 2024 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20250320001699",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
+  },
+  {
+   "vasp_id": "wemade",
+   "corp_code": "00444329",
+   "fiscal_year": 2024,
+   "fiscal_period_end": "2024-12-31",
+   "statement_type": "consolidated",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 711871164004,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20250320001699",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250320001699",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": 7062218897,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20250320001699",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250320001699",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": 181624881770,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20250320001699",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250320001699",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 1875682729061,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20250320001699",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250320001699",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 1043785464054,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20250320001699",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250320001699",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 831897265007,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20250320001699",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250320001699",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 270686029798,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20250320001699",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250320001699",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "연결 기준 미추출"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": 501881043440,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20250320001699",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250320001699",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250320001699",
+   "source_title": "(주)위메이드 2024 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20250320001699",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
+  },
+  {
+   "vasp_id": "wemade",
+   "corp_code": "00444329",
+   "fiscal_year": 2025,
+   "fiscal_period_end": "2025-12-31",
+   "statement_type": "separate",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 288235890401,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20260319000853",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260319000853",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": -43502666069,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20260319000853",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260319000853",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": 71023823601,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20260319000853",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260319000853",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 685670837912,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20260319000853",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260319000853",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 173830062460,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20260319000853",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260319000853",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 511840775452,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20260319000853",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260319000853",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 74957602030,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20260319000853",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260319000853",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": 26682888000,
+     "original_account_name": "무형자산 중 가상자산(디지털자산·암호화자산)",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20260319000853",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260319000853",
+     "notes": "무형자산 주석 14 (1) 디지털자산 열 기말 순장부가액 | 천원→원 환산"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": 32142849930,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20260319000853",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260319000853",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260319000853",
+   "source_title": "(주)위메이드 2025 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20260319000853",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
+  },
+  {
+   "vasp_id": "wemade",
+   "corp_code": "00444329",
+   "fiscal_year": 2025,
+   "fiscal_period_end": "2025-12-31",
+   "statement_type": "consolidated",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 614039504365,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20260319000853",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260319000853",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": 10678082423,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20260319000853",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260319000853",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": -27040443605,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20260319000853",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260319000853",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 1745649917765,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20260319000853",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260319000853",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 932994067295,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20260319000853",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260319000853",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 812655850470,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20260319000853",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260319000853",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 296472812229,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20260319000853",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260319000853",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "연결 기준 미추출"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": 461404644891,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20260319000853",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260319000853",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260319000853",
+   "source_title": "(주)위메이드 2025 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20260319000853",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
+  },
+  {
+   "vasp_id": "netmarble",
+   "corp_code": "00904672",
+   "fiscal_year": 2023,
+   "fiscal_period_end": "2023-12-31",
+   "statement_type": "separate",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 797272366073,
+     "original_account_name": "Ⅰ.영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20240320001885",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320001885",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": -41712199024,
+     "original_account_name": "Ⅲ.영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20240320001885",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320001885",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": 233384216196,
+     "original_account_name": "Ⅴ.당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20240320001885",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320001885",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 6767919599280,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20240320001885",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320001885",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 1933712944395,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20240320001885",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320001885",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 4834206654885,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20240320001885",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320001885",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 35653666545,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20240320001885",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320001885",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": 10836160000,
+     "original_account_name": "무형자산 중 가상자산(디지털자산·암호화자산)",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20240320001885",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320001885",
+     "notes": "2024 보고서 표의 전기말 열: MBX 10,247,005 + OAS 589,150 + ETH 5 | 천원→원 환산"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": 208844858333,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20240320001885",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320001885",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320001885",
+   "source_title": "넷마블(주) 2023 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20240320001885",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
+  },
+  {
+   "vasp_id": "netmarble",
+   "corp_code": "00904672",
+   "fiscal_year": 2023,
+   "fiscal_period_end": "2023-12-31",
+   "statement_type": "consolidated",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 2502055599771,
+     "original_account_name": "Ⅰ.영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20240320001885",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320001885",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": -68468184309,
+     "original_account_name": "Ⅲ.영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20240320001885",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320001885",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": -303885236393,
+     "original_account_name": "Ⅴ.당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20240320001885",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320001885",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 7915865389294,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20240320001885",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320001885",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 2836820600756,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20240320001885",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320001885",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 5079044788538,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20240320001885",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320001885",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 430338258320,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20240320001885",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320001885",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "연결 기준 미추출"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": 3228750528412,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20240320001885",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320001885",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320001885",
+   "source_title": "넷마블(주) 2023 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20240320001885",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
+  },
+  {
+   "vasp_id": "netmarble",
+   "corp_code": "00904672",
+   "fiscal_year": 2024,
+   "fiscal_period_end": "2024-12-31",
+   "statement_type": "separate",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 1082436338723,
+     "original_account_name": "Ⅰ.영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20250321001686",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001686",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": 49001147407,
+     "original_account_name": "Ⅲ.영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20250321001686",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001686",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": 313681044688,
+     "original_account_name": "Ⅴ.당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20250321001686",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001686",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 6743375519427,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20250321001686",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001686",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 1632165207986,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20250321001686",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001686",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 5111210311441,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20250321001686",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001686",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 65011612563,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20250321001686",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001686",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": 7244808000,
+     "original_account_name": "무형자산 중 가상자산(디지털자산·암호화자산)",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20250321001686",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001686",
+     "notes": "가상자산 주석 장부가액 표: MBX 6,679,764 + OAS 565,039 + ETH 5 | 천원→원 환산"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": 237195061718,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20250321001686",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001686",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001686",
+   "source_title": "넷마블(주) 2024 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20250321001686",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
+  },
+  {
+   "vasp_id": "netmarble",
+   "corp_code": "00904672",
+   "fiscal_year": 2024,
+   "fiscal_period_end": "2024-12-31",
+   "statement_type": "consolidated",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 2663783169910,
+     "original_account_name": "Ⅰ.영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20250321001686",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001686",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": 215627215188,
+     "original_account_name": "Ⅲ.영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20250321001686",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001686",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": 3216188118,
+     "original_account_name": "Ⅴ.당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20250321001686",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001686",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 8177066253496,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20250321001686",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001686",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 2703206043701,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20250321001686",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001686",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 5473860209795,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20250321001686",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001686",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 577864115437,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20250321001686",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001686",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "연결 기준 미추출"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": 3245181348206,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20250321001686",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001686",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001686",
+   "source_title": "넷마블(주) 2024 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20250321001686",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
+  },
+  {
+   "vasp_id": "netmarble",
+   "corp_code": "00904672",
+   "fiscal_year": 2025,
+   "fiscal_period_end": "2025-12-31",
+   "statement_type": "separate",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 1370381789046,
+     "original_account_name": "Ⅰ.영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20260318001170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001170",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": 54757540074,
+     "original_account_name": "Ⅲ.영업손익",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20260318001170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001170",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": 209534295828,
+     "original_account_name": "당기순손익",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20260318001170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001170",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 6910016237883,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20260318001170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001170",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 1762245373836,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20260318001170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001170",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 5147770864047,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20260318001170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001170",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 184422220299,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20260318001170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001170",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": 1474611000,
+     "original_account_name": "무형자산 중 가상자산(디지털자산·암호화자산)",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20260318001170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001170",
+     "notes": "가상자산 주석 (4) 장부가액 표: MBX 1,428,034 + OAS 46,572 + ETH 5 (천원) | 천원→원 환산"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": 226338797506,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20260318001170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001170",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001170",
+   "source_title": "넷마블(주) 2025 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20260318001170",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
+  },
+  {
+   "vasp_id": "netmarble",
+   "corp_code": "00904672",
+   "fiscal_year": 2025,
+   "fiscal_period_end": "2025-12-31",
+   "statement_type": "consolidated",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 2835074411896,
+     "original_account_name": "Ⅰ.영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20260318001170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001170",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": 352478352483,
+     "original_account_name": "Ⅲ.영업손익",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20260318001170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001170",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": 230818642770,
+     "original_account_name": "당기순손익",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20260318001170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001170",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 8093652130179,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20260318001170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001170",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 2601169252988,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20260318001170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001170",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 5492482877191,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20260318001170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001170",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 688942929318,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20260318001170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001170",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "연결 기준 미추출"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": 2858253197423,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20260318001170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001170",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001170",
+   "source_title": "넷마블(주) 2025 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20260318001170",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
+  },
+  {
+   "vasp_id": "com2us_holdings",
+   "corp_code": "00535746",
+   "fiscal_year": 2023,
+   "fiscal_period_end": "2023-12-31",
+   "statement_type": "separate",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 77090229408,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20240322000009",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240322000009",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": 4618298715,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20240322000009",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240322000009",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": -10013781278,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20240322000009",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240322000009",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 313504617142,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20240322000009",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240322000009",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 219370366405,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20240322000009",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240322000009",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 94134250737,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20240322000009",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240322000009",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 4481015315,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20240322000009",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240322000009",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "주석 표에서 장부금액 미확정(needs-review)"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": 5231087356,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20240322000009",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240322000009",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240322000009",
+   "source_title": "(주)컴투스홀딩스 2023 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20240322000009",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
+  },
+  {
+   "vasp_id": "com2us_holdings",
+   "corp_code": "00535746",
+   "fiscal_year": 2023,
+   "fiscal_period_end": "2023-12-31",
+   "statement_type": "consolidated",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 153105317491,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20240322000009",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240322000009",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": -3351588285,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20240322000009",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240322000009",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": -14377051568,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20240322000009",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240322000009",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 596634018445,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20240322000009",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240322000009",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 322266227358,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20240322000009",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240322000009",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 274367791087,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20240322000009",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240322000009",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 16136556039,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20240322000009",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240322000009",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "연결 기준 미추출"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": 8920122553,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20240322000009",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240322000009",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240322000009",
+   "source_title": "(주)컴투스홀딩스 2023 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20240322000009",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
+  },
+  {
+   "vasp_id": "com2us_holdings",
+   "corp_code": "00535746",
+   "fiscal_year": 2024,
+   "fiscal_period_end": "2024-12-31",
+   "statement_type": "separate",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 88312639700,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20250321001866",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001866",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": 721468482,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20250321001866",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001866",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": 6422970257,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20250321001866",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001866",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 336316600107,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20250321001866",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001866",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 235608831707,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20250321001866",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001866",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 100707768400,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20250321001866",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001866",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 26904165369,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20250321001866",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001866",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "주석 표에서 장부금액 미확정(needs-review)"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": 5739986527,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20250321001866",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001866",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001866",
+   "source_title": "(주)컴투스홀딩스 2024 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20250321001866",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
+  },
+  {
+   "vasp_id": "com2us_holdings",
+   "corp_code": "00535746",
+   "fiscal_year": 2024,
+   "fiscal_period_end": "2024-12-31",
+   "statement_type": "consolidated",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 149291711524,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20250321001866",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001866",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": -50553975824,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20250321001866",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001866",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": -42511418898,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20250321001866",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001866",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 541958257256,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20250321001866",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001866",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 330516825780,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20250321001866",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001866",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 211441431476,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20250321001866",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001866",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 31398067499,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20250321001866",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001866",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "연결 기준 미추출"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": 3549239499,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20250321001866",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001866",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250321001866",
+   "source_title": "(주)컴투스홀딩스 2024 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20250321001866",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
+  },
+  {
+   "vasp_id": "com2us_holdings",
+   "corp_code": "00535746",
+   "fiscal_year": 2025,
+   "fiscal_period_end": "2025-12-31",
+   "statement_type": "separate",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 53341325052,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20260320001317",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260320001317",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": -9657165095,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20260320001317",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260320001317",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": -24144274886,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20260320001317",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260320001317",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 306715165528,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20260320001317",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260320001317",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 231386502152,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20260320001317",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260320001317",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 75328663376,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20260320001317",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260320001317",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 5987664632,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20260320001317",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260320001317",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "주석 표에서 장부금액 미확정(needs-review)"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "API 계정명 미매칭"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260320001317",
+   "source_title": "(주)컴투스홀딩스 2025 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20260320001317",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
+  },
+  {
+   "vasp_id": "com2us_holdings",
+   "corp_code": "00535746",
+   "fiscal_year": 2025,
+   "fiscal_period_end": "2025-12-31",
+   "statement_type": "consolidated",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 99211679155,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20260320001317",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260320001317",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": -6823638022,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20260320001317",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260320001317",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": 37255821150,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20260320001317",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260320001317",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 518942512471,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20260320001317",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260320001317",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 266431014300,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20260320001317",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260320001317",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 252511498171,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20260320001317",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260320001317",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 11388688805,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20260320001317",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260320001317",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "연결 기준 미추출"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "API 계정명 미매칭"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260320001317",
+   "source_title": "(주)컴투스홀딩스 2025 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20260320001317",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
+  },
+  {
+   "vasp_id": "kakaogames",
+   "corp_code": "01137383",
+   "fiscal_year": 2023,
+   "fiscal_period_end": "2023-12-31",
+   "statement_type": "separate",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 685952307587,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20240320002052",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320002052",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": 59334954008,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20240320002052",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320002052",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": -459573873581,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20240320002052",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320002052",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 1636576248917,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20240320002052",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320002052",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 662809767321,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20240320002052",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320002052",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 973766481596,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20240320002052",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320002052",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 253047444051,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20240320002052",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320002052",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "주석 표에서 장부금액 미확정(needs-review)"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": 26719117493,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20240320002052",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320002052",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320002052",
+   "source_title": "(주)카카오게임즈 2023 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20240320002052",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
+  },
+  {
+   "vasp_id": "kakaogames",
+   "corp_code": "01137383",
+   "fiscal_year": 2023,
+   "fiscal_period_end": "2023-12-31",
+   "statement_type": "consolidated",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 1025085964285,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20240320002052",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320002052",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": 74516883006,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20240320002052",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320002052",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": -322405861214,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20240320002052",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320002052",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 3471016485882,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20240320002052",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320002052",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 1845488692378,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20240320002052",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320002052",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 1625527793504,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20240320002052",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320002052",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 653717833414,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20240320002052",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320002052",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "연결 기준 미추출"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": 1639188695707,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20240320002052",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320002052",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240320002052",
+   "source_title": "(주)카카오게임즈 2023 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20240320002052",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
+  },
+  {
+   "vasp_id": "kakaogames",
+   "corp_code": "01137383",
+   "fiscal_year": 2024,
+   "fiscal_period_end": "2024-12-31",
+   "statement_type": "separate",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 594261926473,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20250318001434",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250318001434",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": 51068599826,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20250318001434",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250318001434",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": -95841878354,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20250318001434",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250318001434",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 1753443925786,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20250318001434",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250318001434",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 794239465056,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20250318001434",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250318001434",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 959204460730,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20250318001434",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250318001434",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 217313597730,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20250318001434",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250318001434",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": 2838794000,
+     "original_account_name": "무형자산 중 가상자산(디지털자산·암호화자산)",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20250318001434",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250318001434",
+     "notes": "2025 보고서 표의 전기말 열 합계 2,838,794천원 | 천원→원 환산"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": 19739334285,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20250318001434",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250318001434",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250318001434",
+   "source_title": "(주)카카오게임즈 2024 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20250318001434",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
+  },
+  {
+   "vasp_id": "kakaogames",
+   "corp_code": "01137383",
+   "fiscal_year": 2024,
+   "fiscal_period_end": "2024-12-31",
+   "statement_type": "consolidated",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 627227484059,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20250318001434",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250318001434",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": 19148863191,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20250318001434",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250318001434",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": -128088854882,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20250318001434",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250318001434",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 3173239057351,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20250318001434",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250318001434",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 1694881787634,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20250318001434",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250318001434",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 1478357269717,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20250318001434",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250318001434",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 604968707983,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20250318001434",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250318001434",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "연결 기준 미추출"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": 1484418117936,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20250318001434",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250318001434",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250318001434",
+   "source_title": "(주)카카오게임즈 2024 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20250318001434",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
+  },
+  {
+   "vasp_id": "kakaogames",
+   "corp_code": "01137383",
+   "fiscal_year": 2025,
+   "fiscal_period_end": "2025-12-31",
+   "statement_type": "separate",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 433572148394,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20260318001659",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001659",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": 15381671605,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20260318001659",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001659",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": -195281161245,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20260318001659",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001659",
+     "notes": "DART fnlttSinglAcntAll OFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 1482680961170,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20260318001659",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001659",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 651030358481,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20260318001659",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001659",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 831650602689,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20260318001659",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001659",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 368072963963,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20260318001659",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001659",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": 3293569000,
+     "original_account_name": "무형자산 중 가상자산(디지털자산·암호화자산)",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20260318001659",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001659",
+     "notes": "가상자산 주석 ② 장부금액 표 합계(취득원가 8,181,829 − 손상차손누계액 4,888,260, 천원) | 천원→원 환산"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": 19941131535,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20260318001659",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001659",
+     "notes": "DART fnlttSinglAcntAll OFS 재무상태표"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001659",
+   "source_title": "(주)카카오게임즈 2025 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20260318001659",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
+  },
+  {
+   "vasp_id": "kakaogames",
+   "corp_code": "01137383",
+   "fiscal_year": 2025,
+   "fiscal_period_end": "2025-12-31",
+   "statement_type": "consolidated",
+   "reporting_basis": "K_IFRS",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원(API)",
+   "figures": {
+    "revenue": {
+     "amount": 465018566528,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20260318001659",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001659",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "operating_income": {
+     "amount": -39590701112,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20260318001659",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001659",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "net_income": {
+     "amount": -143084637075,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20260318001659",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001659",
+     "notes": "DART fnlttSinglAcntAll CFS 포괄손익계산서"
+    },
+    "total_assets": {
+     "amount": 2676774444103,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20260318001659",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001659",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_liabilities": {
+     "amount": 1478800075861,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20260318001659",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001659",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "total_equity": {
+     "amount": 1197974368242,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20260318001659",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001659",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 492159413083,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20260318001659",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001659",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "crypto_assets_owned": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "연결 기준 미추출"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "해당 없음(거래소 아님)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류"
+    },
+    "intangible_assets": {
+     "amount": 1347507616209,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20260318001659",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001659",
+     "notes": "DART fnlttSinglAcntAll CFS 재무상태표"
+    }
+   },
+   "revenue_breakdown": null,
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260318001659",
+   "source_title": "(주)카카오게임즈 2025 사업보고서 재무제표 (DART 재무 API)",
+   "source_authority": "DART",
+   "receipt_number": "20260318001659",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "verified",
+   "notes": "2026-09-07 발행·보유 상장사 추가. 재무 API 원 단위. 가상자산 장부금액은 감사보고서 주석 표에서 수기 확인"
   }
  ]
 }

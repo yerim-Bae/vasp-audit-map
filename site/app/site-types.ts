@@ -35,7 +35,13 @@ export type Vasp = {
   source_url?: string | null;
   source_title?: string | null;
   dart_match?: { match_status?: string; corp_code?: string | null } | null;
+  entity_type?: string | null;
 };
+
+export type GuidelineItem = { para: number | string; excerpt: string };
+export type GuidelineCase = { kind: string; company?: string; note_ref?: string; text: string };
+export type GuidelineSection = { section_id: string; chapter: string; title: string; paragraphs: string; pages: string; applies_to: string[]; items: GuidelineItem[]; cases: GuidelineCase[] };
+export type GuidelineMeta = { source?: { title?: string; publisher?: string; published_at?: string; pages?: number; note?: string }; stages?: { stage: number; title: string; sections: string[] }[]; case_kinds?: Record<string, string> };
 
 export type AuditReport = {
   vasp_id: string;
@@ -156,4 +162,5 @@ export type Datasets = {
   projects: Dataset<Project>;
   tokens: Dataset<Token>;
   sources: Dataset<Source>;
+  auditGuideline: { _meta: GuidelineMeta & Record<string, unknown>; records: GuidelineSection[] };
 };
