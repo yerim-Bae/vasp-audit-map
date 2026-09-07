@@ -1,0 +1,221 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/audit-reports.json — 회사별·연도별 감사보고서",
+ "type": "object",
+ "required": [
+  "_meta",
+  "records"
+ ],
+ "properties": {
+  "_meta": {
+   "type": "object",
+   "required": [
+    "generated_at",
+    "basis_date",
+    "record_count"
+   ],
+   "properties": {
+    "generated_at": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "basis_date": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "record_count": {
+     "type": "integer"
+    },
+    "description": {
+     "type": "string"
+    },
+    "status": {
+     "type": "string"
+    }
+   }
+  },
+  "records": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "vasp_id",
+     "fiscal_year",
+     "report_type",
+     "statement_scope",
+     "audit_opinion",
+     "audit_opinion_verified_in_source_text",
+     "source_status",
+     "source_url",
+     "source_authority",
+     "retrieved_at",
+     "confidence"
+    ],
+    "properties": {
+     "vasp_id": {
+      "type": "string"
+     },
+     "corp_code": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "fiscal_year": {
+      "type": "integer"
+     },
+     "report_type": {
+      "type": "string",
+      "enum": [
+       "audit_report",
+       "consolidated_audit_report",
+       "annual_report_audit_section",
+       "company_published_audit_report"
+      ]
+     },
+     "receipt_number": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "DART 접수번호 14자리. DART 출처가 아니면 null"
+     },
+     "filing_date": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "report_title": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "reporting_basis": {
+      "type": "string",
+      "enum": [
+       "K_IFRS",
+       "K_GAAP",
+       "unknown"
+      ]
+     },
+     "statement_scope": {
+      "type": "string",
+      "enum": [
+       "consolidated",
+       "separate",
+       "standalone"
+      ]
+     },
+     "auditor_name": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "audit_opinion": {
+      "type": "string",
+      "enum": [
+       "unmodified",
+       "qualified",
+       "adverse",
+       "disclaimer",
+       "unknown"
+      ]
+     },
+     "audit_opinion_verified_in_source_text": {
+      "type": "boolean",
+      "description": "감사보고서 원문(의견 문단)에서 직접 확인했으면 true"
+     },
+     "emphasis_of_matter": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "key_audit_matters": {
+      "type": [
+       "array",
+       "null"
+      ],
+      "items": {
+       "type": "string"
+      }
+     },
+     "going_concern_note": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "report_url": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_status": {
+      "type": "string",
+      "enum": [
+       "verified",
+       "partially_verified",
+       "unavailable"
+      ]
+     },
+     "source_url": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_title": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_authority": {
+      "type": "string",
+      "enum": [
+       "FIU",
+       "DART",
+       "COMPANY",
+       "OTHER"
+      ]
+     },
+     "published_at": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "YYYY-MM-DD"
+     },
+     "retrieved_at": {
+      "type": "string",
+      "description": "YYYY-MM-DD, 확인일"
+     },
+     "confidence": {
+      "type": "string",
+      "enum": [
+       "verified",
+       "partially_verified",
+       "inferred",
+       "unverified"
+      ]
+     },
+     "notes": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  }
+ }
+}

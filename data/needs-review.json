@@ -1,0 +1,3133 @@
+{
+ "_meta": {
+  "generated_at": "2026-09-06T01:31:01.638751+00:00",
+  "basis_date": "2026-09-06",
+  "record_count": 119,
+  "status": "OPEN_REVIEW_ITEMS"
+ },
+ "records": [
+  {
+   "review_id": "flybit_dart_match_failed",
+   "vasp_id": "flybit",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "btx_dart_match_failed",
+   "vasp_id": "btx",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "beeblock_dart_match_failed",
+   "vasp_id": "beeblock",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "cryptocom_korea_dart_match_failed",
+   "vasp_id": "cryptocom_korea",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "bitcmon_dart_match_failed",
+   "vasp_id": "bitcmon",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "prabang_dart_match_failed",
+   "vasp_id": "prabang",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "borabit_dart_match_failed",
+   "vasp_id": "borabit",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "koda_dart_match_failed",
+   "vasp_id": "koda",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "kdac_dart_match_failed",
+   "vasp_id": "kdac",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "ohigh_wallet_dart_match_failed",
+   "vasp_id": "ohigh_wallet",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "oasis_dart_match_ambiguous",
+   "vasp_id": "oasis",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "후보의 사업자등록번호/법인명 대조 불확정.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": [
+    {
+     "corp_code": "00513115",
+     "corp_name": "주식회사 가디언홀딩스",
+     "bizr_no": "214-87-62284",
+     "ceo": "박정삼",
+     "address": "서울특별시 강동구 성내동 444-3",
+     "est_dt": "2004-11-25",
+     "verdict": "별개 법인"
+    }
+   ],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "resolved_at": "2026-09-06",
+   "notes": " | 2026-09-06 Claude: 후보 00513115 는 사업자번호·대표자·주소 불일치 → 별개 법인. DART 미등록으로 결론(not_found). 사람 재확인 불필요."
+  },
+  {
+   "review_id": "custella_dart_match_failed",
+   "vasp_id": "custella",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "infiniteblock_dart_match_failed",
+   "vasp_id": "infiniteblock",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "bdacs_dart_match_failed",
+   "vasp_id": "bdacs",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "inex_dart_match_failed",
+   "vasp_id": "inex",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "bowman_dart_match_failed",
+   "vasp_id": "bowman",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "robit_dart_match_failed",
+   "vasp_id": "robit",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "abc_cloud_wallet_dart_match_failed",
+   "vasp_id": "abc_cloud_wallet",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "bitgo_korea_dart_match_failed",
+   "vasp_id": "bitgo_korea",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "gdac_dart_match_failed",
+   "vasp_id": "gdac",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "gdac_unverified_fact",
+   "vasp_id": "gdac",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미갱신 명단의 신고업무·사업자등록번호·날짜가 빈칸. business_categories=other는 분류 대기이며 사업내용의 사실 판정이 아님.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "probit_dart_match_ambiguous",
+   "vasp_id": "probit",
+   "issue_type": "dart_match_ambiguous",
+   "severity": "medium",
+   "description": "정규화 법인명 일치. FIU 미갱신 명단에 사업자등록번호가 없어 확정 대조 불가.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": [
+    {
+     "corp_code": "01560624",
+     "corp_name": "오션스주식회사",
+     "bizr_no": "2628800547"
+    }
+   ],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "resolved_at": "2026-09-06",
+   "notes": " | 2026-09-06 Claude: 2024-07-30 FIU 명단 사업자번호 262-88-00547 = DART bizr_no → exact 확정"
+  },
+  {
+   "review_id": "probit_unverified_fact",
+   "vasp_id": "probit",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미갱신 명단의 신고업무·사업자등록번호·날짜가 빈칸. business_categories=other는 분류 대기이며 사업내용의 사실 판정이 아님.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "huobi_korea_dart_match_ambiguous",
+   "vasp_id": "huobi_korea",
+   "issue_type": "dart_match_ambiguous",
+   "severity": "medium",
+   "description": "정규화 법인명 일치. FIU 미갱신 명단에 사업자등록번호가 없어 확정 대조 불가.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": [
+    {
+     "corp_code": "01625666",
+     "corp_name": "후오비(주)",
+     "bizr_no": "4208700883"
+    }
+   ],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "resolved_at": "2026-09-06",
+   "notes": " | 2026-09-06 Claude: 2024-07-30 FIU 명단 사업자번호 420-87-00883 = DART bizr_no → exact 확정"
+  },
+  {
+   "review_id": "huobi_korea_unverified_fact",
+   "vasp_id": "huobi_korea",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미갱신 명단의 신고업무·사업자등록번호·날짜가 빈칸. business_categories=other는 분류 대기이며 사업내용의 사실 판정이 아님.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "flata_exchange_dart_match_failed",
+   "vasp_id": "flata_exchange",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "flata_exchange_unverified_fact",
+   "vasp_id": "flata_exchange",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미갱신 명단의 신고업무·사업자등록번호·날짜가 빈칸. business_categories=other는 분류 대기이며 사업내용의 사실 판정이 아님.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "hanbitco_dart_match_failed",
+   "vasp_id": "hanbitco",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "hanbitco_unverified_fact",
+   "vasp_id": "hanbitco",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미갱신 명단의 신고업무·사업자등록번호·날짜가 빈칸. business_categories=other는 분류 대기이며 사업내용의 사실 판정이 아님.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "bitrade_dart_match_failed",
+   "vasp_id": "bitrade",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "bitrade_unverified_fact",
+   "vasp_id": "bitrade",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미갱신 명단의 신고업무·사업자등록번호·날짜가 빈칸. business_categories=other는 분류 대기이며 사업내용의 사실 판정이 아님.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "coinncoin_dart_match_failed",
+   "vasp_id": "coinncoin",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "coinncoin_unverified_fact",
+   "vasp_id": "coinncoin",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미갱신 명단의 신고업무·사업자등록번호·날짜가 빈칸. business_categories=other는 분류 대기이며 사업내용의 사실 판정이 아님.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "cashierest_dart_match_failed",
+   "vasp_id": "cashierest",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "cashierest_unverified_fact",
+   "vasp_id": "cashierest",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미갱신 명단의 신고업무·사업자등록번호·날짜가 빈칸. business_categories=other는 분류 대기이며 사업내용의 사실 판정이 아님.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "tennten_dart_match_failed",
+   "vasp_id": "tennten",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "tennten_unverified_fact",
+   "vasp_id": "tennten",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미갱신 명단의 신고업무·사업자등록번호·날짜가 빈칸. business_categories=other는 분류 대기이며 사업내용의 사실 판정이 아님.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "aprobit_dart_match_failed",
+   "vasp_id": "aprobit",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "aprobit_unverified_fact",
+   "vasp_id": "aprobit",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미갱신 명단의 신고업무·사업자등록번호·날짜가 빈칸. business_categories=other는 분류 대기이며 사업내용의 사실 판정이 아님.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "mykeepin_wallet_dart_match_failed",
+   "vasp_id": "mykeepin_wallet",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "mykeepin_wallet_unverified_fact",
+   "vasp_id": "mykeepin_wallet",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미갱신 명단의 신고업무·사업자등록번호·날짜가 빈칸. business_categories=other는 분류 대기이며 사업내용의 사실 판정이 아님.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "qbit_dart_match_ambiguous",
+   "vasp_id": "qbit",
+   "issue_type": "dart_match_ambiguous",
+   "severity": "medium",
+   "description": "정규화 법인명 일치. FIU 미갱신 명단에 사업자등록번호가 없어 확정 대조 불가.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": [
+    {
+     "corp_code": "02030546",
+     "corp_name": "큐비트 주식회사",
+     "bizr_no": "7788101931"
+    }
+   ],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "resolved_at": "2026-09-06",
+   "notes": " | 2026-09-06 Claude: 2024-07-30 FIU 명단 사업자번호 778-81-01931 = DART bizr_no → exact 확정"
+  },
+  {
+   "review_id": "qbit_unverified_fact",
+   "vasp_id": "qbit",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미갱신 명단의 신고업무·사업자등록번호·날짜가 빈칸. business_categories=other는 분류 대기이며 사업내용의 사실 판정이 아님.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "cardo_dart_match_failed",
+   "vasp_id": "cardo",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "cardo_unverified_fact",
+   "vasp_id": "cardo",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미갱신 명단의 신고업무·사업자등록번호·날짜가 빈칸. business_categories=other는 분류 대기이며 사업내용의 사실 판정이 아님.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "delio_dart_match_ambiguous",
+   "vasp_id": "delio",
+   "issue_type": "dart_match_ambiguous",
+   "severity": "medium",
+   "description": "정규화 법인명 일치. FIU 미갱신 명단에 사업자등록번호가 없어 확정 대조 불가.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": [
+    {
+     "corp_code": "01588259",
+     "corp_name": "주식회사 델리오",
+     "bizr_no": "2838800879"
+    }
+   ],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "resolved_at": "2026-09-06",
+   "notes": " | 2026-09-06 Claude: 2024-07-30 FIU 명단 사업자번호 283-88-00879 = DART bizr_no → exact 확정"
+  },
+  {
+   "review_id": "delio_unverified_fact",
+   "vasp_id": "delio",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미갱신 명단의 신고업무·사업자등록번호·날짜가 빈칸. business_categories=other는 분류 대기이며 사업내용의 사실 판정이 아님.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "paycoin_dart_match_failed",
+   "vasp_id": "paycoin",
+   "issue_type": "dart_match_failed",
+   "severity": "medium",
+   "description": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": [],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "paycoin_unverified_fact",
+   "vasp_id": "paycoin",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미갱신 명단의 신고업무·사업자등록번호·날짜가 빈칸. business_categories=other는 분류 대기이며 사업내용의 사실 판정이 아님.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "coinbit_dart_match_ambiguous",
+   "vasp_id": "coinbit",
+   "issue_type": "dart_match_ambiguous",
+   "severity": "medium",
+   "description": "정규화 법인명 일치. FIU 미갱신 명단에 사업자등록번호가 없어 확정 대조 불가.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": [
+    {
+     "corp_code": "01380684",
+     "corp_name": "주식회사 엑시아소프트",
+     "bizr_no": "1208779307"
+    }
+   ],
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "resolved_at": "2026-09-06",
+   "notes": " | 2026-09-06 Claude: 2024-07-30 FIU 명단 사업자번호 120-87-79307 = DART bizr_no → exact 확정"
+  },
+  {
+   "review_id": "coinbit_unverified_fact",
+   "vasp_id": "coinbit",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미갱신 명단의 신고업무·사업자등록번호·날짜가 빈칸. business_categories=other는 분류 대기이며 사업내용의 사실 판정이 아님.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "global_missing_source",
+   "vasp_id": null,
+   "issue_type": "missing_source",
+   "severity": "medium",
+   "description": "FIU 공지 목록은 동적 로딩으로 최신 게시글을 확인하지 못했고 직접 요청은 TLS 인증 실패. DAXA 첨부는 2026-08-31 기준. FIU 게시글 상세 URL 및 이후 갱신 여부 수동 재확인 필요.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "korbit_service_verification",
+   "vasp_id": "korbit",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "현재 시장 유형·공식 웹사이트·수익모델 중 미확인 항목이 남아 있음. FIU 신고업무만으로 현재 서비스를 확정하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형, 수익모델",
+   "resolved_at": "2026-09-07"
+  },
+  {
+   "review_id": "flybit_service_verification",
+   "vasp_id": "flybit",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형(coin_only 는 추론) / 남음 = 수익모델"
+  },
+  {
+   "review_id": "gopax_service_verification",
+   "vasp_id": "gopax",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "현재 시장 유형·공식 웹사이트·수익모델 중 미확인 항목이 남아 있음. FIU 신고업무만으로 현재 서비스를 확정하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형, 수익모델",
+   "resolved_at": "2026-09-07"
+  },
+  {
+   "review_id": "btx_service_verification",
+   "vasp_id": "btx",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형(coin_only 는 추론) / 남음 = 수익모델"
+  },
+  {
+   "review_id": "foblgate_service_verification",
+   "vasp_id": "foblgate",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형(coin_only 는 추론) / 남음 = 수익모델"
+  },
+  {
+   "review_id": "coredax_service_verification",
+   "vasp_id": "coredax",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형(coin_only 는 추론) / 남음 = 수익모델"
+  },
+  {
+   "review_id": "beeblock_service_verification",
+   "vasp_id": "beeblock",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형(coin_only 는 추론) / 남음 = 수익모델"
+  },
+  {
+   "review_id": "cryptocom_korea_service_verification",
+   "vasp_id": "cryptocom_korea",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형(coin_only 는 추론) / 남음 = 수익모델"
+  },
+  {
+   "review_id": "bitcmon_service_verification",
+   "vasp_id": "bitcmon",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형(coin_only 는 추론) / 남음 = 수익모델"
+  },
+  {
+   "review_id": "prabang_service_verification",
+   "vasp_id": "prabang",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형(coin_only 는 추론) / 남음 = 수익모델"
+  },
+  {
+   "review_id": "borabit_service_verification",
+   "vasp_id": "borabit",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형(coin_only 는 추론) / 남음 = 수익모델"
+  },
+  {
+   "review_id": "koda_service_verification",
+   "vasp_id": "koda",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형 / 남음 = 수익모델"
+  },
+  {
+   "review_id": "kdac_service_verification",
+   "vasp_id": "kdac",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형 / 남음 = 수익모델"
+  },
+  {
+   "review_id": "ohigh_wallet_service_verification",
+   "vasp_id": "ohigh_wallet",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형 / 남음 = 수익모델"
+  },
+  {
+   "review_id": "hyperithm_service_verification",
+   "vasp_id": "hyperithm",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형 / 남음 = 수익모델"
+  },
+  {
+   "review_id": "oasis_service_verification",
+   "vasp_id": "oasis",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형(coin_only 는 추론) / 남음 = 수익모델"
+  },
+  {
+   "review_id": "custella_service_verification",
+   "vasp_id": "custella",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형 / 남음 = 수익모델"
+  },
+  {
+   "review_id": "infiniteblock_service_verification",
+   "vasp_id": "infiniteblock",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형 / 남음 = 수익모델"
+  },
+  {
+   "review_id": "dsrv_service_verification",
+   "vasp_id": "dsrv",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형 / 남음 = 수익모델"
+  },
+  {
+   "review_id": "bdacs_service_verification",
+   "vasp_id": "bdacs",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형 / 남음 = 수익모델"
+  },
+  {
+   "review_id": "inex_service_verification",
+   "vasp_id": "inex",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형(coin_only 는 추론) / 남음 = 수익모델"
+  },
+  {
+   "review_id": "wavebridge_service_verification",
+   "vasp_id": "wavebridge",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형(coin_only 는 추론) / 남음 = 수익모델"
+  },
+  {
+   "review_id": "bowman_service_verification",
+   "vasp_id": "bowman",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형(coin_only 는 추론) / 남음 = 수익모델"
+  },
+  {
+   "review_id": "robit_service_verification",
+   "vasp_id": "robit",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형 / 남음 = 수익모델"
+  },
+  {
+   "review_id": "abc_cloud_wallet_service_verification",
+   "vasp_id": "abc_cloud_wallet",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트, 시장 유형 / 남음 = 수익모델"
+  },
+  {
+   "review_id": "bitgo_korea_service_verification",
+   "vasp_id": "bitgo_korea",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 공식 웹사이트, 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 시장 유형(coin_only 는 추론) / 남음 = 공식 웹사이트, 수익모델"
+  },
+  {
+   "review_id": "gdac_service_verification",
+   "vasp_id": "gdac",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 시장 유형, 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트 / 남음 = 시장 유형, 수익모델"
+  },
+  {
+   "review_id": "probit_service_verification",
+   "vasp_id": "probit",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 시장 유형, 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트 / 남음 = 시장 유형, 수익모델"
+  },
+  {
+   "review_id": "huobi_korea_service_verification",
+   "vasp_id": "huobi_korea",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 시장 유형, 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트 / 남음 = 시장 유형, 수익모델"
+  },
+  {
+   "review_id": "flata_exchange_service_verification",
+   "vasp_id": "flata_exchange",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 시장 유형, 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트 / 남음 = 시장 유형, 수익모델"
+  },
+  {
+   "review_id": "hanbitco_service_verification",
+   "vasp_id": "hanbitco",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 시장 유형, 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트 / 남음 = 시장 유형, 수익모델"
+  },
+  {
+   "review_id": "bitrade_service_verification",
+   "vasp_id": "bitrade",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 시장 유형, 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트 / 남음 = 시장 유형, 수익모델"
+  },
+  {
+   "review_id": "coinncoin_service_verification",
+   "vasp_id": "coinncoin",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 시장 유형, 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트 / 남음 = 시장 유형, 수익모델"
+  },
+  {
+   "review_id": "cashierest_service_verification",
+   "vasp_id": "cashierest",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 시장 유형, 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트 / 남음 = 시장 유형, 수익모델"
+  },
+  {
+   "review_id": "tennten_service_verification",
+   "vasp_id": "tennten",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 시장 유형, 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트 / 남음 = 시장 유형, 수익모델"
+  },
+  {
+   "review_id": "aprobit_service_verification",
+   "vasp_id": "aprobit",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 시장 유형, 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트 / 남음 = 시장 유형, 수익모델"
+  },
+  {
+   "review_id": "mykeepin_wallet_service_verification",
+   "vasp_id": "mykeepin_wallet",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 시장 유형, 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트 / 남음 = 시장 유형, 수익모델"
+  },
+  {
+   "review_id": "qbit_service_verification",
+   "vasp_id": "qbit",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 공식 웹사이트, 시장 유형, 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 =  / 남음 = 공식 웹사이트, 시장 유형, 수익모델"
+  },
+  {
+   "review_id": "cardo_service_verification",
+   "vasp_id": "cardo",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 시장 유형, 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트 / 남음 = 시장 유형, 수익모델"
+  },
+  {
+   "review_id": "delio_service_verification",
+   "vasp_id": "delio",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 시장 유형, 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트 / 남음 = 시장 유형, 수익모델"
+  },
+  {
+   "review_id": "paycoin_service_verification",
+   "vasp_id": "paycoin",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 시장 유형, 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트 / 남음 = 시장 유형, 수익모델"
+  },
+  {
+   "review_id": "coinbit_service_verification",
+   "vasp_id": "coinbit",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "미확인 항목: 시장 유형, 수익모델. (FIU 신고업무만으로 현재 서비스를 확정하지 않음)",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "vasps.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "notes": " | 2026-09-07 Claude: 채움 = 공식 웹사이트 / 남음 = 시장 유형, 수익모델"
+  },
+  {
+   "review_id": "upbit_2025_separate_note_coverage",
+   "vasp_id": "upbit",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "추출 후 수동 대조 필요: 고객 위탁 가상자산, 고객 반환의무, 계속기업 불확실성, 해킹·전산장애·자산유출",
+   "what_to_check": "주제가 원문에 없는지, 추출 규칙에서 누락되었는지 확인. 가상자산·금융자산 총액의 회계상 범위를 함께 확정.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "crypto-notes.json",
+    "financials.json"
+   ],
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": "20260330001631",
+   "notes": " | 2026-09-06 Claude: 고객 위탁 가상자산(추출됨), 고객 반환의무(추출됨), 계속기업 불확실성(원문에 중요한 불확실성 문단 없음), 해킹·전산장애·자산유출(추출됨)",
+   "resolved_at": "2026-09-06"
+  },
+  {
+   "review_id": "upbit_2025_consolidated_note_coverage",
+   "vasp_id": "upbit",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "추출 후 수동 대조 필요: 고객 위탁 가상자산, 고객 반환의무, 계속기업 불확실성, 해킹·전산장애·자산유출",
+   "what_to_check": "주제가 원문에 없는지, 추출 규칙에서 누락되었는지 확인. 가상자산·금융자산 총액의 회계상 범위를 함께 확정.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "crypto-notes.json",
+    "financials.json"
+   ],
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": "20260330001631",
+   "notes": " | 2026-09-06 Claude: 고객 위탁 가상자산(추출됨), 고객 반환의무(추출됨), 계속기업 불확실성(원문에 중요한 불확실성 문단 없음), 해킹·전산장애·자산유출(추출됨)",
+   "resolved_at": "2026-09-06"
+  },
+  {
+   "review_id": "upbit_2024_separate_note_coverage",
+   "vasp_id": "upbit",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "추출 후 수동 대조 필요: 고객 위탁 가상자산, 고객 반환의무, 수익 총액·순액, 해킹·전산장애·자산유출",
+   "what_to_check": "주제가 원문에 없는지, 추출 규칙에서 누락되었는지 확인. 가상자산·금융자산 총액의 회계상 범위를 함께 확정.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "crypto-notes.json",
+    "financials.json"
+   ],
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": "20250327001208",
+   "notes": " | 2026-09-06 Claude: 계속기업 불확실성(원문에 중요한 불확실성 문단 없음) | 2026-09-07 Claude: 고객 위탁 가상자산(추출됨), 고객 반환의무(추출됨), 수익 총액·순액(추출됨), 해킹·전산장애·자산유출(추출됨)",
+   "resolved_at": "2026-09-07"
+  },
+  {
+   "review_id": "upbit_2024_consolidated_note_coverage",
+   "vasp_id": "upbit",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "추출 후 수동 대조 필요: 고객 위탁 가상자산, 고객 반환의무, 수익 총액·순액, 해킹·전산장애·자산유출",
+   "what_to_check": "주제가 원문에 없는지, 추출 규칙에서 누락되었는지 확인. 가상자산·금융자산 총액의 회계상 범위를 함께 확정.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "crypto-notes.json",
+    "financials.json"
+   ],
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": "20250327001208",
+   "notes": " | 2026-09-06 Claude: 계속기업 불확실성(원문에 중요한 불확실성 문단 없음) | 2026-09-07 Claude: 고객 위탁 가상자산(추출됨), 고객 반환의무(추출됨), 수익 총액·순액(추출됨), 해킹·전산장애·자산유출(추출됨)",
+   "resolved_at": "2026-09-07"
+  },
+  {
+   "review_id": "upbit_2023_consolidated_note_coverage",
+   "vasp_id": "upbit",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "추출 후 수동 대조 필요: 고객예치금, 고객 반환의무, 수익 총액·순액, 해킹·전산장애·자산유출",
+   "what_to_check": "주제가 원문에 없는지, 추출 규칙에서 누락되었는지 확인. 가상자산·금융자산 총액의 회계상 범위를 함께 확정.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "crypto-notes.json",
+    "financials.json"
+   ],
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": "20240328001689",
+   "notes": " | 2026-09-06 Claude: 계속기업 불확실성(원문에 중요한 불확실성 문단 없음) | 2026-09-07 Claude: 고객예치금(추출됨), 고객 반환의무(추출됨), 수익 총액·순액(원문 주석에 없음; 사업보고서 본문의 R&D 언급만), 해킹·전산장애·자산유출(원문 주석에 없음; 사업보고서 본문의 R&D 언급만)",
+   "resolved_at": "2026-09-07"
+  },
+  {
+   "review_id": "upbit_2023_separate_note_coverage",
+   "vasp_id": "upbit",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "추출 후 수동 대조 필요: 고객예치금, 고객 반환의무, 수익 총액·순액, 해킹·전산장애·자산유출",
+   "what_to_check": "주제가 원문에 없는지, 추출 규칙에서 누락되었는지 확인. 가상자산·금융자산 총액의 회계상 범위를 함께 확정.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "crypto-notes.json",
+    "financials.json"
+   ],
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": "20240328001689",
+   "notes": " | 2026-09-06 Claude: 계속기업 불확실성(원문에 중요한 불확실성 문단 없음) | 2026-09-07 Claude: 고객예치금(추출됨), 고객 반환의무(추출됨), 수익 총액·순액(원문 주석에 없음; 사업보고서 본문의 R&D 언급만), 해킹·전산장애·자산유출(원문 주석에 없음; 사업보고서 본문의 R&D 언급만)",
+   "resolved_at": "2026-09-07"
+  },
+  {
+   "review_id": "coinone_2025_separate_note_coverage",
+   "vasp_id": "coinone",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "추출 후 수동 대조 필요: 수익 총액·순액",
+   "what_to_check": "주제가 원문에 없는지, 추출 규칙에서 누락되었는지 확인. 가상자산·금융자산 총액의 회계상 범위를 함께 확정.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "crypto-notes.json",
+    "financials.json"
+   ],
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260429000738",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": "20260429000738",
+   "notes": " | 2026-09-06 Claude: 계속기업 불확실성(원문에 중요한 불확실성 문단 없음) | 2026-09-07 Claude: 수익 총액·순액(추출됨)",
+   "resolved_at": "2026-09-07"
+  },
+  {
+   "review_id": "coinone_2024_separate_note_coverage",
+   "vasp_id": "coinone",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "추출 후 수동 대조 필요: 수익 총액·순액",
+   "what_to_check": "주제가 원문에 없는지, 추출 규칙에서 누락되었는지 확인. 가상자산·금융자산 총액의 회계상 범위를 함께 확정.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "crypto-notes.json",
+    "financials.json"
+   ],
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250409001569",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": "20250409001569",
+   "notes": " | 2026-09-06 Claude: 계속기업 불확실성(원문에 중요한 불확실성 문단 없음) | 2026-09-07 Claude: 수익 총액·순액(원문 키워드 미검출 → 해당 주석 없음으로 판단)",
+   "resolved_at": "2026-09-07"
+  },
+  {
+   "review_id": "coinone_2023_separate_note_coverage",
+   "vasp_id": "coinone",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "추출 후 수동 대조 필요: 고객 반환의무, 수익 총액·순액, 핫·콜드월렛, 프라이빗키 관리, 해킹·전산장애·자산유출",
+   "what_to_check": "주제가 원문에 없는지, 추출 규칙에서 누락되었는지 확인. 가상자산·금융자산 총액의 회계상 범위를 함께 확정.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "crypto-notes.json",
+    "financials.json"
+   ],
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240405002672",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": "20240405002672",
+   "notes": " | 2026-09-06 Claude: 계속기업 불확실성(원문에 중요한 불확실성 문단 없음) | 2026-09-07 Claude: 고객 반환의무(원문 키워드 미검출 → 해당 주석 없음으로 판단), 수익 총액·순액(원문 키워드 미검출 → 해당 주석 없음으로 판단), 핫·콜드월렛(원문 키워드 미검출 → 해당 주석 없음으로 판단), 프라이빗키 관리(원문 키워드 미검출 → 해당 주석 없음으로 판단), 해킹·전산장애·자산유출(원문 키워드 미검출 → 해당 주석 없음으로 판단)",
+   "resolved_at": "2026-09-07"
+  },
+  {
+   "review_id": "bithumb_2025_separate_note_coverage",
+   "vasp_id": "bithumb",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "추출 후 수동 대조 필요: 프라이빗키 관리, 해킹·전산장애·자산유출",
+   "what_to_check": "주제가 원문에 없는지, 추출 규칙에서 누락되었는지 확인. 가상자산·금융자산 총액의 회계상 범위를 함께 확정.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "crypto-notes.json",
+    "financials.json"
+   ],
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260331004333",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": "20260331004333",
+   "notes": " | 2026-09-06 Claude: 고객 위탁 가상자산(추출됨), 고객예치금(추출됨), 고객 반환의무(추출됨), 계속기업 불확실성(원문에 중요한 불확실성 문단 없음) | 2026-09-07 Claude: 수익 총액·순액(원문 키워드 미검출 → 해당 주석 없음으로 판단), 핫·콜드월렛(원문 키워드 미검출 → 해당 주석 없음으로 판단) | 2026-09-07 Claude: 프라이빗키 관리(추출됨), 해킹·전산장애·자산유출(추출됨)",
+   "resolved_at": "2026-09-07"
+  },
+  {
+   "review_id": "bithumb_2024_separate_note_coverage",
+   "vasp_id": "bithumb",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "추출 후 수동 대조 필요: 고객 반환의무",
+   "what_to_check": "주제가 원문에 없는지, 추출 규칙에서 누락되었는지 확인. 가상자산·금융자산 총액의 회계상 범위를 함께 확정.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "crypto-notes.json",
+    "financials.json"
+   ],
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250331003880",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": "20250331003880",
+   "notes": " | 2026-09-06 Claude: 계속기업 불확실성(원문에 중요한 불확실성 문단 없음) | 2026-09-07 Claude: 고객 위탁 가상자산(추출됨), 고객예치금(추출됨), 수익 총액·순액(원문 키워드 미검출 → 해당 주석 없음으로 판단), 핫·콜드월렛(원문 키워드 미검출 → 해당 주석 없음으로 판단), 프라이빗키 관리(추출됨), 해킹·전산장애·자산유출(추출됨) | 2026-09-07 Claude: 고객 반환의무(추출됨)",
+   "resolved_at": "2026-09-07"
+  },
+  {
+   "review_id": "bithumb_2023_separate_note_coverage",
+   "vasp_id": "bithumb",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "추출 후 수동 대조 필요: 고객예치금, 고객 반환의무",
+   "what_to_check": "주제가 원문에 없는지, 추출 규칙에서 누락되었는지 확인. 가상자산·금융자산 총액의 회계상 범위를 함께 확정.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "crypto-notes.json",
+    "financials.json"
+   ],
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240401004312",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": "20240401004312",
+   "notes": " | 2026-09-06 Claude: 계속기업 불확실성(원문에 중요한 불확실성 문단 없음) | 2026-09-07 Claude: 고객 위탁 가상자산(추출됨), 수익 총액·순액(원문 키워드 미검출 → 해당 주석 없음으로 판단), 핫·콜드월렛(원문 키워드 미검출 → 해당 주석 없음으로 판단), 프라이빗키 관리(원문 키워드 미검출 → 해당 주석 없음으로 판단), 해킹·전산장애·자산유출(추출됨) | 2026-09-07 Claude: 고객예치금(추출됨), 고객 반환의무(추출됨)",
+   "resolved_at": "2026-09-07"
+  },
+  {
+   "review_id": "korbit_2025_separate_note_coverage",
+   "vasp_id": "korbit",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "추출 후 수동 대조 필요: 가상자산 평가정책, 특수관계자 거래",
+   "what_to_check": "주제가 원문에 없는지, 추출 규칙에서 누락되었는지 확인. 가상자산·금융자산 총액의 회계상 범위를 함께 확정.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "crypto-notes.json",
+    "financials.json"
+   ],
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001243",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": "20260414001243",
+   "notes": " | 2026-09-06 Claude: 계속기업 불확실성(원문에 중요한 불확실성 문단 없음) | 2026-09-07 Claude: 고객예치금(추출됨), 수수료 수익 인식시점(추출됨), 수익 총액·순액(추출됨), 핫·콜드월렛(원문 키워드 미검출 → 해당 주석 없음으로 판단), 프라이빗키 관리(원문 키워드 미검출 → 해당 주석 없음으로 판단) | 2026-09-07 Claude: 가상자산 평가정책(추출됨), 특수관계자 거래(추출됨)",
+   "resolved_at": "2026-09-07"
+  },
+  {
+   "review_id": "korbit_2024_separate_note_coverage",
+   "vasp_id": "korbit",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "추출 후 수동 대조 필요: 가상자산 평가정책, 수수료 수익 인식시점, 특수관계자 거래",
+   "what_to_check": "주제가 원문에 없는지, 추출 규칙에서 누락되었는지 확인. 가상자산·금융자산 총액의 회계상 범위를 함께 확정.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "crypto-notes.json",
+    "financials.json"
+   ],
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250403003055",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": "20250403003055",
+   "notes": " | 2026-09-06 Claude: 계속기업 불확실성(원문에 중요한 불확실성 문단 없음) | 2026-09-07 Claude: 고객예치금(추출됨), 수익 총액·순액(추출됨), 핫·콜드월렛(원문 키워드 미검출 → 해당 주석 없음으로 판단), 프라이빗키 관리(원문 키워드 미검출 → 해당 주석 없음으로 판단) | 2026-09-07 Claude: 가상자산 평가정책(추출됨), 수수료 수익 인식시점(추출됨), 특수관계자 거래(추출됨)",
+   "resolved_at": "2026-09-07"
+  },
+  {
+   "review_id": "korbit_2023_separate_note_coverage",
+   "vasp_id": "korbit",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "추출 후 수동 대조 필요: 가상자산 평가정책, 수수료 수익 인식시점, 특수관계자 거래",
+   "what_to_check": "주제가 원문에 없는지, 추출 규칙에서 누락되었는지 확인. 가상자산·금융자산 총액의 회계상 범위를 함께 확정.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "crypto-notes.json",
+    "financials.json"
+   ],
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240409002249",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": "20240409002249",
+   "notes": " | 2026-09-06 Claude: 계속기업 불확실성(원문에 중요한 불확실성 문단 없음) | 2026-09-07 Claude: 고객예치금(추출됨), 수익 총액·순액(추출됨), 핫·콜드월렛(원문 키워드 미검출 → 해당 주석 없음으로 판단), 프라이빗키 관리(원문 키워드 미검출 → 해당 주석 없음으로 판단) | 2026-09-07 Claude: 가상자산 평가정책(추출됨), 수수료 수익 인식시점(추출됨), 특수관계자 거래(추출됨)",
+   "resolved_at": "2026-09-07"
+  },
+  {
+   "review_id": "gopax_2025_separate_note_coverage",
+   "vasp_id": "gopax",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "추출 후 수동 대조 필요: 고객 위탁 가상자산, 고객예치금, 고객 반환의무, 수익 총액·순액, 핫·콜드월렛, 해킹·전산장애·자산유출",
+   "what_to_check": "주제가 원문에 없는지, 추출 규칙에서 누락되었는지 확인. 가상자산·금융자산 총액의 회계상 범위를 함께 확정.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "crypto-notes.json",
+    "financials.json"
+   ],
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001751",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": "20260414001751",
+   "notes": " | 2026-09-07 Claude: 고객 위탁 가상자산(추출됨), 고객예치금(추출됨), 고객 반환의무(추출됨), 수익 총액·순액(원문 키워드 미검출 → 해당 주석 없음으로 판단), 핫·콜드월렛(원문 키워드 미검출 → 해당 주석 없음으로 판단), 해킹·전산장애·자산유출(추출됨)",
+   "resolved_at": "2026-09-07"
+  },
+  {
+   "review_id": "gopax_2024_separate_note_coverage",
+   "vasp_id": "gopax",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "추출 후 수동 대조 필요: 고객예치금, 고객 반환의무",
+   "what_to_check": "주제가 원문에 없는지, 추출 규칙에서 누락되었는지 확인. 가상자산·금융자산 총액의 회계상 범위를 함께 확정.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "crypto-notes.json",
+    "financials.json"
+   ],
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250414001854",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": "20250414001854",
+   "notes": " | 2026-09-07 Claude: 고객 위탁 가상자산(추출됨), 수익 총액·순액(원문 키워드 미검출 → 해당 주석 없음으로 판단), 핫·콜드월렛(원문 키워드 미검출 → 해당 주석 없음으로 판단), 해킹·전산장애·자산유출(추출됨) | 2026-09-07 Claude: 고객예치금(추출됨), 고객 반환의무(추출됨)",
+   "resolved_at": "2026-09-07"
+  },
+  {
+   "review_id": "gopax_2023_separate_note_coverage",
+   "vasp_id": "gopax",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "추출 후 수동 대조 필요: 고객예치금, 고객 반환의무",
+   "what_to_check": "주제가 원문에 없는지, 추출 규칙에서 누락되었는지 확인. 가상자산·금융자산 총액의 회계상 범위를 함께 확정.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "crypto-notes.json",
+    "financials.json"
+   ],
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412001438",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": "20240412001438",
+   "notes": " | 2026-09-07 Claude: 수익 총액·순액(원문 키워드 미검출 → 해당 주석 없음으로 판단), 핫·콜드월렛(원문 키워드 미검출 → 해당 주석 없음으로 판단), 프라이빗키 관리(원문 키워드 미검출 → 해당 주석 없음으로 판단), 해킹·전산장애·자산유출(추출됨) | 2026-09-07 Claude: 고객예치금(추출됨), 고객 반환의무(추출됨)",
+   "resolved_at": "2026-09-07"
+  },
+  {
+   "review_id": "wavebridge_2025_consolidated_note_coverage",
+   "vasp_id": "wavebridge",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "추출 후 수동 대조 필요: 고객 위탁 가상자산, 고객예치금, 고객 반환의무, 수수료 수익 인식시점, 수익 총액·순액, 핫·콜드월렛, 프라이빗키 관리, 해킹·전산장애·자산유출",
+   "what_to_check": "주제가 원문에 없는지, 추출 규칙에서 누락되었는지 확인. 가상자산·금융자산 총액의 회계상 범위를 함께 확정.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "crypto-notes.json",
+    "financials.json"
+   ],
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260424000170",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": "20260424000170",
+   "notes": " | 2026-09-06 Claude: 계속기업 불확실성(원문에 중요한 불확실성 문단 없음) | 2026-09-07 Claude: 고객 위탁 가상자산(원문 키워드 미검출 → 해당 주석 없음으로 판단), 고객예치금(원문 키워드 미검출 → 해당 주석 없음으로 판단), 고객 반환의무(원문 키워드 미검출 → 해당 주석 없음으로 판단), 수수료 수익 인식시점(추출됨), 수익 총액·순액(원문 키워드 미검출 → 해당 주석 없음으로 판단), 핫·콜드월렛(원문 키워드 미검출 → 해당 주석 없음으로 판단), 프라이빗키 관리(원문 키워드 미검출 → 해당 주석 없음으로 판단), 해킹·전산장애·자산유출(원문 키워드 미검출 → 해당 주석 없음으로 판단)",
+   "resolved_at": "2026-09-07"
+  },
+  {
+   "review_id": "wavebridge_2025_separate_note_coverage",
+   "vasp_id": "wavebridge",
+   "issue_type": "unverified_fact",
+   "severity": "medium",
+   "description": "추출 후 수동 대조 필요: 고객 위탁 가상자산, 고객예치금, 고객 반환의무, 수수료 수익 인식시점, 수익 총액·순액, 핫·콜드월렛, 프라이빗키 관리, 해킹·전산장애·자산유출",
+   "what_to_check": "주제가 원문에 없는지, 추출 규칙에서 누락되었는지 확인. 가상자산·금융자산 총액의 회계상 범위를 함께 확정.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "crypto-notes.json",
+    "financials.json"
+   ],
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260410001287",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": "20260410001287",
+   "notes": " | 2026-09-06 Claude: 계속기업 불확실성(원문에 중요한 불확실성 문단 없음) | 2026-09-07 Claude: 고객 위탁 가상자산(원문 키워드 미검출 → 해당 주석 없음으로 판단), 고객예치금(원문 키워드 미검출 → 해당 주석 없음으로 판단), 고객 반환의무(원문 키워드 미검출 → 해당 주석 없음으로 판단), 수수료 수익 인식시점(추출됨), 수익 총액·순액(원문 키워드 미검출 → 해당 주석 없음으로 판단), 핫·콜드월렛(원문 키워드 미검출 → 해당 주석 없음으로 판단), 프라이빗키 관리(원문 키워드 미검출 → 해당 주석 없음으로 판단), 해킹·전산장애·자산유출(원문 키워드 미검출 → 해당 주석 없음으로 판단)",
+   "resolved_at": "2026-09-07"
+  },
+  {
+   "review_id": "bithumb_cfs_unavailable",
+   "vasp_id": "bithumb",
+   "issue_type": "other",
+   "severity": "medium",
+   "description": "2023·2024·2025 fnlttSinglAcntAll CFS 조회가 모두 status=013(자료 없음). 이를 미제출/연결대상 없음의 법적 결론으로 해석하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "audit-reports.json",
+    "financials.json",
+    "crypto-notes.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "upbit_2024_amendment",
+   "vasp_id": "upbit",
+   "issue_type": "other",
+   "severity": "medium",
+   "description": "20250328000589 정정 원문에서 이익잉여금 주석의 당기현금배당금액 정정을 확인. 감사보고서는 최초 공시 20250327001208 첨부를 사용. 배당 관련 수치는 이번 정규화 대상에 포함하지 않음.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "audit-reports.json",
+    "financials.json",
+    "crypto-notes.json"
+   ],
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250328000589",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": "20250328000589",
+   "resolved_at": "2026-09-06",
+   "notes": " | 2026-09-06 Claude: 정정공시 20250328000589 원문 확인. 정정사항은 '재무제표 주석 22 이익잉여금 — 당기현금배당금액(이익잉여금처분계산서(안))' 뿐. 재무제표 본문·감사의견·추출 수치에 영향 없음."
+  },
+  {
+   "review_id": "phase4_probable_hold",
+   "vasp_id": null,
+   "issue_type": "other",
+   "severity": "medium",
+   "description": "델리오 등 probable 법인은 FIU 사업자번호 대조가 불가능하여 감사보고서 본문을 확정 연결하지 않음. 법인 일치 증거 확보 후 확대 필요.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다.",
+   "status": "open",
+   "created_at": "2026-09-06",
+   "candidates": null,
+   "affected_files": [
+    "audit-reports.json",
+    "financials.json",
+    "crypto-notes.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null
+  },
+  {
+   "review_id": "financial_complex_accounts",
+   "vasp_id": null,
+   "issue_type": "other",
+   "severity": "medium",
+   "description": "가상자산 보유·고객위탁·반환부채·금융자산 합계는 회사별 범위가 복합적이라 null 유지. 재무제표와 주석의 분류/평가정책을 대조해 별도 구조화 필요.",
+   "what_to_check": "공식 원문 또는 기업개황에서 동일 법인 여부와 미확인 값을 확인한다. | 후보 목록: docs/COMPLEX_ACCOUNTS_CANDIDATES.md (2026-09-06 Claude)",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "candidates": [
+    {
+     "vasp_id": "bithumb",
+     "fiscal_year": 2023,
+     "receipt_number": "20240401004312",
+     "title": "2.6 가상자산"
+    },
+    {
+     "vasp_id": "bithumb",
+     "fiscal_year": 2023,
+     "receipt_number": "20240401004312",
+     "title": "4. 가상자산4.1 보고기간종료일 현재 주요 가상자산의 내역은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "bithumb",
+     "fiscal_year": 2023,
+     "receipt_number": "20240401004312",
+     "title": "4.3 보고기간종료일 현재 당사가 가상자산 공정가치 평가에 적용한 주요 가상자산의단위당 가격은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "bithumb",
+     "fiscal_year": 2023,
+     "receipt_number": "20240401004312",
+     "title": "2. 판매경로가상자산 거래소 플랫폼을 활용한 거래 중개3. 판매 전략"
+    },
+    {
+     "vasp_id": "bithumb",
+     "fiscal_year": 2023,
+     "receipt_number": "20240401004312",
+     "title": "3. 단기매매차익의 발생 및 반환에 관한 사항해당사항 없습니다."
+    },
+    {
+     "vasp_id": "bithumb",
+     "fiscal_year": 2024,
+     "receipt_number": "20250331003880",
+     "title": "4. 가상자산4.1 보고기간종료일 현재 주요 가상자산의 내역은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "bithumb",
+     "fiscal_year": 2024,
+     "receipt_number": "20250331003880",
+     "title": "4.3 보고기간종료일 현재 당사가 가상자산 공정가치 평가에 적용한 주요 가상자산의단위당 가격은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "bithumb",
+     "fiscal_year": 2024,
+     "receipt_number": "20250331003880",
+     "title": "4.4 보고기간종료일 현재 당사가 자체 취득한 가상자산의 처분현황은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "bithumb",
+     "fiscal_year": 2024,
+     "receipt_number": "20250331003880",
+     "title": "2. 판매경로가상자산 거래소 플랫폼을 활용한 거래 중개3. 판매 전략"
+    },
+    {
+     "vasp_id": "bithumb",
+     "fiscal_year": 2024,
+     "receipt_number": "20250331003880",
+     "title": "3. 단기매매차익의 발생 및 반환에 관한 사항해당사항 없습니다."
+    },
+    {
+     "vasp_id": "bithumb",
+     "fiscal_year": 2025,
+     "receipt_number": "20260331004333",
+     "title": "2. 판매경로가상자산 거래소 플랫폼을 활용한 거래 중개3. 판매 전략"
+    },
+    {
+     "vasp_id": "bithumb",
+     "fiscal_year": 2025,
+     "receipt_number": "20260331004333",
+     "title": "2. 가상자산 산업의 배경"
+    },
+    {
+     "vasp_id": "bithumb",
+     "fiscal_year": 2025,
+     "receipt_number": "20260331004333",
+     "title": "3. 가상자산의 규제현황"
+    },
+    {
+     "vasp_id": "bithumb",
+     "fiscal_year": 2025,
+     "receipt_number": "20260331004333",
+     "title": "4. 가상자산 시장의 전망"
+    },
+    {
+     "vasp_id": "bithumb",
+     "fiscal_year": 2025,
+     "receipt_number": "20260331004333",
+     "title": "4. 가상자산4.1 보고기간종료일 현재 주요 가상자산의 내역은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "bithumb",
+     "fiscal_year": 2025,
+     "receipt_number": "20260331004333",
+     "title": "4.3 보고기간종료일 현재 당사가 가상자산 공정가치 평가에 적용한 주요 가상자산의단위당 가격은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "bithumb",
+     "fiscal_year": 2025,
+     "receipt_number": "20260331004333",
+     "title": "4.4 보고기간종료일 현재 당사가 자체 취득한 가상자산의 처분현황은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "bithumb",
+     "fiscal_year": 2025,
+     "receipt_number": "20260331004333",
+     "title": "4. 단기매매차익의 발생 및 반환에 관한 사항"
+    },
+    {
+     "vasp_id": "coinone",
+     "fiscal_year": 2023,
+     "receipt_number": "20240405002672",
+     "title": "6. 가상자산(1) 보고기간종료일 현재 가상자산의 내역은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "coinone",
+     "fiscal_year": 2024,
+     "receipt_number": "20250409001569",
+     "title": "6. 가상자산(1) 보고기간종료일 현재 회사가 자체취득한 보유 가상자산의 현황은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "coinone",
+     "fiscal_year": 2024,
+     "receipt_number": "20250409001569",
+     "title": "(2) 고객위탁 가상자산"
+    },
+    {
+     "vasp_id": "coinone",
+     "fiscal_year": 2024,
+     "receipt_number": "20250409001569",
+     "title": "회사는  고객이 위탁한 가상자산은"
+    },
+    {
+     "vasp_id": "coinone",
+     "fiscal_year": 2025,
+     "receipt_number": "20260429000738",
+     "title": "6. 가상자산(1) 보고기간종료일 현재 회사가 자체취득한 보유 가상자산의 현황은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "coinone",
+     "fiscal_year": 2025,
+     "receipt_number": "20260429000738",
+     "title": "7. 투자가상자산(1) 보고기간종료일 현재 회사의 투자가상자산 내역은 다음과 같습니다.① 당기말"
+    },
+    {
+     "vasp_id": "coinone",
+     "fiscal_year": 2025,
+     "receipt_number": "20260429000738",
+     "title": "8. 대여가상자산(1) 보고기간종료일 현재 회사의 대여가상자산 내역은 다음과 같습니다.① 당기말"
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2023,
+     "receipt_number": "20240412001438",
+     "title": "2. 고객예치금(주석5,7)"
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2023,
+     "receipt_number": "20240412001438",
+     "title": "5. 가상자산(주석9)"
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2023,
+     "receipt_number": "20240412001438",
+     "title": "1. 가상자산처분이익"
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2023,
+     "receipt_number": "20240412001438",
+     "title": "2. 가상자산평가이익(주석 9)"
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2023,
+     "receipt_number": "20240412001438",
+     "title": "1. 가상자산처분손실"
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2023,
+     "receipt_number": "20240412001438",
+     "title": "2. 가상자산평가손실(주석9)"
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2023,
+     "receipt_number": "20240412001438",
+     "title": "5. 고객예치금과 고객예수부채 당기말과 전기말 현재 고객예치금의 내역은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2023,
+     "receipt_number": "20240412001438",
+     "title": "9. 가상자산(1) 당기말과 전기말 현재 당사가 보유한 주요 가상자산의 내역은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2024,
+     "receipt_number": "20250414001854",
+     "title": "2. 고객예치금(주석4,6)"
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2024,
+     "receipt_number": "20250414001854",
+     "title": "4. 가상자산(주석8)"
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2024,
+     "receipt_number": "20250414001854",
+     "title": "1. 가상자산처분이익"
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2024,
+     "receipt_number": "20250414001854",
+     "title": "2. 가상자산평가이익(주석8)"
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2024,
+     "receipt_number": "20250414001854",
+     "title": "1. 가상자산처분손실"
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2024,
+     "receipt_number": "20250414001854",
+     "title": "2. 가상자산평가손실(주석8,20)"
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2024,
+     "receipt_number": "20250414001854",
+     "title": "4. 고객예치금과 고객예수부채 당기말과 전기말 현재 고객예치금의 내역은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2024,
+     "receipt_number": "20250414001854",
+     "title": "8. 가상자산(1) 당기말과 전기말 현재 당사가 보유한 주요 가상자산의 내역은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2025,
+     "receipt_number": "20260414001751",
+     "title": "2. 고객예치금(주석4,6)"
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2025,
+     "receipt_number": "20260414001751",
+     "title": "4. 가상자산(주석8)"
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2025,
+     "receipt_number": "20260414001751",
+     "title": "1. 가상자산처분이익"
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2025,
+     "receipt_number": "20260414001751",
+     "title": "2. 가상자산평가이익(주석8)"
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2025,
+     "receipt_number": "20260414001751",
+     "title": "1. 가상자산처분손실"
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2025,
+     "receipt_number": "20260414001751",
+     "title": "2. 가상자산평가손실(주석8)"
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2025,
+     "receipt_number": "20260414001751",
+     "title": "4. 고객예치금과 고객예수부채 당기말과 전기말 현재 고객예치금의 내역은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "gopax",
+     "fiscal_year": 2025,
+     "receipt_number": "20260414001751",
+     "title": "8. 가상자산(1) 당기말과 전기말 현재 당사가 보유한 주요 가상자산의 내역은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2023,
+     "receipt_number": "20240409002249",
+     "title": "10.가상자산(주석6)"
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2023,
+     "receipt_number": "20240409002249",
+     "title": "11.투자가상자산(주석7)"
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2023,
+     "receipt_number": "20240409002249",
+     "title": "5. 가상자산처분이익(주석6)"
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2023,
+     "receipt_number": "20240409002249",
+     "title": "7. 가상자산평가이익(주석6)"
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2023,
+     "receipt_number": "20240409002249",
+     "title": "8. 투자가상자산평가이익(주석7)"
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2023,
+     "receipt_number": "20240409002249",
+     "title": "5. 가상자산처분손실(주석6)"
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2023,
+     "receipt_number": "20240409002249",
+     "title": "6. 가상자산평가손실(주석6)"
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2023,
+     "receipt_number": "20240409002249",
+     "title": "7. 투자가상자산평가손실(주석7)"
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2023,
+     "receipt_number": "20240409002249",
+     "title": "6. 가상자산(1) 당기 및 전기의 회사의 가상자산 장부가액의 변동내용은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2023,
+     "receipt_number": "20240409002249",
+     "title": "7. 투자가상자산(1) 보고기간종료일 현재 회사의 투자가상자산 내역은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2023,
+     "receipt_number": "20240409002249",
+     "title": "가상자산 수량"
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2023,
+     "receipt_number": "20240409002249",
+     "title": "또한, 회원이 위탁한 가상자산은 회사의 전자지갑에"
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2024,
+     "receipt_number": "20250403003055",
+     "title": "2.예치금(주석4)"
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2024,
+     "receipt_number": "20250403003055",
+     "title": "12.가상자산(주석7,25)"
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2024,
+     "receipt_number": "20250403003055",
+     "title": "13.투자가상자산(주석8,25)"
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2024,
+     "receipt_number": "20250403003055",
+     "title": "5. 가상자산처분이익(주석7)"
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2024,
+     "receipt_number": "20250403003055",
+     "title": "7. 가상자산평가이익(주석7)"
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2024,
+     "receipt_number": "20250403003055",
+     "title": "8. 투자가상자산평가이익(주석8)"
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2024,
+     "receipt_number": "20250403003055",
+     "title": "6. 가상자산처분손실(주석7)"
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2024,
+     "receipt_number": "20250403003055",
+     "title": "7. 가상자산평가손실(주석7)"
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2024,
+     "receipt_number": "20250403003055",
+     "title": "4. 예치금보고기간종료일 현재 예치금의 내용은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2024,
+     "receipt_number": "20250403003055",
+     "title": "7. 가상자산(1) 당기 및 전기의 회사의 가상자산 장부가액의 변동내용은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2024,
+     "receipt_number": "20250403003055",
+     "title": "8. 투자가상자산(1) 보고기간종료일 현재 회사의 투자가상자산 내역은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2024,
+     "receipt_number": "20250403003055",
+     "title": "가상자산 수량"
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2025,
+     "receipt_number": "20260414001243",
+     "title": "4. 예치금보고기간종료일 현재 예치금의 내용은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2025,
+     "receipt_number": "20260414001243",
+     "title": "7. 가상자산(1) 당기 및 전기의 회사의 가상자산 장부가액의 변동내용은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2025,
+     "receipt_number": "20260414001243",
+     "title": "8. 투자가상자산(1) 보고기간종료일 현재 회사의 투자가상자산 내역은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "korbit",
+     "fiscal_year": 2025,
+     "receipt_number": "20260414001243",
+     "title": "가상자산 수량"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2023,
+     "receipt_number": "20240328001689",
+     "title": "2.10 비금융자산의 손상"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2023,
+     "receipt_number": "20240328001689",
+     "title": "7. 상각후원가측정금융자산"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2023,
+     "receipt_number": "20240328001689",
+     "title": "2.17 가상자산"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2023,
+     "receipt_number": "20240328001689",
+     "title": "5. 당기손익-공정가치측정금융자산당기말 및 전기말 현재 당기손익-공정가치측정금융자산의 내용은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2023,
+     "receipt_number": "20240328001689",
+     "title": "6. 상각후원가측정금융자산(1) 당기말 및 전기말 현재 상각후원가측정금융자산의 내역은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2023,
+     "receipt_number": "20240328001689",
+     "title": "30. 금융상품(1) 당기말 및 전기말 현재 금융자산과 금융부채의 범주별 장부금액은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2023,
+     "receipt_number": "20240328001689",
+     "title": "1) 금융자산"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2023,
+     "receipt_number": "20240328001689",
+     "title": "5. 당기손익-공정가치측정금융자산  당기말 및 전기말 현재 당기손익-공정가치측정금융자산의 내용은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2023,
+     "receipt_number": "20240328001689",
+     "title": "6. 상각후원가측정금융자산  (1) 당기말 및 전기말 현재 상각후원가측정금융자산의 내역은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2023,
+     "receipt_number": "20240328001689",
+     "title": "3. 기타포괄손익-공정가치측정금융자산 평가손익 재분류"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2023,
+     "receipt_number": "20240328001689",
+     "title": "30. 금융상품  (1) 당기말 및 전기말 현재 금융자산과 금융부채의 범주별 장부금액은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2025,
+     "receipt_number": "20260330001631",
+     "title": "2.5 금융자산"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2025,
+     "receipt_number": "20260330001631",
+     "title": "2.10 비금융자산의 손상"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2025,
+     "receipt_number": "20260330001631",
+     "title": "2.18 가상자산"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2025,
+     "receipt_number": "20260330001631",
+     "title": "5) 가상자산"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2025,
+     "receipt_number": "20260330001631",
+     "title": "5. 당기손익-공정가치측정금융자산"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2025,
+     "receipt_number": "20260330001631",
+     "title": "6. 상각후원가측정금융자산"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2025,
+     "receipt_number": "20260330001631",
+     "title": "8. 기타포괄손익-공정가치측정금융자산"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2025,
+     "receipt_number": "20260330001631",
+     "title": "1) 금융자산"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2025,
+     "receipt_number": "20260330001631",
+     "title": "2.11 비금융자산의 손상"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2025,
+     "receipt_number": "20260330001631",
+     "title": "2.19 가상자산"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2025,
+     "receipt_number": "20260330001631",
+     "title": "6. 당기손익-공정가치측정금융자산"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2025,
+     "receipt_number": "20260330001631",
+     "title": "7. 상각후원가측정금융자산"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2025,
+     "receipt_number": "20260330001631",
+     "title": "9. 기타포괄손익-공정가치측정금융자산"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2025,
+     "receipt_number": "20260330001631",
+     "title": "- 당사의 고객 위탁 가상자산에 대한 관리, 보관 수준"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2025,
+     "receipt_number": "20260330001631",
+     "title": "가상자산 위탁 사실 확인서"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2025,
+     "receipt_number": "20260330001631",
+     "title": "- 지배기업의 고객 위탁 가상자산에 대한 관리, 보관 수준"
+    },
+    {
+     "vasp_id": "wavebridge",
+     "fiscal_year": 2025,
+     "receipt_number": "20260410001287",
+     "title": "5. 예치금보고기간 종료일 현재 예치금의 내역은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "wavebridge",
+     "fiscal_year": 2025,
+     "receipt_number": "20260410001287",
+     "title": "6. 가상자산(1) 보고기간 종료일 현재 가상자산의 내역은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "wavebridge",
+     "fiscal_year": 2025,
+     "receipt_number": "20260424000170",
+     "title": "5. 예치금"
+    },
+    {
+     "vasp_id": "wavebridge",
+     "fiscal_year": 2025,
+     "receipt_number": "20260424000170",
+     "title": "6. 가상자산 (1) 보고기간 종료일 현재 가상자산의 내역은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2024,
+     "receipt_number": "20250327001208",
+     "title": "2.18 가상자산"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2024,
+     "receipt_number": "20250327001208",
+     "title": "5. 당기손익-공정가치측정금융자산당기말 및 전기말 현재 당기손익-공정가치측정금융자산의 내용은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2024,
+     "receipt_number": "20250327001208",
+     "title": "6. 상각후원가측정금융자산(1) 당기말 및 전기말 현재 상각후원가측정금융자산의 내역은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2024,
+     "receipt_number": "20250327001208",
+     "title": "30. 금융상품(1) 당기말 및 전기말 현재 금융자산과 금융부채의 범주별 장부금액은 다음과 같습니다."
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2024,
+     "receipt_number": "20250327001208",
+     "title": "1) 금융자산"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2024,
+     "receipt_number": "20250327001208",
+     "title": "2.11 비금융자산의 손상"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2024,
+     "receipt_number": "20250327001208",
+     "title": "7. 상각후원가측정금융자산"
+    },
+    {
+     "vasp_id": "upbit",
+     "fiscal_year": 2024,
+     "receipt_number": "20250327001208",
+     "title": "(3) 당기 및 전기 중 무형자산으로 분류된 가상자산의 변동내역은 다음과 같습니다.① 당기"
+    }
+   ],
+   "affected_files": [
+    "audit-reports.json",
+    "financials.json",
+    "crypto-notes.json"
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "resolved_at": "2026-09-07",
+   "notes": " | 2026-09-07 사용자 승인: 정의안 채택, 투자·대여 가상자산 합산, 두나무 연결·별도 동일 위탁시가, 금융자산 보류. 반영 스크립트 scripts/apply_complex_accounts.py"
+  },
+  {
+   "review_id": "upbit_auditor_seed_mismatch",
+   "vasp_id": "upbit",
+   "issue_type": "conflicting_information",
+   "severity": "low",
+   "description": "seed/vasp_universe_dart_check_2026-09-06.md 는 두나무 감사인을 2023~2025 삼정회계법인으로 적었으나, 사업보고서 원문(20250327001208 감사인 표)은 제11기~13기(2022~2024) 모두 삼일회계법인, 2025 사업보고서(20260330001631)는 삼정회계법인이다.",
+   "candidates": null,
+   "affected_files": [
+    "audit-reports.json"
+   ],
+   "what_to_check": "원문이 우선. seed 표는 1차 조회 오류로 판단되며 데이터는 원문 기준으로 이미 기록됨. 별도 조치 불필요.",
+   "status": "resolved",
+   "created_at": "2026-09-06",
+   "resolved_at": "2026-09-06",
+   "notes": "Claude 확인. 감사인 교체(삼일→삼정)는 FY2025 부터."
+  }
+ ]
+}

@@ -1,0 +1,188 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/audit-risks.json — 감사위험",
+ "type": "object",
+ "required": [
+  "_meta",
+  "records"
+ ],
+ "properties": {
+  "_meta": {
+   "type": "object",
+   "required": [
+    "generated_at",
+    "basis_date",
+    "record_count"
+   ],
+   "properties": {
+    "generated_at": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "basis_date": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "record_count": {
+     "type": "integer"
+    },
+    "description": {
+     "type": "string"
+    },
+    "status": {
+     "type": "string"
+    }
+   }
+  },
+  "records": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "vasp_id",
+     "risk_code",
+     "risk_title_ko",
+     "relevant_business_activity",
+     "relevant_account",
+     "relevant_assertions",
+     "rationale",
+     "evidence_source",
+     "status",
+     "source_url",
+     "source_authority",
+     "retrieved_at",
+     "confidence"
+    ],
+    "properties": {
+     "vasp_id": {
+      "type": "string"
+     },
+     "risk_code": {
+      "type": "string",
+      "enum": [
+       "fee_revenue_completeness",
+       "fee_revenue_accuracy",
+       "revenue_cutoff",
+       "customer_asset_existence",
+       "rights_and_obligations",
+       "customer_liability_completeness",
+       "crypto_asset_valuation",
+       "related_party_transactions",
+       "it_system_reliance",
+       "private_key_control",
+       "going_concern",
+       "presentation_and_disclosure"
+      ]
+     },
+     "risk_title_ko": {
+      "type": "string"
+     },
+     "fiscal_year": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "relevant_business_activity": {
+      "type": "string"
+     },
+     "relevant_account": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "relevant_assertions": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "enum": [
+        "existence",
+        "occurrence",
+        "completeness",
+        "accuracy",
+        "cutoff",
+        "classification",
+        "valuation_and_allocation",
+        "rights_and_obligations",
+        "presentation_and_disclosure"
+       ]
+      }
+     },
+     "rationale": {
+      "type": "string"
+     },
+     "evidence_source": {
+      "type": "string"
+     },
+     "status": {
+      "type": "string",
+      "enum": [
+       "source_based",
+       "analytical_inference",
+       "needs_review"
+      ]
+     },
+     "source_url": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_title": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_authority": {
+      "type": "string",
+      "enum": [
+       "FIU",
+       "DART",
+       "COMPANY",
+       "OTHER"
+      ]
+     },
+     "receipt_number": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "DART 접수번호 14자리. DART 출처가 아니면 null"
+     },
+     "published_at": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "YYYY-MM-DD"
+     },
+     "retrieved_at": {
+      "type": "string",
+      "description": "YYYY-MM-DD, 확인일"
+     },
+     "confidence": {
+      "type": "string",
+      "enum": [
+       "verified",
+       "partially_verified",
+       "inferred",
+       "unverified"
+      ]
+     },
+     "notes": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  }
+ }
+}

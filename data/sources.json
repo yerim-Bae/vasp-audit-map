@@ -1,0 +1,839 @@
+{
+ "_meta": {
+  "generated_at": "2026-09-06T01:31:01.638751+00:00",
+  "basis_date": "2026-09-06",
+  "record_count": 43,
+  "status": "SOURCE_REGISTER"
+ },
+ "records": [
+  {
+   "source_id": "fiu_daxa_20260831",
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 신고현황 2026-08-31 (DAXA 첨부 미러)",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "receipt_number": null,
+   "vasp_ids": [
+    "upbit",
+    "korbit",
+    "coinone",
+    "bithumb",
+    "flybit",
+    "gopax",
+    "btx",
+    "foblgate",
+    "coredax",
+    "beeblock",
+    "cryptocom_korea",
+    "bitcmon",
+    "prabang",
+    "borabit",
+    "koda",
+    "kdac",
+    "ohigh_wallet",
+    "hyperithm",
+    "oasis",
+    "custella",
+    "infiniteblock",
+    "dsrv",
+    "bdacs",
+    "inex",
+    "wavebridge",
+    "bowman",
+    "robit",
+    "abc_cloud_wallet",
+    "bitgo_korea",
+    "gdac",
+    "probit",
+    "huobi_korea",
+    "flata_exchange",
+    "hanbitco",
+    "bitrade",
+    "coinncoin",
+    "cashierest",
+    "tennten",
+    "aprobit",
+    "mykeepin_wallet",
+    "qbit",
+    "cardo",
+    "delio",
+    "paycoin",
+    "coinbit"
+   ],
+   "used_in": [
+    "vasps"
+   ],
+   "local_copy": "seed/fiu_vasp_list_2026-08-31.json",
+   "notes": "게시 주체 DAXA; 원문 작성 주체 FIU. HTML 회사 카드는 일부 구상호이므로 기준일 있는 첨부 시드를 사용.",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_corp_codes",
+   "source_url": "https://opendart.fss.or.kr/api/corpCode.xml",
+   "source_title": "DART 전체 법인코드",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "receipt_number": null,
+   "used_in": [
+    "vasps"
+   ],
+   "notes": "법인코드 목록 API에는 접수번호가 없음.",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_company_01310241",
+   "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01310241",
+   "source_title": "DART 기업개황: 두나무 주식회사",
+   "source_authority": "DART",
+   "receipt_number": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "upbit"
+   ],
+   "used_in": [
+    "vasps"
+   ],
+   "notes": "기업개황 API는 공시접수번호를 제공하지 않음. 인증키 없는 재현용 URL.",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_company_01221743",
+   "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01221743",
+   "source_title": "DART 기업개황: 디지털엑스 주식회사",
+   "source_authority": "DART",
+   "receipt_number": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "korbit"
+   ],
+   "used_in": [
+    "vasps"
+   ],
+   "notes": "기업개황 API는 공시접수번호를 제공하지 않음. 인증키 없는 재현용 URL.",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_company_01263378",
+   "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01263378",
+   "source_title": "DART 기업개황: 주식회사 코인원",
+   "source_authority": "DART",
+   "receipt_number": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "coinone"
+   ],
+   "used_in": [
+    "vasps"
+   ],
+   "notes": "기업개황 API는 공시접수번호를 제공하지 않음. 인증키 없는 재현용 URL.",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_company_01214044",
+   "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01214044",
+   "source_title": "DART 기업개황: 주식회사 빗썸",
+   "source_authority": "DART",
+   "receipt_number": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "bithumb"
+   ],
+   "used_in": [
+    "vasps"
+   ],
+   "notes": "기업개황 API는 공시접수번호를 제공하지 않음. 인증키 없는 재현용 URL.",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_company_01307618",
+   "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01307618",
+   "source_title": "DART 기업개황: (주)스트리미",
+   "source_authority": "DART",
+   "receipt_number": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "gopax"
+   ],
+   "used_in": [
+    "vasps"
+   ],
+   "notes": "기업개황 API는 공시접수번호를 제공하지 않음. 인증키 없는 재현용 URL.",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_company_01551848",
+   "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01551848",
+   "source_title": "DART 기업개황: 주식회사 포블게이트",
+   "source_authority": "DART",
+   "receipt_number": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "foblgate"
+   ],
+   "used_in": [
+    "vasps"
+   ],
+   "notes": "기업개황 API는 공시접수번호를 제공하지 않음. 인증키 없는 재현용 URL.",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_company_01891038",
+   "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01891038",
+   "source_title": "DART 기업개황: (주)코어닥스",
+   "source_authority": "DART",
+   "receipt_number": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "coredax"
+   ],
+   "used_in": [
+    "vasps"
+   ],
+   "notes": "기업개황 API는 공시접수번호를 제공하지 않음. 인증키 없는 재현용 URL.",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_company_01909841",
+   "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01909841",
+   "source_title": "DART 기업개황: 주식회사 하이퍼리즘",
+   "source_authority": "DART",
+   "receipt_number": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "hyperithm"
+   ],
+   "used_in": [
+    "vasps"
+   ],
+   "notes": "기업개황 API는 공시접수번호를 제공하지 않음. 인증키 없는 재현용 URL.",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_company_00513115",
+   "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=00513115",
+   "source_title": "DART 기업개황: 주식회사 가디언홀딩스",
+   "source_authority": "DART",
+   "receipt_number": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "oasis"
+   ],
+   "used_in": [
+    "vasps"
+   ],
+   "notes": "기업개황 API는 공시접수번호를 제공하지 않음. 인증키 없는 재현용 URL.",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_company_01935785",
+   "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01935785",
+   "source_title": "DART 기업개황: 주식회사 디에스알브이랩스",
+   "source_authority": "DART",
+   "receipt_number": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "dsrv"
+   ],
+   "used_in": [
+    "vasps"
+   ],
+   "notes": "기업개황 API는 공시접수번호를 제공하지 않음. 인증키 없는 재현용 URL.",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_company_01930869",
+   "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01930869",
+   "source_title": "DART 기업개황: 주식회사 웨이브릿지",
+   "source_authority": "DART",
+   "receipt_number": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "wavebridge"
+   ],
+   "used_in": [
+    "vasps"
+   ],
+   "notes": "기업개황 API는 공시접수번호를 제공하지 않음. 인증키 없는 재현용 URL.",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_company_01560624",
+   "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01560624",
+   "source_title": "DART 기업개황: 오션스주식회사",
+   "source_authority": "DART",
+   "receipt_number": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "probit"
+   ],
+   "used_in": [
+    "vasps"
+   ],
+   "notes": "기업개황 API는 공시접수번호를 제공하지 않음. 인증키 없는 재현용 URL.",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_company_01625666",
+   "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01625666",
+   "source_title": "DART 기업개황: 후오비(주)",
+   "source_authority": "DART",
+   "receipt_number": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "huobi_korea"
+   ],
+   "used_in": [
+    "vasps"
+   ],
+   "notes": "기업개황 API는 공시접수번호를 제공하지 않음. 인증키 없는 재현용 URL.",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_company_02030546",
+   "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=02030546",
+   "source_title": "DART 기업개황: 큐비트 주식회사",
+   "source_authority": "DART",
+   "receipt_number": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "qbit"
+   ],
+   "used_in": [
+    "vasps"
+   ],
+   "notes": "기업개황 API는 공시접수번호를 제공하지 않음. 인증키 없는 재현용 URL.",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_company_01588259",
+   "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01588259",
+   "source_title": "DART 기업개황: 주식회사 델리오",
+   "source_authority": "DART",
+   "receipt_number": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "delio"
+   ],
+   "used_in": [
+    "vasps"
+   ],
+   "notes": "기업개황 API는 공시접수번호를 제공하지 않음. 인증키 없는 재현용 URL.",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_company_01380684",
+   "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01380684",
+   "source_title": "DART 기업개황: 주식회사 엑시아소프트",
+   "source_authority": "DART",
+   "receipt_number": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "coinbit"
+   ],
+   "used_in": [
+    "vasps"
+   ],
+   "notes": "기업개황 API는 공시접수번호를 제공하지 않음. 인증키 없는 재현용 URL.",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_20260330001631",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+   "source_title": "두나무 사업보고서 (2025.12)",
+   "source_authority": "DART",
+   "receipt_number": "20260330001631",
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "upbit"
+   ],
+   "used_in": [
+    "audit-reports",
+    "financials",
+    "crypto-notes",
+    "audit-risks"
+   ],
+   "local_copy": "downloads/20260330001631.zip",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_20250328000589",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250328000589",
+   "source_title": "두나무 [기재정정]사업보고서 (2024.12)",
+   "source_authority": "DART",
+   "receipt_number": "20250328000589",
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "upbit"
+   ],
+   "used_in": [
+    "audit-reports",
+    "financials",
+    "crypto-notes",
+    "audit-risks"
+   ],
+   "local_copy": "downloads/20250328000589.zip",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_20240328001689",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+   "source_title": "두나무 사업보고서 (2023.12)",
+   "source_authority": "DART",
+   "receipt_number": "20240328001689",
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "upbit"
+   ],
+   "used_in": [
+    "audit-reports",
+    "financials",
+    "crypto-notes",
+    "audit-risks"
+   ],
+   "local_copy": "downloads/20240328001689.zip",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_20260429000738",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260429000738",
+   "source_title": "코인원 [기재정정]감사보고서 (2025.12)",
+   "source_authority": "DART",
+   "receipt_number": "20260429000738",
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "coinone"
+   ],
+   "used_in": [
+    "audit-reports",
+    "financials",
+    "crypto-notes",
+    "audit-risks"
+   ],
+   "local_copy": "downloads/20260429000738.zip",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_20250409001569",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250409001569",
+   "source_title": "코인원 감사보고서 (2024.12)",
+   "source_authority": "DART",
+   "receipt_number": "20250409001569",
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "coinone"
+   ],
+   "used_in": [
+    "audit-reports",
+    "financials",
+    "crypto-notes",
+    "audit-risks"
+   ],
+   "local_copy": "downloads/20250409001569.zip",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_20240405002672",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240405002672",
+   "source_title": "코인원 감사보고서 (2023.12)",
+   "source_authority": "DART",
+   "receipt_number": "20240405002672",
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "coinone"
+   ],
+   "used_in": [
+    "audit-reports",
+    "financials",
+    "crypto-notes",
+    "audit-risks"
+   ],
+   "local_copy": "downloads/20240405002672.zip",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_20260331004333",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260331004333",
+   "source_title": "빗썸 사업보고서 (2025.12)",
+   "source_authority": "DART",
+   "receipt_number": "20260331004333",
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "bithumb"
+   ],
+   "used_in": [
+    "audit-reports",
+    "financials",
+    "crypto-notes",
+    "audit-risks"
+   ],
+   "local_copy": "downloads/20260331004333.zip",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_20250331003880",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250331003880",
+   "source_title": "빗썸 사업보고서 (2024.12)",
+   "source_authority": "DART",
+   "receipt_number": "20250331003880",
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "bithumb"
+   ],
+   "used_in": [
+    "audit-reports",
+    "financials",
+    "crypto-notes",
+    "audit-risks"
+   ],
+   "local_copy": "downloads/20250331003880.zip",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_20240401004312",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240401004312",
+   "source_title": "빗썸 사업보고서 (2023.12)",
+   "source_authority": "DART",
+   "receipt_number": "20240401004312",
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "bithumb"
+   ],
+   "used_in": [
+    "audit-reports",
+    "financials",
+    "crypto-notes",
+    "audit-risks"
+   ],
+   "local_copy": "downloads/20240401004312.zip",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_20250327001208",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+   "source_title": "두나무 사업보고서 (2024.12)",
+   "source_authority": "DART",
+   "receipt_number": "20250327001208",
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "upbit"
+   ],
+   "used_in": [
+    "audit-reports",
+    "financials",
+    "crypto-notes",
+    "audit-risks"
+   ],
+   "local_copy": "downloads/20250327001208.zip",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_20260414001243",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001243",
+   "source_title": "디지털엑스 감사보고서 (2025.12)",
+   "source_authority": "DART",
+   "receipt_number": "20260414001243",
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "korbit"
+   ],
+   "used_in": [
+    "audit-reports",
+    "financials",
+    "crypto-notes",
+    "audit-risks"
+   ],
+   "local_copy": "downloads/20260414001243.zip",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_20250403003055",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250403003055",
+   "source_title": "디지털엑스 감사보고서 (2024.12)",
+   "source_authority": "DART",
+   "receipt_number": "20250403003055",
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "korbit"
+   ],
+   "used_in": [
+    "audit-reports",
+    "financials",
+    "crypto-notes",
+    "audit-risks"
+   ],
+   "local_copy": "downloads/20250403003055.zip",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_20240409002249",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240409002249",
+   "source_title": "디지털엑스 감사보고서 (2023.12)",
+   "source_authority": "DART",
+   "receipt_number": "20240409002249",
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "korbit"
+   ],
+   "used_in": [
+    "audit-reports",
+    "financials",
+    "crypto-notes",
+    "audit-risks"
+   ],
+   "local_copy": "downloads/20240409002249.zip",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_20260414001751",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001751",
+   "source_title": "스트리미 감사보고서 (2025.12)",
+   "source_authority": "DART",
+   "receipt_number": "20260414001751",
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "gopax"
+   ],
+   "used_in": [
+    "audit-reports",
+    "financials",
+    "crypto-notes",
+    "audit-risks"
+   ],
+   "local_copy": "downloads/20260414001751.zip",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_20250414001854",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250414001854",
+   "source_title": "스트리미 감사보고서 (2024.12)",
+   "source_authority": "DART",
+   "receipt_number": "20250414001854",
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "gopax"
+   ],
+   "used_in": [
+    "audit-reports",
+    "financials",
+    "crypto-notes",
+    "audit-risks"
+   ],
+   "local_copy": "downloads/20250414001854.zip",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_20240412001438",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412001438",
+   "source_title": "스트리미 감사보고서 (2023.12)",
+   "source_authority": "DART",
+   "receipt_number": "20240412001438",
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "gopax"
+   ],
+   "used_in": [
+    "audit-reports",
+    "financials",
+    "crypto-notes",
+    "audit-risks"
+   ],
+   "local_copy": "downloads/20240412001438.zip",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_20260424000170",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260424000170",
+   "source_title": "웨이브릿지 연결감사보고서 (2025.12)",
+   "source_authority": "DART",
+   "receipt_number": "20260424000170",
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "wavebridge"
+   ],
+   "used_in": [
+    "audit-reports",
+    "financials",
+    "crypto-notes",
+    "audit-risks"
+   ],
+   "local_copy": "downloads/20260424000170.zip",
+   "published_at": null
+  },
+  {
+   "source_id": "dart_20260410001287",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260410001287",
+   "source_title": "웨이브릿지 감사보고서 (2025.12)",
+   "source_authority": "DART",
+   "receipt_number": "20260410001287",
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "vasp_ids": [
+    "wavebridge"
+   ],
+   "used_in": [
+    "audit-reports",
+    "financials",
+    "crypto-notes",
+    "audit-risks"
+   ],
+   "local_copy": "downloads/20260410001287.zip",
+   "published_at": null
+  },
+  {
+   "source_id": "company_upbit",
+   "source_url": "https://docs.upbit.com/kr/docs/krw-market-info",
+   "source_title": "원화(KRW) 마켓 주문 가격 단위 / 최소 주문 가능 금액",
+   "source_authority": "COMPANY",
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "receipt_number": null,
+   "vasp_ids": [
+    "upbit"
+   ],
+   "used_in": [
+    "vasps"
+   ],
+   "notes": "공식 문서의 원화마켓 주문 정책 및 회사 사업자번호 확인.",
+   "published_at": null
+  },
+  {
+   "source_id": "company_korbit",
+   "source_url": "https://korbit.co.kr/company/",
+   "source_title": "코빗 회사소개",
+   "source_authority": "COMPANY",
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "receipt_number": null,
+   "vasp_ids": [
+    "korbit"
+   ],
+   "used_in": [
+    "vasps"
+   ],
+   "notes": "공식 회사소개 확인. 시장 유형은 직접 확인 가능한 현재 거래 화면 대조 대기.",
+   "published_at": null
+  },
+  {
+   "source_id": "company_coinone",
+   "source_url": "https://coinone.co.kr/",
+   "source_title": "코인원 공식 홈페이지",
+   "source_authority": "COMPANY",
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "receipt_number": null,
+   "vasp_ids": [
+    "coinone"
+   ],
+   "used_in": [
+    "vasps"
+   ],
+   "notes": "원화입금 메뉴, 가상자산 거래 서비스와 회사 사업자번호 확인.",
+   "published_at": null
+  },
+  {
+   "source_id": "company_bithumb",
+   "source_url": "https://feed.bithumb.com/notice?category=8",
+   "source_title": "빗썸 공지사항",
+   "source_authority": "COMPANY",
+   "retrieved_at": "2026-09-06",
+   "confidence": "verified",
+   "receipt_number": null,
+   "vasp_ids": [
+    "bithumb"
+   ],
+   "used_in": [
+    "vasps"
+   ],
+   "notes": "2026년 원화마켓 추가 공지 및 회사 사업자번호 확인.",
+   "published_at": null
+  },
+  {
+   "source_id": "company_gopax",
+   "source_url": "https://www.gopax.co.kr/",
+   "source_title": "고팍스 공식 홈페이지",
+   "source_authority": "COMPANY",
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "receipt_number": null,
+   "vasp_ids": [
+    "gopax"
+   ],
+   "used_in": [
+    "vasps"
+   ],
+   "notes": "공식 홈페이지 접속/제목 확인. 동적 본문을 읽지 못해 원화마켓은 미확인 유지.",
+   "published_at": null
+  },
+  {
+   "source_id": "fiu_notice_index",
+   "source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "source_title": "FIU 공지사항 목록",
+   "source_authority": "FIU",
+   "retrieved_at": "2026-09-06",
+   "confidence": "unverified",
+   "receipt_number": null,
+   "used_in": [
+    "vasps"
+   ],
+   "notes": "목록 페이지 접근했으나 최신 게시글과 상세 URL 미확정.",
+   "published_at": null
+  },
+  {
+   "source_id": "fiu_list_2024-07-30_daxa",
+   "source_url": "https://kdaxa.org/community/notice.php?boardid=notice&idx=25&mode=view",
+   "source_title": "[금융정보분석원] 가상자산사업자 신고 현황(2024.7.30. 기준) — 첨부 xlsx (DAXA 게시)",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": "2024-08-01",
+   "retrieved_at": "2026-09-06",
+   "vasp_ids": [
+    "probit",
+    "huobi_korea",
+    "qbit",
+    "delio",
+    "coinbit",
+    "oasis"
+   ],
+   "used_in": [
+    "vasps"
+   ],
+   "local_copy": "seed/raw/가상자산사업자 신고에 관한 정보공개현황(2024.7.30. 기준).xlsx",
+   "notes": "미갱신 사업자의 사업자등록번호·당시 대표·소재지 확인용. 현재 신고 상태의 근거로는 쓰지 않음(2026-08-31 명단이 우선)."
+  }
+ ]
+}

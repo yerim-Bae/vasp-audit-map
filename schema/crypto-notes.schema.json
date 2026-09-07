@@ -1,0 +1,198 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/crypto-notes.json — 가상자산 관련 회계정책·주석",
+ "type": "object",
+ "required": [
+  "_meta",
+  "records"
+ ],
+ "properties": {
+  "_meta": {
+   "type": "object",
+   "required": [
+    "generated_at",
+    "basis_date",
+    "record_count"
+   ],
+   "properties": {
+    "generated_at": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "basis_date": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "record_count": {
+     "type": "integer"
+    },
+    "description": {
+     "type": "string"
+    },
+    "status": {
+     "type": "string"
+    }
+   }
+  },
+  "records": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "vasp_id",
+     "topic",
+     "fiscal_year",
+     "statement_scope",
+     "summary",
+     "confidence",
+     "source_url",
+     "source_authority",
+     "retrieved_at",
+     "confidence"
+    ],
+    "properties": {
+     "vasp_id": {
+      "type": "string"
+     },
+     "topic": {
+      "type": "string",
+      "enum": [
+       "company_owned_crypto",
+       "customer_entrusted_crypto",
+       "customer_deposits",
+       "obligation_to_return_to_customers",
+       "crypto_valuation_policy",
+       "impairment_or_fair_value",
+       "fee_revenue_recognition_timing",
+       "gross_vs_net_revenue",
+       "hot_cold_wallet",
+       "private_key_management",
+       "related_party_transactions",
+       "litigation_and_contingencies",
+       "going_concern_uncertainty",
+       "hacking_it_failure_asset_loss"
+      ]
+     },
+     "topic_ko": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "fiscal_year": {
+      "type": "integer"
+     },
+     "statement_scope": {
+      "type": "string",
+      "enum": [
+       "consolidated",
+       "separate",
+       "standalone"
+      ]
+     },
+     "summary": {
+      "type": "string"
+     },
+     "exact_accounting_policy": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "note_number": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "page_number": {
+      "type": [
+       "integer",
+       "string",
+       "null"
+      ]
+     },
+     "evidence_excerpt": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "maxLength": 300
+     },
+     "receipt_number": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "DART 접수번호 14자리. DART 출처가 아니면 null"
+     },
+     "confidence": {
+      "type": "string",
+      "enum": [
+       "verified",
+       "inferred",
+       "unverified"
+      ]
+     },
+     "compare_label": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "maxLength": 40,
+      "description": "비교표용 짧은 배지 문구(요약). 없으면 summary 앞부분 사용"
+     },
+     "compare_highlight": {
+      "type": [
+       "boolean",
+       "null"
+      ],
+      "description": "다른 회사와 뚜렷이 다른 항목이면 true (분석자 판단)"
+     },
+     "source_url": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_title": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_authority": {
+      "type": "string",
+      "enum": [
+       "FIU",
+       "DART",
+       "COMPANY",
+       "OTHER"
+      ]
+     },
+     "published_at": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "YYYY-MM-DD"
+     },
+     "retrieved_at": {
+      "type": "string",
+      "description": "YYYY-MM-DD, 확인일"
+     },
+     "notes": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,1410 @@
+{
+ "_meta": {
+  "generated_at": "2026-09-06T01:31:01.630788+00:00",
+  "basis_date": "2026-09-06",
+  "record_count": 51,
+  "status": "SOURCE_BASED_AND_ANALYTICAL_SEPARATED"
+ },
+ "records": [
+  {
+   "vasp_id": "upbit",
+   "fiscal_year": 2025,
+   "receipt_number": "20260330001631",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+   "source_title": "두나무 사업보고서 (2025.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json upbit/2025/fee_revenue_recognition_timing; crypto-notes.json upbit/2025/gross_vs_net_revenue; docs/RISK_CATALOG.md fee_revenue_completeness + vasps.json upbit.business_categories",
+   "risk_code": "fee_revenue_completeness",
+   "risk_title_ko": "거래수수료 수익 누락",
+   "relevant_business_activity": "가상자산 매매 중개",
+   "relevant_account": [
+    "거래수수료수익"
+   ],
+   "relevant_assertions": [
+    "completeness",
+    "accuracy",
+    "cutoff"
+   ],
+   "rationale": "거래 완료와 수익 인식의 연결이 있으므로 거래원장·수수료율·회계전표의 대사를 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20260330001631_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "upbit",
+   "fiscal_year": 2025,
+   "receipt_number": "20260330001631",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+   "source_title": "두나무 사업보고서 (2025.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json upbit/2025/crypto_valuation_policy; crypto-notes.json upbit/2025/impairment_or_fair_value; crypto-notes.json upbit/2025/company_owned_crypto; docs/RISK_CATALOG.md crypto_asset_valuation + vasps.json upbit.business_categories",
+   "risk_code": "crypto_asset_valuation",
+   "risk_title_ko": "가상자산 평가 측정",
+   "relevant_business_activity": "가상자산 보유",
+   "relevant_account": [
+    "회사 보유 가상자산"
+   ],
+   "relevant_assertions": [
+    "valuation_and_allocation"
+   ],
+   "rationale": "보유자산의 측정정책을 근거로 가격 출처, 활성시장 및 측정 시점의 일관성을 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20260330001631_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "upbit",
+   "fiscal_year": 2025,
+   "receipt_number": "20260330001631",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+   "source_title": "두나무 사업보고서 (2025.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "consolidated",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json upbit/2025/fee_revenue_recognition_timing; crypto-notes.json upbit/2025/gross_vs_net_revenue; docs/RISK_CATALOG.md fee_revenue_completeness + vasps.json upbit.business_categories",
+   "risk_code": "fee_revenue_completeness",
+   "risk_title_ko": "거래수수료 수익 누락",
+   "relevant_business_activity": "가상자산 매매 중개",
+   "relevant_account": [
+    "거래수수료수익"
+   ],
+   "relevant_assertions": [
+    "completeness",
+    "accuracy",
+    "cutoff"
+   ],
+   "rationale": "거래 완료와 수익 인식의 연결이 있으므로 거래원장·수수료율·회계전표의 대사를 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20260330001631_00761.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "upbit",
+   "fiscal_year": 2025,
+   "receipt_number": "20260330001631",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+   "source_title": "두나무 사업보고서 (2025.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "consolidated",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json upbit/2025/crypto_valuation_policy; crypto-notes.json upbit/2025/impairment_or_fair_value; crypto-notes.json upbit/2025/company_owned_crypto; docs/RISK_CATALOG.md crypto_asset_valuation + vasps.json upbit.business_categories",
+   "risk_code": "crypto_asset_valuation",
+   "risk_title_ko": "가상자산 평가 측정",
+   "relevant_business_activity": "가상자산 보유",
+   "relevant_account": [
+    "회사 보유 가상자산"
+   ],
+   "relevant_assertions": [
+    "valuation_and_allocation"
+   ],
+   "rationale": "보유자산의 측정정책을 근거로 가격 출처, 활성시장 및 측정 시점의 일관성을 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20260330001631_00761.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "upbit",
+   "fiscal_year": 2024,
+   "receipt_number": "20250327001208",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+   "source_title": "두나무 사업보고서 (2024.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json upbit/2024/fee_revenue_recognition_timing; docs/RISK_CATALOG.md fee_revenue_completeness + vasps.json upbit.business_categories",
+   "risk_code": "fee_revenue_completeness",
+   "risk_title_ko": "거래수수료 수익 누락",
+   "relevant_business_activity": "가상자산 매매 중개",
+   "relevant_account": [
+    "거래수수료수익"
+   ],
+   "relevant_assertions": [
+    "completeness",
+    "accuracy",
+    "cutoff"
+   ],
+   "rationale": "거래 완료와 수익 인식의 연결이 있으므로 거래원장·수수료율·회계전표의 대사를 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20250327001208_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "upbit",
+   "fiscal_year": 2024,
+   "receipt_number": "20250327001208",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+   "source_title": "두나무 사업보고서 (2024.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json upbit/2024/crypto_valuation_policy; crypto-notes.json upbit/2024/impairment_or_fair_value; crypto-notes.json upbit/2024/company_owned_crypto; docs/RISK_CATALOG.md crypto_asset_valuation + vasps.json upbit.business_categories",
+   "risk_code": "crypto_asset_valuation",
+   "risk_title_ko": "가상자산 평가 측정",
+   "relevant_business_activity": "가상자산 보유",
+   "relevant_account": [
+    "회사 보유 가상자산"
+   ],
+   "relevant_assertions": [
+    "valuation_and_allocation"
+   ],
+   "rationale": "보유자산의 측정정책을 근거로 가격 출처, 활성시장 및 측정 시점의 일관성을 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20250327001208_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "upbit",
+   "fiscal_year": 2024,
+   "receipt_number": "20250327001208",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+   "source_title": "두나무 사업보고서 (2024.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "consolidated",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json upbit/2024/fee_revenue_recognition_timing; docs/RISK_CATALOG.md fee_revenue_completeness + vasps.json upbit.business_categories",
+   "risk_code": "fee_revenue_completeness",
+   "risk_title_ko": "거래수수료 수익 누락",
+   "relevant_business_activity": "가상자산 매매 중개",
+   "relevant_account": [
+    "거래수수료수익"
+   ],
+   "relevant_assertions": [
+    "completeness",
+    "accuracy",
+    "cutoff"
+   ],
+   "rationale": "거래 완료와 수익 인식의 연결이 있으므로 거래원장·수수료율·회계전표의 대사를 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20250327001208_00761.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "upbit",
+   "fiscal_year": 2024,
+   "receipt_number": "20250327001208",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+   "source_title": "두나무 사업보고서 (2024.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "consolidated",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json upbit/2024/crypto_valuation_policy; crypto-notes.json upbit/2024/impairment_or_fair_value; crypto-notes.json upbit/2024/company_owned_crypto; docs/RISK_CATALOG.md crypto_asset_valuation + vasps.json upbit.business_categories",
+   "risk_code": "crypto_asset_valuation",
+   "risk_title_ko": "가상자산 평가 측정",
+   "relevant_business_activity": "가상자산 보유",
+   "relevant_account": [
+    "회사 보유 가상자산"
+   ],
+   "relevant_assertions": [
+    "valuation_and_allocation"
+   ],
+   "rationale": "보유자산의 측정정책을 근거로 가격 출처, 활성시장 및 측정 시점의 일관성을 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20250327001208_00761.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "upbit",
+   "fiscal_year": 2023,
+   "receipt_number": "20240328001689",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+   "source_title": "두나무 사업보고서 (2023.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "consolidated",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json upbit/2023/fee_revenue_recognition_timing; docs/RISK_CATALOG.md fee_revenue_completeness + vasps.json upbit.business_categories",
+   "risk_code": "fee_revenue_completeness",
+   "risk_title_ko": "거래수수료 수익 누락",
+   "relevant_business_activity": "가상자산 매매 중개",
+   "relevant_account": [
+    "거래수수료수익"
+   ],
+   "relevant_assertions": [
+    "completeness",
+    "accuracy",
+    "cutoff"
+   ],
+   "rationale": "거래 완료와 수익 인식의 연결이 있으므로 거래원장·수수료율·회계전표의 대사를 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20240328001689_00761.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "upbit",
+   "fiscal_year": 2023,
+   "receipt_number": "20240328001689",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+   "source_title": "두나무 사업보고서 (2023.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "consolidated",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json upbit/2023/customer_entrusted_crypto; crypto-notes.json upbit/2023/hot_cold_wallet; crypto-notes.json upbit/2023/private_key_management; docs/RISK_CATALOG.md customer_asset_existence + vasps.json upbit.business_categories",
+   "risk_code": "customer_asset_existence",
+   "risk_title_ko": "고객 위탁자산의 실재성·권리 확인",
+   "relevant_business_activity": "고객 가상자산 보관",
+   "relevant_account": [
+    "고객위탁 가상자산(주석)"
+   ],
+   "relevant_assertions": [
+    "existence",
+    "rights_and_obligations",
+    "presentation_and_disclosure"
+   ],
+   "rationale": "위탁자산의 비인식 정책과 별개로 지갑 잔액, 고객별 원장, 통제·권리 및 주석 공시를 확인할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20240328001689_00761.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "upbit",
+   "fiscal_year": 2023,
+   "receipt_number": "20240328001689",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+   "source_title": "두나무 사업보고서 (2023.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "consolidated",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json upbit/2023/crypto_valuation_policy; crypto-notes.json upbit/2023/impairment_or_fair_value; crypto-notes.json upbit/2023/company_owned_crypto; docs/RISK_CATALOG.md crypto_asset_valuation + vasps.json upbit.business_categories",
+   "risk_code": "crypto_asset_valuation",
+   "risk_title_ko": "가상자산 평가 측정",
+   "relevant_business_activity": "가상자산 보유",
+   "relevant_account": [
+    "회사 보유 가상자산"
+   ],
+   "relevant_assertions": [
+    "valuation_and_allocation"
+   ],
+   "rationale": "보유자산의 측정정책을 근거로 가격 출처, 활성시장 및 측정 시점의 일관성을 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20240328001689_00761.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "upbit",
+   "fiscal_year": 2023,
+   "receipt_number": "20240328001689",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+   "source_title": "두나무 사업보고서 (2023.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json upbit/2023/fee_revenue_recognition_timing; docs/RISK_CATALOG.md fee_revenue_completeness + vasps.json upbit.business_categories",
+   "risk_code": "fee_revenue_completeness",
+   "risk_title_ko": "거래수수료 수익 누락",
+   "relevant_business_activity": "가상자산 매매 중개",
+   "relevant_account": [
+    "거래수수료수익"
+   ],
+   "relevant_assertions": [
+    "completeness",
+    "accuracy",
+    "cutoff"
+   ],
+   "rationale": "거래 완료와 수익 인식의 연결이 있으므로 거래원장·수수료율·회계전표의 대사를 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20240328001689_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "upbit",
+   "fiscal_year": 2023,
+   "receipt_number": "20240328001689",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+   "source_title": "두나무 사업보고서 (2023.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json upbit/2023/customer_entrusted_crypto; crypto-notes.json upbit/2023/hot_cold_wallet; crypto-notes.json upbit/2023/private_key_management; docs/RISK_CATALOG.md customer_asset_existence + vasps.json upbit.business_categories",
+   "risk_code": "customer_asset_existence",
+   "risk_title_ko": "고객 위탁자산의 실재성·권리 확인",
+   "relevant_business_activity": "고객 가상자산 보관",
+   "relevant_account": [
+    "고객위탁 가상자산(주석)"
+   ],
+   "relevant_assertions": [
+    "existence",
+    "rights_and_obligations",
+    "presentation_and_disclosure"
+   ],
+   "rationale": "위탁자산의 비인식 정책과 별개로 지갑 잔액, 고객별 원장, 통제·권리 및 주석 공시를 확인할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20240328001689_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "upbit",
+   "fiscal_year": 2023,
+   "receipt_number": "20240328001689",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+   "source_title": "두나무 사업보고서 (2023.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json upbit/2023/crypto_valuation_policy; crypto-notes.json upbit/2023/impairment_or_fair_value; crypto-notes.json upbit/2023/company_owned_crypto; docs/RISK_CATALOG.md crypto_asset_valuation + vasps.json upbit.business_categories",
+   "risk_code": "crypto_asset_valuation",
+   "risk_title_ko": "가상자산 평가 측정",
+   "relevant_business_activity": "가상자산 보유",
+   "relevant_account": [
+    "회사 보유 가상자산"
+   ],
+   "relevant_assertions": [
+    "valuation_and_allocation"
+   ],
+   "rationale": "보유자산의 측정정책을 근거로 가격 출처, 활성시장 및 측정 시점의 일관성을 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20240328001689_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "coinone",
+   "fiscal_year": 2025,
+   "receipt_number": "20260429000738",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260429000738",
+   "source_title": "코인원 [기재정정]감사보고서 (2025.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json coinone/2025/fee_revenue_recognition_timing; docs/RISK_CATALOG.md fee_revenue_completeness + vasps.json coinone.business_categories",
+   "risk_code": "fee_revenue_completeness",
+   "risk_title_ko": "거래수수료 수익 누락",
+   "relevant_business_activity": "가상자산 매매 중개",
+   "relevant_account": [
+    "거래수수료수익"
+   ],
+   "relevant_assertions": [
+    "completeness",
+    "accuracy",
+    "cutoff"
+   ],
+   "rationale": "거래 완료와 수익 인식의 연결이 있으므로 거래원장·수수료율·회계전표의 대사를 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20260429000738_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "coinone",
+   "fiscal_year": 2025,
+   "receipt_number": "20260429000738",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260429000738",
+   "source_title": "코인원 [기재정정]감사보고서 (2025.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json coinone/2025/customer_entrusted_crypto; crypto-notes.json coinone/2025/hot_cold_wallet; crypto-notes.json coinone/2025/private_key_management; docs/RISK_CATALOG.md customer_asset_existence + vasps.json coinone.business_categories",
+   "risk_code": "customer_asset_existence",
+   "risk_title_ko": "고객 위탁자산의 실재성·권리 확인",
+   "relevant_business_activity": "고객 가상자산 보관",
+   "relevant_account": [
+    "고객위탁 가상자산(주석)"
+   ],
+   "relevant_assertions": [
+    "existence",
+    "rights_and_obligations",
+    "presentation_and_disclosure"
+   ],
+   "rationale": "위탁자산의 비인식 정책과 별개로 지갑 잔액, 고객별 원장, 통제·권리 및 주석 공시를 확인할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20260429000738_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "coinone",
+   "fiscal_year": 2025,
+   "receipt_number": "20260429000738",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260429000738",
+   "source_title": "코인원 [기재정정]감사보고서 (2025.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json coinone/2025/crypto_valuation_policy; crypto-notes.json coinone/2025/impairment_or_fair_value; crypto-notes.json coinone/2025/company_owned_crypto; docs/RISK_CATALOG.md crypto_asset_valuation + vasps.json coinone.business_categories",
+   "risk_code": "crypto_asset_valuation",
+   "risk_title_ko": "가상자산 평가 측정",
+   "relevant_business_activity": "가상자산 보유",
+   "relevant_account": [
+    "회사 보유 가상자산"
+   ],
+   "relevant_assertions": [
+    "valuation_and_allocation"
+   ],
+   "rationale": "보유자산의 측정정책을 근거로 가격 출처, 활성시장 및 측정 시점의 일관성을 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20260429000738_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "company_specific",
+   "scope_reason": "자사 거래소 가격을 활성시장 가격으로 사용해 공정가치 평가(강조사항)"
+  },
+  {
+   "vasp_id": "coinone",
+   "fiscal_year": 2024,
+   "receipt_number": "20250409001569",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250409001569",
+   "source_title": "코인원 감사보고서 (2024.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json coinone/2024/fee_revenue_recognition_timing; docs/RISK_CATALOG.md fee_revenue_completeness + vasps.json coinone.business_categories",
+   "risk_code": "fee_revenue_completeness",
+   "risk_title_ko": "거래수수료 수익 누락",
+   "relevant_business_activity": "가상자산 매매 중개",
+   "relevant_account": [
+    "거래수수료수익"
+   ],
+   "relevant_assertions": [
+    "completeness",
+    "accuracy",
+    "cutoff"
+   ],
+   "rationale": "거래 완료와 수익 인식의 연결이 있으므로 거래원장·수수료율·회계전표의 대사를 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20250409001569_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "coinone",
+   "fiscal_year": 2024,
+   "receipt_number": "20250409001569",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250409001569",
+   "source_title": "코인원 감사보고서 (2024.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json coinone/2024/customer_entrusted_crypto; crypto-notes.json coinone/2024/hot_cold_wallet; crypto-notes.json coinone/2024/private_key_management; docs/RISK_CATALOG.md customer_asset_existence + vasps.json coinone.business_categories",
+   "risk_code": "customer_asset_existence",
+   "risk_title_ko": "고객 위탁자산의 실재성·권리 확인",
+   "relevant_business_activity": "고객 가상자산 보관",
+   "relevant_account": [
+    "고객위탁 가상자산(주석)"
+   ],
+   "relevant_assertions": [
+    "existence",
+    "rights_and_obligations",
+    "presentation_and_disclosure"
+   ],
+   "rationale": "위탁자산의 비인식 정책과 별개로 지갑 잔액, 고객별 원장, 통제·권리 및 주석 공시를 확인할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20250409001569_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "coinone",
+   "fiscal_year": 2024,
+   "receipt_number": "20250409001569",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250409001569",
+   "source_title": "코인원 감사보고서 (2024.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json coinone/2024/crypto_valuation_policy; crypto-notes.json coinone/2024/impairment_or_fair_value; crypto-notes.json coinone/2024/company_owned_crypto; docs/RISK_CATALOG.md crypto_asset_valuation + vasps.json coinone.business_categories",
+   "risk_code": "crypto_asset_valuation",
+   "risk_title_ko": "가상자산 평가 측정",
+   "relevant_business_activity": "가상자산 보유",
+   "relevant_account": [
+    "회사 보유 가상자산"
+   ],
+   "relevant_assertions": [
+    "valuation_and_allocation"
+   ],
+   "rationale": "보유자산의 측정정책을 근거로 가격 출처, 활성시장 및 측정 시점의 일관성을 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20250409001569_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "company_specific",
+   "scope_reason": "자사 거래소 가격을 활성시장 가격으로 사용해 공정가치 평가(강조사항)"
+  },
+  {
+   "vasp_id": "coinone",
+   "fiscal_year": 2023,
+   "receipt_number": "20240405002672",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240405002672",
+   "source_title": "코인원 감사보고서 (2023.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json coinone/2023/fee_revenue_recognition_timing; docs/RISK_CATALOG.md fee_revenue_completeness + vasps.json coinone.business_categories",
+   "risk_code": "fee_revenue_completeness",
+   "risk_title_ko": "거래수수료 수익 누락",
+   "relevant_business_activity": "가상자산 매매 중개",
+   "relevant_account": [
+    "거래수수료수익"
+   ],
+   "relevant_assertions": [
+    "completeness",
+    "accuracy",
+    "cutoff"
+   ],
+   "rationale": "거래 완료와 수익 인식의 연결이 있으므로 거래원장·수수료율·회계전표의 대사를 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20240405002672_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "coinone",
+   "fiscal_year": 2023,
+   "receipt_number": "20240405002672",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240405002672",
+   "source_title": "코인원 감사보고서 (2023.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json coinone/2023/customer_entrusted_crypto; docs/RISK_CATALOG.md customer_asset_existence + vasps.json coinone.business_categories",
+   "risk_code": "customer_asset_existence",
+   "risk_title_ko": "고객 위탁자산의 실재성·권리 확인",
+   "relevant_business_activity": "고객 가상자산 보관",
+   "relevant_account": [
+    "고객위탁 가상자산(주석)"
+   ],
+   "relevant_assertions": [
+    "existence",
+    "rights_and_obligations",
+    "presentation_and_disclosure"
+   ],
+   "rationale": "위탁자산의 비인식 정책과 별개로 지갑 잔액, 고객별 원장, 통제·권리 및 주석 공시를 확인할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20240405002672_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "coinone",
+   "fiscal_year": 2023,
+   "receipt_number": "20240405002672",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240405002672",
+   "source_title": "코인원 감사보고서 (2023.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json coinone/2023/crypto_valuation_policy; crypto-notes.json coinone/2023/impairment_or_fair_value; crypto-notes.json coinone/2023/company_owned_crypto; docs/RISK_CATALOG.md crypto_asset_valuation + vasps.json coinone.business_categories",
+   "risk_code": "crypto_asset_valuation",
+   "risk_title_ko": "가상자산 평가 측정",
+   "relevant_business_activity": "가상자산 보유",
+   "relevant_account": [
+    "회사 보유 가상자산"
+   ],
+   "relevant_assertions": [
+    "valuation_and_allocation"
+   ],
+   "rationale": "보유자산의 측정정책을 근거로 가격 출처, 활성시장 및 측정 시점의 일관성을 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20240405002672_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "company_specific",
+   "scope_reason": "자사 거래소 가격을 활성시장 가격으로 사용해 공정가치 평가(강조사항)"
+  },
+  {
+   "vasp_id": "bithumb",
+   "fiscal_year": 2025,
+   "receipt_number": "20260331004333",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260331004333",
+   "source_title": "빗썸 사업보고서 (2025.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json bithumb/2025/fee_revenue_recognition_timing; docs/RISK_CATALOG.md fee_revenue_completeness + vasps.json bithumb.business_categories",
+   "risk_code": "fee_revenue_completeness",
+   "risk_title_ko": "거래수수료 수익 누락",
+   "relevant_business_activity": "가상자산 매매 중개",
+   "relevant_account": [
+    "거래수수료수익"
+   ],
+   "relevant_assertions": [
+    "completeness",
+    "accuracy",
+    "cutoff"
+   ],
+   "rationale": "거래 완료와 수익 인식의 연결이 있으므로 거래원장·수수료율·회계전표의 대사를 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20260331004333_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "bithumb",
+   "fiscal_year": 2025,
+   "receipt_number": "20260331004333",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260331004333",
+   "source_title": "빗썸 사업보고서 (2025.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json bithumb/2025/crypto_valuation_policy; crypto-notes.json bithumb/2025/impairment_or_fair_value; crypto-notes.json bithumb/2025/company_owned_crypto; docs/RISK_CATALOG.md crypto_asset_valuation + vasps.json bithumb.business_categories",
+   "risk_code": "crypto_asset_valuation",
+   "risk_title_ko": "가상자산 평가 측정",
+   "relevant_business_activity": "가상자산 보유",
+   "relevant_account": [
+    "회사 보유 가상자산"
+   ],
+   "relevant_assertions": [
+    "valuation_and_allocation"
+   ],
+   "rationale": "보유자산의 측정정책을 근거로 가격 출처, 활성시장 및 측정 시점의 일관성을 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20260331004333_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "bithumb",
+   "fiscal_year": 2024,
+   "receipt_number": "20250331003880",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250331003880",
+   "source_title": "빗썸 사업보고서 (2024.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json bithumb/2024/fee_revenue_recognition_timing; docs/RISK_CATALOG.md fee_revenue_completeness + vasps.json bithumb.business_categories",
+   "risk_code": "fee_revenue_completeness",
+   "risk_title_ko": "거래수수료 수익 누락",
+   "relevant_business_activity": "가상자산 매매 중개",
+   "relevant_account": [
+    "거래수수료수익"
+   ],
+   "relevant_assertions": [
+    "completeness",
+    "accuracy",
+    "cutoff"
+   ],
+   "rationale": "거래 완료와 수익 인식의 연결이 있으므로 거래원장·수수료율·회계전표의 대사를 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20250331003880_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "bithumb",
+   "fiscal_year": 2024,
+   "receipt_number": "20250331003880",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250331003880",
+   "source_title": "빗썸 사업보고서 (2024.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json bithumb/2024/crypto_valuation_policy; crypto-notes.json bithumb/2024/impairment_or_fair_value; crypto-notes.json bithumb/2024/company_owned_crypto; docs/RISK_CATALOG.md crypto_asset_valuation + vasps.json bithumb.business_categories",
+   "risk_code": "crypto_asset_valuation",
+   "risk_title_ko": "가상자산 평가 측정",
+   "relevant_business_activity": "가상자산 보유",
+   "relevant_account": [
+    "회사 보유 가상자산"
+   ],
+   "relevant_assertions": [
+    "valuation_and_allocation"
+   ],
+   "rationale": "보유자산의 측정정책을 근거로 가격 출처, 활성시장 및 측정 시점의 일관성을 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20250331003880_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "bithumb",
+   "fiscal_year": 2023,
+   "receipt_number": "20240401004312",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240401004312",
+   "source_title": "빗썸 사업보고서 (2023.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json bithumb/2023/fee_revenue_recognition_timing; docs/RISK_CATALOG.md fee_revenue_completeness + vasps.json bithumb.business_categories",
+   "risk_code": "fee_revenue_completeness",
+   "risk_title_ko": "거래수수료 수익 누락",
+   "relevant_business_activity": "가상자산 매매 중개",
+   "relevant_account": [
+    "거래수수료수익"
+   ],
+   "relevant_assertions": [
+    "completeness",
+    "accuracy",
+    "cutoff"
+   ],
+   "rationale": "거래 완료와 수익 인식의 연결이 있으므로 거래원장·수수료율·회계전표의 대사를 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20240401004312_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "bithumb",
+   "fiscal_year": 2023,
+   "receipt_number": "20240401004312",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240401004312",
+   "source_title": "빗썸 사업보고서 (2023.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json bithumb/2023/crypto_valuation_policy; crypto-notes.json bithumb/2023/impairment_or_fair_value; crypto-notes.json bithumb/2023/company_owned_crypto; docs/RISK_CATALOG.md crypto_asset_valuation + vasps.json bithumb.business_categories",
+   "risk_code": "crypto_asset_valuation",
+   "risk_title_ko": "가상자산 평가 측정",
+   "relevant_business_activity": "가상자산 보유",
+   "relevant_account": [
+    "회사 보유 가상자산"
+   ],
+   "relevant_assertions": [
+    "valuation_and_allocation"
+   ],
+   "rationale": "보유자산의 측정정책을 근거로 가격 출처, 활성시장 및 측정 시점의 일관성을 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20240401004312_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "korbit",
+   "fiscal_year": 2025,
+   "receipt_number": "20260414001243",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001243",
+   "source_title": "디지털엑스 감사보고서 (2025.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json korbit/2025/customer_entrusted_crypto; docs/RISK_CATALOG.md customer_asset_existence + vasps.json korbit.business_categories",
+   "risk_code": "customer_asset_existence",
+   "risk_title_ko": "고객 위탁자산의 실재성·권리 확인",
+   "relevant_business_activity": "고객 가상자산 보관",
+   "relevant_account": [
+    "고객위탁 가상자산(주석)"
+   ],
+   "relevant_assertions": [
+    "existence",
+    "rights_and_obligations",
+    "presentation_and_disclosure"
+   ],
+   "rationale": "위탁자산의 비인식 정책과 별개로 지갑 잔액, 고객별 원장, 통제·권리 및 주석 공시를 확인할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20260414001243_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "company_specific",
+   "scope_reason": "혼합 보관 공시 → 고객 자산의 식별·실재성 확인이 회사 고유 쟁점"
+  },
+  {
+   "vasp_id": "korbit",
+   "fiscal_year": 2024,
+   "receipt_number": "20250403003055",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250403003055",
+   "source_title": "디지털엑스 감사보고서 (2024.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json korbit/2024/customer_entrusted_crypto; docs/RISK_CATALOG.md customer_asset_existence + vasps.json korbit.business_categories",
+   "risk_code": "customer_asset_existence",
+   "risk_title_ko": "고객 위탁자산의 실재성·권리 확인",
+   "relevant_business_activity": "고객 가상자산 보관",
+   "relevant_account": [
+    "고객위탁 가상자산(주석)"
+   ],
+   "relevant_assertions": [
+    "existence",
+    "rights_and_obligations",
+    "presentation_and_disclosure"
+   ],
+   "rationale": "위탁자산의 비인식 정책과 별개로 지갑 잔액, 고객별 원장, 통제·권리 및 주석 공시를 확인할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20250403003055_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "company_specific",
+   "scope_reason": "혼합 보관 공시 → 고객 자산의 식별·실재성 확인이 회사 고유 쟁점"
+  },
+  {
+   "vasp_id": "korbit",
+   "fiscal_year": 2023,
+   "receipt_number": "20240409002249",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240409002249",
+   "source_title": "디지털엑스 감사보고서 (2023.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json korbit/2023/customer_entrusted_crypto; docs/RISK_CATALOG.md customer_asset_existence + vasps.json korbit.business_categories",
+   "risk_code": "customer_asset_existence",
+   "risk_title_ko": "고객 위탁자산의 실재성·권리 확인",
+   "relevant_business_activity": "고객 가상자산 보관",
+   "relevant_account": [
+    "고객위탁 가상자산(주석)"
+   ],
+   "relevant_assertions": [
+    "existence",
+    "rights_and_obligations",
+    "presentation_and_disclosure"
+   ],
+   "rationale": "위탁자산의 비인식 정책과 별개로 지갑 잔액, 고객별 원장, 통제·권리 및 주석 공시를 확인할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20240409002249_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "company_specific",
+   "scope_reason": "혼합 보관 공시 → 고객 자산의 식별·실재성 확인이 회사 고유 쟁점"
+  },
+  {
+   "vasp_id": "gopax",
+   "fiscal_year": 2025,
+   "receipt_number": "20260414001751",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001751",
+   "source_title": "스트리미 감사보고서 (2025.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json gopax/2025/fee_revenue_recognition_timing; docs/RISK_CATALOG.md fee_revenue_completeness + vasps.json gopax.business_categories",
+   "risk_code": "fee_revenue_completeness",
+   "risk_title_ko": "거래수수료 수익 누락",
+   "relevant_business_activity": "가상자산 매매 중개",
+   "relevant_account": [
+    "거래수수료수익"
+   ],
+   "relevant_assertions": [
+    "completeness",
+    "accuracy",
+    "cutoff"
+   ],
+   "rationale": "거래 완료와 수익 인식의 연결이 있으므로 거래원장·수수료율·회계전표의 대사를 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20260414001751_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "gopax",
+   "fiscal_year": 2025,
+   "receipt_number": "20260414001751",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001751",
+   "source_title": "스트리미 감사보고서 (2025.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json gopax/2025/crypto_valuation_policy; crypto-notes.json gopax/2025/impairment_or_fair_value; crypto-notes.json gopax/2025/company_owned_crypto; docs/RISK_CATALOG.md crypto_asset_valuation + vasps.json gopax.business_categories",
+   "risk_code": "crypto_asset_valuation",
+   "risk_title_ko": "가상자산 평가 측정",
+   "relevant_business_activity": "가상자산 보유",
+   "relevant_account": [
+    "회사 보유 가상자산"
+   ],
+   "relevant_assertions": [
+    "valuation_and_allocation"
+   ],
+   "rationale": "보유자산의 측정정책을 근거로 가격 출처, 활성시장 및 측정 시점의 일관성을 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20260414001751_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "gopax",
+   "fiscal_year": 2024,
+   "receipt_number": "20250414001854",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250414001854",
+   "source_title": "스트리미 감사보고서 (2024.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json gopax/2024/fee_revenue_recognition_timing; docs/RISK_CATALOG.md fee_revenue_completeness + vasps.json gopax.business_categories",
+   "risk_code": "fee_revenue_completeness",
+   "risk_title_ko": "거래수수료 수익 누락",
+   "relevant_business_activity": "가상자산 매매 중개",
+   "relevant_account": [
+    "거래수수료수익"
+   ],
+   "relevant_assertions": [
+    "completeness",
+    "accuracy",
+    "cutoff"
+   ],
+   "rationale": "거래 완료와 수익 인식의 연결이 있으므로 거래원장·수수료율·회계전표의 대사를 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20250414001854_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "gopax",
+   "fiscal_year": 2024,
+   "receipt_number": "20250414001854",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250414001854",
+   "source_title": "스트리미 감사보고서 (2024.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json gopax/2024/crypto_valuation_policy; crypto-notes.json gopax/2024/impairment_or_fair_value; crypto-notes.json gopax/2024/company_owned_crypto; docs/RISK_CATALOG.md crypto_asset_valuation + vasps.json gopax.business_categories",
+   "risk_code": "crypto_asset_valuation",
+   "risk_title_ko": "가상자산 평가 측정",
+   "relevant_business_activity": "가상자산 보유",
+   "relevant_account": [
+    "회사 보유 가상자산"
+   ],
+   "relevant_assertions": [
+    "valuation_and_allocation"
+   ],
+   "rationale": "보유자산의 측정정책을 근거로 가격 출처, 활성시장 및 측정 시점의 일관성을 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20250414001854_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "gopax",
+   "fiscal_year": 2023,
+   "receipt_number": "20240412001438",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412001438",
+   "source_title": "스트리미 감사보고서 (2023.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json gopax/2023/fee_revenue_recognition_timing; docs/RISK_CATALOG.md fee_revenue_completeness + vasps.json gopax.business_categories",
+   "risk_code": "fee_revenue_completeness",
+   "risk_title_ko": "거래수수료 수익 누락",
+   "relevant_business_activity": "가상자산 매매 중개",
+   "relevant_account": [
+    "거래수수료수익"
+   ],
+   "relevant_assertions": [
+    "completeness",
+    "accuracy",
+    "cutoff"
+   ],
+   "rationale": "거래 완료와 수익 인식의 연결이 있으므로 거래원장·수수료율·회계전표의 대사를 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20240412001438_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "gopax",
+   "fiscal_year": 2023,
+   "receipt_number": "20240412001438",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412001438",
+   "source_title": "스트리미 감사보고서 (2023.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json gopax/2023/customer_entrusted_crypto; docs/RISK_CATALOG.md customer_asset_existence + vasps.json gopax.business_categories",
+   "risk_code": "customer_asset_existence",
+   "risk_title_ko": "고객 위탁자산의 실재성·권리 확인",
+   "relevant_business_activity": "고객 가상자산 보관",
+   "relevant_account": [
+    "고객위탁 가상자산(주석)"
+   ],
+   "relevant_assertions": [
+    "existence",
+    "rights_and_obligations",
+    "presentation_and_disclosure"
+   ],
+   "rationale": "위탁자산의 비인식 정책과 별개로 지갑 잔액, 고객별 원장, 통제·권리 및 주석 공시를 확인할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20240412001438_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "gopax",
+   "fiscal_year": 2023,
+   "receipt_number": "20240412001438",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412001438",
+   "source_title": "스트리미 감사보고서 (2023.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json gopax/2023/crypto_valuation_policy; crypto-notes.json gopax/2023/impairment_or_fair_value; crypto-notes.json gopax/2023/company_owned_crypto; docs/RISK_CATALOG.md crypto_asset_valuation + vasps.json gopax.business_categories",
+   "risk_code": "crypto_asset_valuation",
+   "risk_title_ko": "가상자산 평가 측정",
+   "relevant_business_activity": "가상자산 보유",
+   "relevant_account": [
+    "회사 보유 가상자산"
+   ],
+   "relevant_assertions": [
+    "valuation_and_allocation"
+   ],
+   "rationale": "보유자산의 측정정책을 근거로 가격 출처, 활성시장 및 측정 시점의 일관성을 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20240412001438_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "wavebridge",
+   "fiscal_year": 2025,
+   "receipt_number": "20260424000170",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260424000170",
+   "source_title": "웨이브릿지 연결감사보고서 (2025.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "consolidated",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json wavebridge/2025/crypto_valuation_policy; crypto-notes.json wavebridge/2025/impairment_or_fair_value; crypto-notes.json wavebridge/2025/company_owned_crypto; docs/RISK_CATALOG.md crypto_asset_valuation + vasps.json wavebridge.business_categories",
+   "risk_code": "crypto_asset_valuation",
+   "risk_title_ko": "가상자산 평가 측정",
+   "relevant_business_activity": "가상자산 보유",
+   "relevant_account": [
+    "회사 보유 가상자산"
+   ],
+   "relevant_assertions": [
+    "valuation_and_allocation"
+   ],
+   "rationale": "보유자산의 측정정책을 근거로 가격 출처, 활성시장 및 측정 시점의 일관성을 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20260424000170_00761.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "wavebridge",
+   "fiscal_year": 2025,
+   "receipt_number": "20260410001287",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260410001287",
+   "source_title": "웨이브릿지 감사보고서 (2025.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_scope": "separate",
+   "confidence": "inferred",
+   "status": "analytical_inference",
+   "evidence_source": "crypto-notes.json wavebridge/2025/crypto_valuation_policy; crypto-notes.json wavebridge/2025/impairment_or_fair_value; crypto-notes.json wavebridge/2025/company_owned_crypto; docs/RISK_CATALOG.md crypto_asset_valuation + vasps.json wavebridge.business_categories",
+   "risk_code": "crypto_asset_valuation",
+   "risk_title_ko": "가상자산 평가 측정",
+   "relevant_business_activity": "가상자산 보유",
+   "relevant_account": [
+    "회사 보유 가상자산"
+   ],
+   "relevant_assertions": [
+    "valuation_and_allocation"
+   ],
+   "rationale": "보유자산의 측정정책을 근거로 가격 출처, 활성시장 및 측정 시점의 일관성을 검토할 필요가 있다.",
+   "notes": "분석자가 도출한 잠재 위험. 감사인이 실제 식별한 위험 또는 감사결과라는 의미가 아님. | 원문 파일: 20260410001287_00760.xml | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "generic_checklist",
+   "scope_reason": "VASP 일반 위험(docs/RISK_CATALOG.md). 이 회사 원문에 고유한 근거는 없음"
+  },
+  {
+   "vasp_id": "gopax",
+   "fiscal_year": 2025,
+   "receipt_number": "20260414001751",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001751",
+   "source_title": "스트리미 감사보고서 (2025.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "risk_code": "going_concern",
+   "risk_title_ko": "계속기업 관련 중요한 불확실성",
+   "statement_scope": "separate",
+   "relevant_business_activity": "사업 지속 및 고객자산 반환",
+   "relevant_account": [
+    "자산",
+    "부채",
+    "계속기업 주석"
+   ],
+   "relevant_assertions": [
+    "presentation_and_disclosure",
+    "valuation_and_allocation"
+   ],
+   "rationale": "감사인이 계속기업 관련 중요한 불확실성 단락으로 직접 주의를 환기했다.",
+   "evidence_source": "audit-reports.json gopax/2025/separate (계속기업 관련 중요한 불확실성 문단, 접수번호 20260414001751); crypto-notes.json gopax/2025/going_concern_uncertainty; docs/RISK_CATALOG.md going_concern + vasps.json gopax.business_categories",
+   "status": "source_based",
+   "confidence": "verified",
+   "notes": "감사의견 변형과 구분. 이 원문에서는 적정의견을 유지한다. | 원문 파일: 20260414001751_00760.xml 계속기업 단락 | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "company_specific",
+   "scope_reason": "감사보고서 계속기업 관련 중요한 불확실성 문단(source_based)"
+  },
+  {
+   "vasp_id": "gopax",
+   "fiscal_year": 2024,
+   "receipt_number": "20250414001854",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250414001854",
+   "source_title": "스트리미 감사보고서 (2024.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "risk_code": "going_concern",
+   "risk_title_ko": "계속기업 관련 중요한 불확실성",
+   "statement_scope": "separate",
+   "relevant_business_activity": "사업 지속 및 고객자산 반환",
+   "relevant_account": [
+    "자산",
+    "부채",
+    "계속기업 주석"
+   ],
+   "relevant_assertions": [
+    "presentation_and_disclosure",
+    "valuation_and_allocation"
+   ],
+   "rationale": "감사인이 계속기업 관련 중요한 불확실성 단락으로 직접 주의를 환기했다.",
+   "evidence_source": "audit-reports.json gopax/2024/separate (계속기업 관련 중요한 불확실성 문단, 접수번호 20250414001854); crypto-notes.json gopax/2024/going_concern_uncertainty; docs/RISK_CATALOG.md going_concern + vasps.json gopax.business_categories",
+   "status": "source_based",
+   "confidence": "verified",
+   "notes": "감사의견 변형과 구분. 이 원문에서는 적정의견을 유지한다. | 원문 파일: 20250414001854_00760.xml 계속기업 단락 | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "company_specific",
+   "scope_reason": "감사보고서 계속기업 관련 중요한 불확실성 문단(source_based)"
+  },
+  {
+   "vasp_id": "gopax",
+   "fiscal_year": 2023,
+   "receipt_number": "20240412001438",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412001438",
+   "source_title": "스트리미 감사보고서 (2023.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "risk_code": "going_concern",
+   "risk_title_ko": "계속기업 관련 중요한 불확실성",
+   "statement_scope": "separate",
+   "relevant_business_activity": "사업 지속 및 고객자산 반환",
+   "relevant_account": [
+    "자산",
+    "부채",
+    "계속기업 주석"
+   ],
+   "relevant_assertions": [
+    "presentation_and_disclosure",
+    "valuation_and_allocation"
+   ],
+   "rationale": "감사인이 계속기업 관련 중요한 불확실성 단락으로 직접 주의를 환기했다.",
+   "evidence_source": "audit-reports.json gopax/2023/separate (계속기업 관련 중요한 불확실성 문단, 접수번호 20240412001438); crypto-notes.json gopax/2023/going_concern_uncertainty; docs/RISK_CATALOG.md going_concern + vasps.json gopax.business_categories",
+   "status": "source_based",
+   "confidence": "verified",
+   "notes": "감사의견 변형과 구분. 이 원문에서는 적정의견을 유지한다. | 원문 파일: 20240412001438_00760.xml 계속기업 단락 | 2026-09-06 evidence_source 를 데이터셋 레코드 참조로 변경 (Claude) | 2026-09-07 scope 필드 추가(회사 페이지에는 company_specific 만 표시)",
+   "scope": "company_specific",
+   "scope_reason": "감사보고서 계속기업 관련 중요한 불확실성 문단(source_based)"
+  },
+  {
+   "vasp_id": "korbit",
+   "risk_code": "rights_and_obligations",
+   "risk_title_ko": "혼합 보관 자산의 권리·의무 구분",
+   "fiscal_year": 2025,
+   "relevant_business_activity": "가상자산 보관·관리",
+   "relevant_account": [
+    "고객 위탁 가상자산(주석)",
+    "가상자산"
+   ],
+   "relevant_assertions": [
+    "rights_and_obligations",
+    "existence",
+    "presentation_and_disclosure"
+   ],
+   "rationale": "회원 위탁 가상자산이 회사 소유분과 같은 전자지갑에 혼합 보관된다고 3개년 공시. 지갑 잔고를 회사분·고객분으로 어떻게 배분하는지, 이용자보호법 §7② 분리보관 요건과의 관계, 파산 시 고객 권리 보호 수준이 확인 대상.",
+   "evidence_source": "crypto-notes.json korbit/2025/obligation_to_return_to_customers; crypto-notes.json korbit/2024/obligation_to_return_to_customers; docs/RISK_CATALOG.md rights_and_obligations",
+   "status": "analytical_inference",
+   "scope": "company_specific",
+   "scope_reason": "혼합 보관 명시(타사는 분리보관) — 코빗 고유",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001243",
+   "source_title": "감사보고서 주석(근거 레코드 참조)",
+   "source_authority": "DART",
+   "receipt_number": "20260414001243",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "inferred",
+   "notes": "2026-09-07 회사 고유 근거로 추가(Claude). 위험 자체는 분석적 추론이며 근거 사실은 원문 확인."
+  },
+  {
+   "vasp_id": "korbit",
+   "risk_code": "crypto_asset_valuation",
+   "risk_title_ko": "투자가상자산(제3자 대여·운용)의 평가·회수가능성",
+   "fiscal_year": 2025,
+   "relevant_business_activity": "가상자산 대여·운용",
+   "relevant_account": [
+    "투자가상자산",
+    "가상자산평가이익(손실)"
+   ],
+   "relevant_assertions": [
+    "valuation_and_allocation",
+    "existence",
+    "rights_and_obligations"
+   ],
+   "rationale": "제3자에게 대여·운용하는 투자가상자산이 2024년 710억원, 2025년 462억원으로 자기 보유분(73억·188억원)보다 크다. 상대방 신용, 회수 조건, 원금·이자 평가 기준이 감사 쟁점.",
+   "evidence_source": "financials.json korbit/2025/separate crypto_assets_owned notes; crypto-notes.json korbit/2025/crypto_valuation_policy; docs/RISK_CATALOG.md crypto_asset_valuation",
+   "status": "analytical_inference",
+   "scope": "company_specific",
+   "scope_reason": "투자가상자산 규모가 자기보유분을 초과 — 코빗 고유 계정",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001243",
+   "source_title": "감사보고서 주석(근거 레코드 참조)",
+   "source_authority": "DART",
+   "receipt_number": "20260414001243",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "inferred",
+   "notes": "2026-09-07 회사 고유 근거로 추가(Claude). 위험 자체는 분석적 추론이며 근거 사실은 원문 확인."
+  },
+  {
+   "vasp_id": "korbit",
+   "risk_code": "related_party_transactions",
+   "risk_title_ko": "관계기업 KDAC·지배기업 NXC 거래",
+   "fiscal_year": 2025,
+   "relevant_business_activity": "지배구조·수탁",
+   "relevant_account": [
+    "특수관계자 채권·채무",
+    "매입 등"
+   ],
+   "relevant_assertions": [
+    "occurrence",
+    "completeness",
+    "presentation_and_disclosure"
+   ],
+   "rationale": "관계기업에 보관관리업자 한국디지털자산수탁(KDAC)이 있고 지배기업 NXC 와 매입 거래(654,332천원)가 있다. 두 VASP 간 수탁·서비스 거래가 있으면 특수관계자 거래 공시 완전성이 쟁점.",
+   "evidence_source": "crypto-notes.json korbit/2025/related_party_transactions; relations.json korbit_affiliate_kdac",
+   "status": "analytical_inference",
+   "scope": "company_specific",
+   "scope_reason": "관계기업이 다른 VASP(KDAC) — 코빗 고유",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001243",
+   "source_title": "감사보고서 주석(근거 레코드 참조)",
+   "source_authority": "DART",
+   "receipt_number": "20260414001243",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "inferred",
+   "notes": "2026-09-07 회사 고유 근거로 추가(Claude). 위험 자체는 분석적 추론이며 근거 사실은 원문 확인."
+  },
+  {
+   "vasp_id": "coinone",
+   "risk_code": "related_party_transactions",
+   "risk_title_ko": "특수관계자 발행 가상자산의 제3자 위탁 보관",
+   "fiscal_year": 2025,
+   "relevant_business_activity": "가상자산 보관·관리",
+   "relevant_account": [
+    "고객 위탁 가상자산(주석)"
+   ],
+   "relevant_assertions": [
+    "rights_and_obligations",
+    "presentation_and_disclosure"
+   ],
+   "rationale": "법 시행 전 취득해 고객이 보유하게 된 특수관계자 발행 가상자산을 제3의 VASP 에 위탁 보관한다고 공시. 해당 토큰의 식별, 위탁처, 특수관계자 거래 공시 범위가 확인 대상.",
+   "evidence_source": "crypto-notes.json coinone/2025/customer_entrusted_crypto; crypto-notes.json coinone/2024/customer_entrusted_crypto",
+   "status": "analytical_inference",
+   "scope": "company_specific",
+   "scope_reason": "특수관계자 발행 토큰 언급 — 코인원 고유",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260429000738",
+   "source_title": "감사보고서 주석(근거 레코드 참조)",
+   "source_authority": "DART",
+   "receipt_number": "20260429000738",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "inferred",
+   "notes": "2026-09-07 회사 고유 근거로 추가(Claude). 위험 자체는 분석적 추론이며 근거 사실은 원문 확인."
+  },
+  {
+   "vasp_id": "gopax",
+   "risk_code": "private_key_control",
+   "risk_title_ko": "보험 방식의 해킹 대비 적정성",
+   "fiscal_year": 2025,
+   "relevant_business_activity": "가상자산 보관·관리",
+   "relevant_account": [
+    "고객 위탁 가상자산(주석)",
+    "보험료"
+   ],
+   "relevant_assertions": [
+    "existence",
+    "presentation_and_disclosure"
+   ],
+   "rationale": "준비금 대신 가상자산사업자배상책임보험(부보 39억원)으로 이용자보호법 §8 을 이행. 위탁 자산 1,646억원 대비 약 2.4% 로, 보험 조건·면책·부보 한도가 고객 자산 보호 수준을 좌우.",
+   "evidence_source": "crypto-notes.json gopax/2025/hacking_it_failure_asset_loss; crypto-notes.json gopax/2025/private_key_management",
+   "status": "analytical_inference",
+   "scope": "company_specific",
+   "scope_reason": "보험 방식(타사는 준비금) — 고팍스 고유",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001751",
+   "source_title": "감사보고서 주석(근거 레코드 참조)",
+   "source_authority": "DART",
+   "receipt_number": "20260414001751",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "inferred",
+   "notes": "2026-09-07 회사 고유 근거로 추가(Claude). 위험 자체는 분석적 추론이며 근거 사실은 원문 확인."
+  },
+  {
+   "vasp_id": "upbit",
+   "risk_code": "fee_revenue_accuracy",
+   "risk_title_ko": "스테이킹 수익 총액기준 변경의 영향",
+   "fiscal_year": 2025,
+   "relevant_business_activity": "스테이킹 서비스",
+   "relevant_account": [
+    "영업수익",
+    "영업비용"
+   ],
+   "relevant_assertions": [
+    "accuracy",
+    "classification",
+    "presentation_and_disclosure"
+   ],
+   "rationale": "2025년부터 스테이킹 서비스 수익을 계약 실질을 고려해 총액기준으로 변경. 본인·대리인 판단 근거, 비교기간 재표시 여부, 영업수익 증가분 중 표시 방법 변경 효과의 구분이 쟁점.",
+   "evidence_source": "crypto-notes.json upbit/2025/gross_vs_net_revenue; crypto-notes.json upbit/2024/gross_vs_net_revenue",
+   "status": "analytical_inference",
+   "scope": "company_specific",
+   "scope_reason": "총액기준 변경 공시 — 두나무 고유",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+   "source_title": "감사보고서 주석(근거 레코드 참조)",
+   "source_authority": "DART",
+   "receipt_number": "20260330001631",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "inferred",
+   "notes": "2026-09-07 회사 고유 근거로 추가(Claude). 위험 자체는 분석적 추론이며 근거 사실은 원문 확인."
+  },
+  {
+   "vasp_id": "bithumb",
+   "risk_code": "customer_liability_completeness",
+   "risk_title_ko": "이용자보호준비금 300억원 이입(감소) 예정",
+   "fiscal_year": 2025,
+   "relevant_business_activity": "이용자 보호 준비금",
+   "relevant_account": [
+    "이익잉여금(이용자보호준비금)",
+    "회원예치금"
+   ],
+   "relevant_assertions": [
+    "completeness",
+    "presentation_and_disclosure"
+   ],
+   "rationale": "2024년 적립한 이용자보호준비금 1,000억원 중 300억원을 2025년 이입(감소)할 예정으로 표시. 이용자보호법상 최소 적립 요건과 위탁 자산 규모(17.9조원) 대비 적정성이 확인 대상.",
+   "evidence_source": "crypto-notes.json bithumb/2025/hacking_it_failure_asset_loss; crypto-notes.json bithumb/2024/hacking_it_failure_asset_loss",
+   "status": "analytical_inference",
+   "scope": "company_specific",
+   "scope_reason": "준비금 이입 예정 표시 — 빗썸 고유",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260331004333",
+   "source_title": "감사보고서 주석(근거 레코드 참조)",
+   "source_authority": "DART",
+   "receipt_number": "20260331004333",
+   "published_at": null,
+   "retrieved_at": "2026-09-07",
+   "confidence": "inferred",
+   "notes": "2026-09-07 회사 고유 근거로 추가(Claude). 위험 자체는 분석적 추론이며 근거 사실은 원문 확인."
+  }
+ ]
+}

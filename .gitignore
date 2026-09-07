@@ -1,0 +1,9 @@
+.env
+cache/
+downloads/
+node_modules/
+dist/
+__pycache__/
+*.pyc
+site/node_modules/
+site/dist/

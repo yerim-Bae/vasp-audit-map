@@ -1,0 +1,185 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/tokens.json — 토큰: 발행주체·용도·권리",
+ "type": "object",
+ "required": [
+  "_meta",
+  "records"
+ ],
+ "properties": {
+  "_meta": {
+   "type": "object",
+   "required": [
+    "generated_at",
+    "basis_date",
+    "record_count"
+   ],
+   "properties": {
+    "generated_at": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "basis_date": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "record_count": {
+     "type": "integer"
+    },
+    "description": {
+     "type": "string"
+    },
+    "status": {
+     "type": "string"
+    }
+   }
+  },
+  "records": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "token_id",
+     "project_id",
+     "symbol",
+     "issuer_status",
+     "source_url",
+     "source_authority",
+     "retrieved_at",
+     "confidence"
+    ],
+    "properties": {
+     "token_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+     },
+     "project_id": {
+      "type": "string"
+     },
+     "symbol": {
+      "type": "string"
+     },
+     "name": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "chain": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "contract_address": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "issuer_entity": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "issuer_status": {
+      "type": "string",
+      "enum": [
+       "fact",
+       "inference",
+       "unverified"
+      ]
+     },
+     "stated_purposes": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "enum": [
+        "fee_payment",
+        "governance",
+        "staking",
+        "collateral",
+        "medium_of_exchange",
+        "utility_access",
+        "reward",
+        "other"
+       ]
+      }
+     },
+     "holder_rights_per_whitepaper": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "백서가 주장하는 보유자 권리. 사이트 해석은 notes 에"
+     },
+     "redemption_or_backing": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_url": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_title": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_authority": {
+      "type": "string",
+      "enum": [
+       "FIU",
+       "DART",
+       "COMPANY",
+       "OTHER"
+      ]
+     },
+     "receipt_number": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "DART 접수번호 14자리. DART 출처가 아니면 null"
+     },
+     "published_at": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "YYYY-MM-DD"
+     },
+     "retrieved_at": {
+      "type": "string",
+      "description": "YYYY-MM-DD, 확인일"
+     },
+     "confidence": {
+      "type": "string",
+      "enum": [
+       "verified",
+       "partially_verified",
+       "inferred",
+       "unverified"
+      ]
+     },
+     "notes": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,591 @@
+{
+ "_meta": {
+  "description": "2026-09-06 별도 세션에서 DART corpCode 대조를 1차 수행한 결과. 참고용 시드일 뿐이며, 모든 값은 DART에서 다시 확인해야 한다.",
+  "source_file": "seed/vasp_universe_dart_check_2026-09-06.md",
+  "fiu_list_basis_date": "2026-08-31",
+  "dart_check_date": "2026-09-06",
+  "match_status_seed_values": {
+   "probable": "corpCode 후보가 있으나 사업자등록번호로 재확인 필요",
+   "needs_review": "유사명 후보만 있음",
+   "not_found": "corpCode 검색·훑기에서 미발견"
+  },
+  "warning": "prior_verdict 는 '감사보고서 공시 여부' 관찰이지 외감법상 법적 판정이 아니다."
+ },
+ "records": [
+  {
+   "seed_no": 1,
+   "service_name": "업비트",
+   "legal_name_ko": "두나무 주식회사",
+   "dart_corp_code_candidate": "01310241",
+   "prior_verdict": "공시대상법인",
+   "prior_auditor": "삼정회계법인",
+   "prior_audit_years_found": [
+    2025,
+    2024,
+    2023
+   ],
+   "match_status_seed": "probable",
+   "prior_note": null,
+   "must_reverify": true
+  },
+  {
+   "seed_no": 2,
+   "service_name": "코빗",
+   "legal_name_ko": "디지털엑스 주식회사",
+   "dart_corp_code_candidate": "01221743",
+   "prior_verdict": "외감대상",
+   "prior_auditor": "한미회계법인",
+   "prior_audit_years_found": [
+    2025,
+    2024,
+    2023,
+    2022
+   ],
+   "match_status_seed": "probable",
+   "prior_note": null,
+   "must_reverify": true
+  },
+  {
+   "seed_no": 3,
+   "service_name": "코인원",
+   "legal_name_ko": "주식회사 코인원",
+   "dart_corp_code_candidate": "01263378",
+   "prior_verdict": "외감대상",
+   "prior_auditor": "안세회계법인",
+   "prior_audit_years_found": [
+    2025,
+    2024,
+    2023,
+    2022
+   ],
+   "match_status_seed": "probable",
+   "prior_note": null,
+   "must_reverify": true
+  },
+  {
+   "seed_no": 4,
+   "service_name": "빗썸",
+   "legal_name_ko": "주식회사 빗썸",
+   "dart_corp_code_candidate": "01214044",
+   "prior_verdict": "공시대상법인",
+   "prior_auditor": "대현회계법인",
+   "prior_audit_years_found": [
+    2025,
+    2023
+   ],
+   "match_status_seed": "probable",
+   "prior_note": null,
+   "must_reverify": true
+  },
+  {
+   "seed_no": 5,
+   "service_name": "플라이빗",
+   "legal_name_ko": "주식회사 한국디지털거래소",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 6,
+   "service_name": "고팍스",
+   "legal_name_ko": "주식회사 스트리미",
+   "dart_corp_code_candidate": "01307618",
+   "prior_verdict": "외감대상",
+   "prior_auditor": "회계법인마일스톤",
+   "prior_audit_years_found": [
+    2025,
+    2024,
+    2023,
+    2022
+   ],
+   "match_status_seed": "probable",
+   "prior_note": null,
+   "must_reverify": true
+  },
+  {
+   "seed_no": 7,
+   "service_name": "BTX",
+   "legal_name_ko": "차일들리 주식회사",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 8,
+   "service_name": "포블",
+   "legal_name_ko": "주식회사 포블게이트",
+   "dart_corp_code_candidate": "01551848",
+   "prior_verdict": "외감대상",
+   "prior_auditor": "우일회계법인",
+   "prior_audit_years_found": [
+    2021
+   ],
+   "match_status_seed": "probable",
+   "prior_note": null,
+   "must_reverify": true
+  },
+  {
+   "seed_no": 9,
+   "service_name": "코어닥스",
+   "legal_name_ko": "㈜코어닥스",
+   "dart_corp_code_candidate": "01891038",
+   "prior_verdict": "해당없음",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "probable",
+   "prior_note": null,
+   "must_reverify": true
+  },
+  {
+   "seed_no": 10,
+   "service_name": "비블록",
+   "legal_name_ko": "주식회사 그레이브릿지",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "needs_review",
+   "prior_note": "정확일치 없음. 사람이 볼 후보: 이브릿지(회계법인나루)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 11,
+   "service_name": "크립토닷컴",
+   "legal_name_ko": "주식회사 포리스닥스코리아리미티드",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 12,
+   "service_name": "빗크몬",
+   "legal_name_ko": "주식회사 골든퓨쳐스",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 13,
+   "service_name": "프라뱅",
+   "legal_name_ko": "주식회사 프라뱅",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 14,
+   "service_name": "보라비트",
+   "legal_name_ko": "주식회사 보라비트",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 15,
+   "service_name": "코다(KODA)",
+   "legal_name_ko": "주식회사 한국디지털에셋",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 16,
+   "service_name": "케이닥(KDAC)",
+   "legal_name_ko": "주식회사 한국디지털자산수탁",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 17,
+   "service_name": "오하이월렛",
+   "legal_name_ko": "주식회사 헥토월렛원",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 18,
+   "service_name": "하이퍼리즘",
+   "legal_name_ko": "하이퍼리즘 유한책임회사",
+   "dart_corp_code_candidate": "01909841",
+   "prior_verdict": "해당없음",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "probable",
+   "prior_note": null,
+   "must_reverify": true
+  },
+  {
+   "seed_no": 19,
+   "service_name": "오아시스거래소",
+   "legal_name_ko": "㈜가디언홀딩스",
+   "dart_corp_code_candidate": "00513115",
+   "prior_verdict": "해당없음",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "probable",
+   "prior_note": null,
+   "must_reverify": true
+  },
+  {
+   "seed_no": 20,
+   "service_name": "커스텔라",
+   "legal_name_ko": "주식회사 마인드시프트",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 21,
+   "service_name": "인피닛블록",
+   "legal_name_ko": "주식회사 인피닛블록",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 22,
+   "service_name": "디에스알브이랩스",
+   "legal_name_ko": "㈜디에스알브이랩스",
+   "dart_corp_code_candidate": "01935785",
+   "prior_verdict": "해당없음",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "probable",
+   "prior_note": null,
+   "must_reverify": true
+  },
+  {
+   "seed_no": 23,
+   "service_name": "비댁스",
+   "legal_name_ko": "비댁스 주식회사",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 24,
+   "service_name": "INEX(인엑스)",
+   "legal_name_ko": "㈜인피니티익스체인지코리아",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 25,
+   "service_name": "웨이브릿지 프라임",
+   "legal_name_ko": "㈜웨이브릿지",
+   "dart_corp_code_candidate": "01930869",
+   "prior_verdict": "외감대상",
+   "prior_auditor": "회계법인원지",
+   "prior_audit_years_found": [
+    2025
+   ],
+   "match_status_seed": "probable",
+   "prior_note": null,
+   "must_reverify": true
+  },
+  {
+   "seed_no": 26,
+   "service_name": "바우맨",
+   "legal_name_ko": "㈜해피블록",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 27,
+   "service_name": "로빗",
+   "legal_name_ko": "㈜블로세이프",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 28,
+   "service_name": "ABC Cloud Wallet",
+   "legal_name_ko": "㈜안랩블록체인컴퍼니",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 29,
+   "service_name": "비트고코리아",
+   "legal_name_ko": "비트고코리아㈜",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 30,
+   "service_name": "지닥(GDAC)",
+   "legal_name_ko": "㈜피어테크",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 31,
+   "service_name": "프로비트",
+   "legal_name_ko": "오션스㈜",
+   "dart_corp_code_candidate": "01560624",
+   "prior_verdict": "외감대상",
+   "prior_auditor": "상록회계법인",
+   "prior_audit_years_found": [
+    2021
+   ],
+   "match_status_seed": "probable",
+   "prior_note": null,
+   "must_reverify": true
+  },
+  {
+   "seed_no": 32,
+   "service_name": "후오비코리아",
+   "legal_name_ko": "후오비㈜",
+   "dart_corp_code_candidate": "01625666",
+   "prior_verdict": "외감대상",
+   "prior_auditor": "이정회계법인",
+   "prior_audit_years_found": [
+    2022
+   ],
+   "match_status_seed": "probable",
+   "prior_note": null,
+   "must_reverify": true
+  },
+  {
+   "seed_no": 33,
+   "service_name": "플랫타익스체인지",
+   "legal_name_ko": "㈜플랫타이엑스",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 34,
+   "service_name": "한빗코",
+   "legal_name_ko": "㈜한빗코코리아",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 35,
+   "service_name": "비트레이드",
+   "legal_name_ko": "㈜블록체인컴퍼니",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 36,
+   "service_name": "코인엔코인",
+   "legal_name_ko": "㈜코엔코코리아",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 37,
+   "service_name": "캐셔레스트",
+   "legal_name_ko": "㈜뉴링크",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 38,
+   "service_name": "텐앤텐",
+   "legal_name_ko": "㈜텐앤텐",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 39,
+   "service_name": "에이프로빗",
+   "legal_name_ko": "㈜에이프로코리아",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 40,
+   "service_name": "마이키핀월렛",
+   "legal_name_ko": "㈜씨피랩스",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 41,
+   "service_name": "큐비트",
+   "legal_name_ko": "큐비트㈜",
+   "dart_corp_code_candidate": "02030546",
+   "prior_verdict": "해당없음",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "probable",
+   "prior_note": null,
+   "must_reverify": true
+  },
+  {
+   "seed_no": 42,
+   "service_name": "카르도",
+   "legal_name_ko": "㈜카르도",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 43,
+   "service_name": "델리오",
+   "legal_name_ko": "㈜델리오",
+   "dart_corp_code_candidate": "01588259",
+   "prior_verdict": "외감대상",
+   "prior_auditor": "이정회계법인",
+   "prior_audit_years_found": [
+    2023
+   ],
+   "match_status_seed": "probable",
+   "prior_note": null,
+   "must_reverify": true
+  },
+  {
+   "seed_no": 44,
+   "service_name": "페이코인",
+   "legal_name_ko": "PayProtocol AG",
+   "dart_corp_code_candidate": null,
+   "prior_verdict": "감사보고서 미발견",
+   "prior_auditor": null,
+   "prior_audit_years_found": [],
+   "match_status_seed": "not_found",
+   "prior_note": "corpCode·훑기 모두 없음 → 외감 대상 아닐 가능성 높음(비12월결산 가능성 잔존)",
+   "must_reverify": true
+  },
+  {
+   "seed_no": 45,
+   "service_name": "코인빗",
+   "legal_name_ko": "㈜엑시아소프트",
+   "dart_corp_code_candidate": "01380684",
+   "prior_verdict": "외감대상",
+   "prior_auditor": "새로회계법인",
+   "prior_audit_years_found": [
+    2021,
+    2020
+   ],
+   "match_status_seed": "probable",
+   "prior_note": null,
+   "must_reverify": true
+  }
+ ]
+}

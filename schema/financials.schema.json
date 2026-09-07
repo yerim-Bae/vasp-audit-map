@@ -1,0 +1,895 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/financials.json — 회사별·연도별 핵심 재무수치",
+ "type": "object",
+ "required": [
+  "_meta",
+  "records"
+ ],
+ "properties": {
+  "_meta": {
+   "type": "object",
+   "required": [
+    "generated_at",
+    "basis_date",
+    "record_count"
+   ],
+   "properties": {
+    "generated_at": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "basis_date": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "record_count": {
+     "type": "integer"
+    },
+    "description": {
+     "type": "string"
+    },
+    "status": {
+     "type": "string"
+    },
+    "currency": {
+     "const": "KRW"
+    },
+    "unit": {
+     "const": "KRW"
+    }
+   }
+  },
+  "records": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "vasp_id",
+     "fiscal_year",
+     "statement_type",
+     "currency",
+     "unit",
+     "figures",
+     "source_url",
+     "source_authority",
+     "retrieved_at",
+     "confidence"
+    ],
+    "properties": {
+     "vasp_id": {
+      "type": "string"
+     },
+     "corp_code": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "fiscal_year": {
+      "type": "integer"
+     },
+     "fiscal_period_end": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "statement_type": {
+      "type": "string",
+      "enum": [
+       "consolidated",
+       "separate"
+      ]
+     },
+     "reporting_basis": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "enum": [
+       "K_IFRS",
+       "K_GAAP",
+       "unknown",
+       null
+      ]
+     },
+     "currency": {
+      "type": "string",
+      "const": "KRW"
+     },
+     "unit": {
+      "type": "string",
+      "const": "KRW",
+      "description": "원 단위 정수로 통일. 원문 단위는 original_unit 과 notes 에"
+     },
+     "original_unit": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "figures": {
+      "type": "object",
+      "required": [
+       "revenue",
+       "operating_income",
+       "net_income",
+       "total_assets",
+       "total_liabilities",
+       "total_equity",
+       "cash_and_cash_equivalents",
+       "customer_deposits",
+       "crypto_assets_owned",
+       "crypto_assets_held_for_customers",
+       "customer_crypto_liabilities",
+       "fee_revenue",
+       "financial_assets",
+       "intangible_assets"
+      ],
+      "properties": {
+       "revenue": {
+        "type": [
+         "object",
+         "null"
+        ],
+        "required": [
+         "amount",
+         "original_account_name",
+         "normalized_account_name"
+        ],
+        "properties": {
+         "amount": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "original_account_name": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "normalized_account_name": {
+          "type": "string"
+         },
+         "receipt_number": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "source_url": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "notes": {
+          "type": [
+           "string",
+           "null"
+          ]
+         }
+        }
+       },
+       "operating_income": {
+        "type": [
+         "object",
+         "null"
+        ],
+        "required": [
+         "amount",
+         "original_account_name",
+         "normalized_account_name"
+        ],
+        "properties": {
+         "amount": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "original_account_name": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "normalized_account_name": {
+          "type": "string"
+         },
+         "receipt_number": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "source_url": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "notes": {
+          "type": [
+           "string",
+           "null"
+          ]
+         }
+        }
+       },
+       "net_income": {
+        "type": [
+         "object",
+         "null"
+        ],
+        "required": [
+         "amount",
+         "original_account_name",
+         "normalized_account_name"
+        ],
+        "properties": {
+         "amount": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "original_account_name": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "normalized_account_name": {
+          "type": "string"
+         },
+         "receipt_number": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "source_url": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "notes": {
+          "type": [
+           "string",
+           "null"
+          ]
+         }
+        }
+       },
+       "total_assets": {
+        "type": [
+         "object",
+         "null"
+        ],
+        "required": [
+         "amount",
+         "original_account_name",
+         "normalized_account_name"
+        ],
+        "properties": {
+         "amount": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "original_account_name": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "normalized_account_name": {
+          "type": "string"
+         },
+         "receipt_number": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "source_url": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "notes": {
+          "type": [
+           "string",
+           "null"
+          ]
+         }
+        }
+       },
+       "total_liabilities": {
+        "type": [
+         "object",
+         "null"
+        ],
+        "required": [
+         "amount",
+         "original_account_name",
+         "normalized_account_name"
+        ],
+        "properties": {
+         "amount": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "original_account_name": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "normalized_account_name": {
+          "type": "string"
+         },
+         "receipt_number": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "source_url": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "notes": {
+          "type": [
+           "string",
+           "null"
+          ]
+         }
+        }
+       },
+       "total_equity": {
+        "type": [
+         "object",
+         "null"
+        ],
+        "required": [
+         "amount",
+         "original_account_name",
+         "normalized_account_name"
+        ],
+        "properties": {
+         "amount": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "original_account_name": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "normalized_account_name": {
+          "type": "string"
+         },
+         "receipt_number": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "source_url": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "notes": {
+          "type": [
+           "string",
+           "null"
+          ]
+         }
+        }
+       },
+       "cash_and_cash_equivalents": {
+        "type": [
+         "object",
+         "null"
+        ],
+        "required": [
+         "amount",
+         "original_account_name",
+         "normalized_account_name"
+        ],
+        "properties": {
+         "amount": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "original_account_name": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "normalized_account_name": {
+          "type": "string"
+         },
+         "receipt_number": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "source_url": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "notes": {
+          "type": [
+           "string",
+           "null"
+          ]
+         }
+        }
+       },
+       "customer_deposits": {
+        "type": [
+         "object",
+         "null"
+        ],
+        "required": [
+         "amount",
+         "original_account_name",
+         "normalized_account_name"
+        ],
+        "properties": {
+         "amount": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "original_account_name": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "normalized_account_name": {
+          "type": "string"
+         },
+         "receipt_number": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "source_url": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "notes": {
+          "type": [
+           "string",
+           "null"
+          ]
+         }
+        }
+       },
+       "crypto_assets_owned": {
+        "type": [
+         "object",
+         "null"
+        ],
+        "required": [
+         "amount",
+         "original_account_name",
+         "normalized_account_name"
+        ],
+        "properties": {
+         "amount": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "original_account_name": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "normalized_account_name": {
+          "type": "string"
+         },
+         "receipt_number": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "source_url": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "notes": {
+          "type": [
+           "string",
+           "null"
+          ]
+         }
+        }
+       },
+       "crypto_assets_held_for_customers": {
+        "type": [
+         "object",
+         "null"
+        ],
+        "required": [
+         "amount",
+         "original_account_name",
+         "normalized_account_name"
+        ],
+        "properties": {
+         "amount": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "original_account_name": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "normalized_account_name": {
+          "type": "string"
+         },
+         "receipt_number": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "source_url": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "notes": {
+          "type": [
+           "string",
+           "null"
+          ]
+         }
+        }
+       },
+       "customer_crypto_liabilities": {
+        "type": [
+         "object",
+         "null"
+        ],
+        "required": [
+         "amount",
+         "original_account_name",
+         "normalized_account_name"
+        ],
+        "properties": {
+         "amount": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "original_account_name": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "normalized_account_name": {
+          "type": "string"
+         },
+         "receipt_number": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "source_url": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "notes": {
+          "type": [
+           "string",
+           "null"
+          ]
+         }
+        }
+       },
+       "fee_revenue": {
+        "type": [
+         "object",
+         "null"
+        ],
+        "required": [
+         "amount",
+         "original_account_name",
+         "normalized_account_name"
+        ],
+        "properties": {
+         "amount": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "original_account_name": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "normalized_account_name": {
+          "type": "string"
+         },
+         "receipt_number": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "source_url": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "notes": {
+          "type": [
+           "string",
+           "null"
+          ]
+         }
+        }
+       },
+       "financial_assets": {
+        "type": [
+         "object",
+         "null"
+        ],
+        "required": [
+         "amount",
+         "original_account_name",
+         "normalized_account_name"
+        ],
+        "properties": {
+         "amount": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "original_account_name": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "normalized_account_name": {
+          "type": "string"
+         },
+         "receipt_number": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "source_url": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "notes": {
+          "type": [
+           "string",
+           "null"
+          ]
+         }
+        }
+       },
+       "intangible_assets": {
+        "type": [
+         "object",
+         "null"
+        ],
+        "required": [
+         "amount",
+         "original_account_name",
+         "normalized_account_name"
+        ],
+        "properties": {
+         "amount": {
+          "type": [
+           "number",
+           "null"
+          ]
+         },
+         "original_account_name": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "normalized_account_name": {
+          "type": "string"
+         },
+         "receipt_number": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "source_url": {
+          "type": [
+           "string",
+           "null"
+          ]
+         },
+         "notes": {
+          "type": [
+           "string",
+           "null"
+          ]
+         }
+        }
+       }
+      }
+     },
+     "revenue_breakdown": {
+      "type": [
+       "array",
+       "null"
+      ],
+      "description": "손익계산서·수익 주석의 수익원별 금액(원). '이 회사는 어떻게 돈을 버나' 섹션용",
+      "items": {
+       "type": "object",
+       "required": [
+        "original_account_name",
+        "normalized",
+        "amount"
+       ],
+       "properties": {
+        "original_account_name": {
+         "type": "string"
+        },
+        "normalized": {
+         "type": "string",
+         "enum": [
+          "fee_revenue",
+          "trading_fee",
+          "withdrawal_fee",
+          "staking_revenue",
+          "custody_fee",
+          "other_operating",
+          "total_operating_revenue"
+         ]
+        },
+        "amount": {
+         "type": [
+          "integer",
+          "null"
+         ]
+        },
+        "share_of_total": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "note_number": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "notes": {
+         "type": [
+          "string",
+          "null"
+         ]
+        }
+       }
+      }
+     },
+     "source_url": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_title": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_authority": {
+      "type": "string",
+      "enum": [
+       "FIU",
+       "DART",
+       "COMPANY",
+       "OTHER"
+      ]
+     },
+     "receipt_number": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "DART 접수번호 14자리. DART 출처가 아니면 null"
+     },
+     "published_at": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "YYYY-MM-DD"
+     },
+     "retrieved_at": {
+      "type": "string",
+      "description": "YYYY-MM-DD, 확인일"
+     },
+     "confidence": {
+      "type": "string",
+      "enum": [
+       "verified",
+       "partially_verified",
+       "inferred",
+       "unverified"
+      ]
+     },
+     "notes": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  }
+ }
+}

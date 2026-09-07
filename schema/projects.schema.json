@@ -1,0 +1,332 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/projects.json — 가상자산 프로젝트(프로토콜·토큰 발행 프로젝트)와 백서 메타데이터",
+ "type": "object",
+ "required": [
+  "_meta",
+  "records"
+ ],
+ "properties": {
+  "_meta": {
+   "type": "object",
+   "required": [
+    "generated_at",
+    "basis_date",
+    "record_count"
+   ],
+   "properties": {
+    "generated_at": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "basis_date": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "record_count": {
+     "type": "integer"
+    },
+    "description": {
+     "type": "string"
+    },
+    "status": {
+     "type": "string"
+    }
+   }
+  },
+  "records": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "project_id",
+     "name",
+     "project_type",
+     "official_website",
+     "whitepapers",
+     "one_line_summary",
+     "summary_status",
+     "source_url",
+     "source_authority",
+     "retrieved_at",
+     "confidence"
+    ],
+    "properties": {
+     "project_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+     },
+     "name": {
+      "type": "string"
+     },
+     "name_ko": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "project_type": {
+      "type": "string",
+      "enum": [
+       "layer1",
+       "layer2",
+       "stablecoin",
+       "defi_protocol",
+       "custody_infrastructure",
+       "payment",
+       "gaming",
+       "rwa_tokenization",
+       "other"
+      ]
+     },
+     "official_website": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "issuing_entity": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "발행·개발 주체(재단·법인). 확인 안 되면 null"
+     },
+     "issuing_entity_jurisdiction": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "whitepapers": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "version",
+        "url",
+        "retrieved_at",
+        "storage_policy"
+       ],
+       "properties": {
+        "version": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "title": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "url": {
+         "type": "string"
+        },
+        "language": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "published_at": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "retrieved_at": {
+         "type": "string"
+        },
+        "sha256": {
+         "type": [
+          "string",
+          "null"
+         ],
+         "description": "원본 파일 해시. 버전 변경 감지용"
+        },
+        "page_count": {
+         "type": [
+          "integer",
+          "null"
+         ]
+        },
+        "license_or_terms": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "storage_policy": {
+         "type": "string",
+         "enum": [
+          "link_only",
+          "metadata_only",
+          "local_copy_private",
+          "public_with_permission"
+         ]
+        },
+        "local_copy": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "notes": {
+         "type": [
+          "string",
+          "null"
+         ]
+        }
+       }
+      }
+     },
+     "links": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "link_type",
+        "url",
+        "verified_at",
+        "status"
+       ],
+       "properties": {
+        "link_type": {
+         "type": "string",
+         "enum": [
+          "official_website",
+          "service_website",
+          "fiu_listing",
+          "dart_company",
+          "dart_latest_audit_report",
+          "project_website",
+          "whitepaper",
+          "official_docs",
+          "github",
+          "block_explorer",
+          "terms_of_service",
+          "fee_schedule",
+          "other"
+         ]
+        },
+        "label": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "url": {
+         "type": "string"
+        },
+        "how_identified": {
+         "type": [
+          "string",
+          "null"
+         ],
+         "description": "예: FIU 명단에 기재 / DART 기업개황 홈페이지 필드 / 회사 사이트 푸터"
+        },
+        "verified_at": {
+         "type": "string"
+        },
+        "status": {
+         "type": "string",
+         "enum": [
+          "verified",
+          "unreachable",
+          "changed",
+          "unverified"
+         ]
+        },
+        "notes": {
+         "type": [
+          "string",
+          "null"
+         ]
+        }
+       }
+      }
+     },
+     "one_line_summary": {
+      "type": "string"
+     },
+     "summary_status": {
+      "type": "string",
+      "enum": [
+       "from_whitepaper",
+       "site_analysis",
+       "unverified"
+      ],
+      "description": "요약이 백서 주장인지 사이트 분석인지"
+     },
+     "why_relevant_to_audit": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "목적 A/D 관점에서 이 프로젝트를 다루는 이유"
+     },
+     "source_url": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_title": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_authority": {
+      "type": "string",
+      "enum": [
+       "FIU",
+       "DART",
+       "COMPANY",
+       "OTHER"
+      ]
+     },
+     "receipt_number": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "DART 접수번호 14자리. DART 출처가 아니면 null"
+     },
+     "published_at": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "YYYY-MM-DD"
+     },
+     "retrieved_at": {
+      "type": "string",
+      "description": "YYYY-MM-DD, 확인일"
+     },
+     "confidence": {
+      "type": "string",
+      "enum": [
+       "verified",
+       "partially_verified",
+       "inferred",
+       "unverified"
+      ]
+     },
+     "notes": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  }
+ }
+}

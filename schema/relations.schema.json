@@ -1,0 +1,187 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/relations.json — 회사·프로젝트·토큰 사이의 관계(운영·발행·상장·수탁·투자)",
+ "type": "object",
+ "required": [
+  "_meta",
+  "records"
+ ],
+ "properties": {
+  "_meta": {
+   "type": "object",
+   "required": [
+    "generated_at",
+    "basis_date",
+    "record_count"
+   ],
+   "properties": {
+    "generated_at": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "basis_date": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "record_count": {
+     "type": "integer"
+    },
+    "description": {
+     "type": "string"
+    },
+    "status": {
+     "type": "string"
+    }
+   }
+  },
+  "records": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "relation_id",
+     "from_type",
+     "from_id",
+     "relation",
+     "to_type",
+     "to_id",
+     "status",
+     "source_url",
+     "source_authority",
+     "retrieved_at",
+     "confidence"
+    ],
+    "properties": {
+     "relation_id": {
+      "type": "string"
+     },
+     "from_type": {
+      "type": "string",
+      "enum": [
+       "vasp",
+       "project",
+       "token"
+      ]
+     },
+     "from_id": {
+      "type": "string"
+     },
+     "relation": {
+      "type": "string",
+      "enum": [
+       "operates_service",
+       "issues",
+       "develops",
+       "lists",
+       "custodies",
+       "stakes_for_customers",
+       "invests_in",
+       "holds_proprietary",
+       "is_subsidiary_of",
+       "is_affiliate_of",
+       "uses_as_reserve",
+       "other"
+      ]
+     },
+     "to_type": {
+      "type": "string",
+      "enum": [
+       "vasp",
+       "project",
+       "token",
+       "service"
+      ]
+     },
+     "to_id": {
+      "type": "string"
+     },
+     "legal_responsibility_note": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "이 관계에서 법적 책임 주체가 누구인지"
+     },
+     "status": {
+      "type": "string",
+      "enum": [
+       "fact",
+       "inference",
+       "unverified"
+      ]
+     },
+     "since": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "until": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_url": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_title": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_authority": {
+      "type": "string",
+      "enum": [
+       "FIU",
+       "DART",
+       "COMPANY",
+       "OTHER"
+      ]
+     },
+     "receipt_number": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "DART 접수번호 14자리. DART 출처가 아니면 null"
+     },
+     "published_at": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "YYYY-MM-DD"
+     },
+     "retrieved_at": {
+      "type": "string",
+      "description": "YYYY-MM-DD, 확인일"
+     },
+     "confidence": {
+      "type": "string",
+      "enum": [
+       "verified",
+       "partially_verified",
+       "inferred",
+       "unverified"
+      ]
+     },
+     "notes": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  }
+ }
+}

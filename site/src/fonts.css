@@ -1,0 +1,11 @@
+/* next/font(Geist) 대신 시스템 글꼴. globals.css 가 참조하는 변수 이름을 그대로 채운다. */
+:root {
+  --font-geist-sans: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo',
+    'Malgun Gothic', 'Segoe UI', Roboto, sans-serif;
+  --font-serif-kr: 'Noto Serif KR', 'Apple SD Gothic Neo', serif;
+  --font-geist-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
+}
+body {
+  font-family: var(--font-geist-sans);
+  -webkit-font-smoothing: antialiased;
+}

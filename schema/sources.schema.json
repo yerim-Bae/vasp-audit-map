@@ -1,0 +1,122 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/sources.json — 원문 출처 목록",
+ "type": "object",
+ "required": [
+  "_meta",
+  "records"
+ ],
+ "properties": {
+  "_meta": {
+   "type": "object",
+   "required": [
+    "generated_at",
+    "basis_date",
+    "record_count"
+   ],
+   "properties": {
+    "generated_at": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "basis_date": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "record_count": {
+     "type": "integer"
+    },
+    "description": {
+     "type": "string"
+    },
+    "status": {
+     "type": "string"
+    }
+   }
+  },
+  "records": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "source_id",
+     "source_url",
+     "source_title",
+     "source_authority",
+     "retrieved_at",
+     "used_in"
+    ],
+    "properties": {
+     "source_id": {
+      "type": "string"
+     },
+     "source_url": {
+      "type": "string"
+     },
+     "source_title": {
+      "type": "string"
+     },
+     "source_authority": {
+      "type": "string",
+      "enum": [
+       "FIU",
+       "DART",
+       "COMPANY",
+       "OTHER"
+      ]
+     },
+     "receipt_number": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "published_at": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "retrieved_at": {
+      "type": "string"
+     },
+     "vasp_ids": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "used_in": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "enum": [
+        "vasps",
+        "audit-reports",
+        "financials",
+        "crypto-notes",
+        "audit-risks"
+       ]
+      }
+     },
+     "local_copy": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "notes": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  }
+ }
+}

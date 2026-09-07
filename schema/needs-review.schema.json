@@ -1,0 +1,135 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/needs-review.json — 수동 검토 항목",
+ "type": "object",
+ "required": [
+  "_meta",
+  "records"
+ ],
+ "properties": {
+  "_meta": {
+   "type": "object",
+   "required": [
+    "generated_at",
+    "basis_date",
+    "record_count"
+   ],
+   "properties": {
+    "generated_at": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "basis_date": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "record_count": {
+     "type": "integer"
+    },
+    "description": {
+     "type": "string"
+    },
+    "status": {
+     "type": "string"
+    }
+   }
+  },
+  "records": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "review_id",
+     "vasp_id",
+     "issue_type",
+     "severity",
+     "description",
+     "what_to_check",
+     "status",
+     "created_at"
+    ],
+    "properties": {
+     "review_id": {
+      "type": "string"
+     },
+     "vasp_id": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "issue_type": {
+      "type": "string",
+      "enum": [
+       "dart_match_failed",
+       "dart_match_ambiguous",
+       "conflicting_information",
+       "unverified_fact",
+       "missing_source",
+       "unit_or_scope_doubt",
+       "opinion_not_confirmed_in_text",
+       "other"
+      ]
+     },
+     "severity": {
+      "type": "string",
+      "enum": [
+       "blocker",
+       "high",
+       "medium",
+       "low"
+      ]
+     },
+     "description": {
+      "type": "string"
+     },
+     "candidates": {
+      "type": [
+       "array",
+       "null"
+      ],
+      "items": {
+       "type": "object"
+      }
+     },
+     "affected_files": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "what_to_check": {
+      "type": "string"
+     },
+     "status": {
+      "type": "string",
+      "enum": [
+       "open",
+       "resolved",
+       "wont_fix"
+      ]
+     },
+     "created_at": {
+      "type": "string"
+     },
+     "resolved_at": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "notes": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  }
+ }
+}

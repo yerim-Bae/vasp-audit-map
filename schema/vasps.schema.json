@@ -1,0 +1,535 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "data/vasps.json — VASP 기본정보·역할·수익모델",
+ "type": "object",
+ "required": [
+  "_meta",
+  "records"
+ ],
+ "properties": {
+  "_meta": {
+   "type": "object",
+   "required": [
+    "generated_at",
+    "basis_date",
+    "record_count"
+   ],
+   "properties": {
+    "generated_at": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "basis_date": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "record_count": {
+     "type": "integer"
+    },
+    "description": {
+     "type": "string"
+    },
+    "status": {
+     "type": "string"
+    },
+    "fiu_basis_date": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "fiu_source_url": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   }
+  },
+  "records": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "vasp_id",
+     "legal_name_ko",
+     "service_names",
+     "registration_status",
+     "business_categories",
+     "market_type",
+     "fiu_source_url",
+     "verified_at",
+     "dart_match",
+     "roles",
+     "revenue_models",
+     "source_url",
+     "source_authority",
+     "retrieved_at",
+     "confidence"
+    ],
+    "properties": {
+     "vasp_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+     },
+     "legal_name_ko": {
+      "type": "string"
+     },
+     "legal_name_en": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "service_names": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      },
+      "minItems": 1
+     },
+     "business_registration_number": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "pattern": "^\\d{3}-\\d{2}-\\d{5}$"
+     },
+     "registration_status": {
+      "type": "string",
+      "enum": [
+       "active",
+       "expired_not_renewed",
+       "revoked",
+       "unverified"
+      ]
+     },
+     "registration_status_ko": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "FIU 원문 표기 (예: 신고 유효)"
+     },
+     "registration_date": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "registration_date_type": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "enum": [
+       "initial_acceptance",
+       "renewal",
+       "change",
+       "unknown",
+       null
+      ]
+     },
+     "reported_activities": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "enum": [
+        "가",
+        "나",
+        "다",
+        "라",
+        "마"
+       ]
+      }
+     },
+     "fiu_business_type_ko": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "proprietary_trading_reported": {
+      "type": [
+       "boolean",
+       "null"
+      ]
+     },
+     "business_categories": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "enum": [
+        "exchange",
+        "broker",
+        "transfer",
+        "custody",
+        "wallet",
+        "other"
+       ]
+      },
+      "minItems": 1
+     },
+     "market_type": {
+      "type": "string",
+      "enum": [
+       "krw",
+       "coin_only",
+       "non_exchange",
+       "unverified"
+      ]
+     },
+     "official_website": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "fiu_source_url": {
+      "type": "string"
+     },
+     "verified_at": {
+      "type": "string"
+     },
+     "dart_match": {
+      "type": "object",
+      "required": [
+       "match_status"
+      ],
+      "properties": {
+       "match_status": {
+        "type": "string",
+        "enum": [
+         "exact",
+         "probable",
+         "needs_review",
+         "not_found"
+        ]
+       },
+       "corp_code": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "pattern": "^\\d{8}$"
+       },
+       "corp_name": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "corp_name_en": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "business_registration_number": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "corporate_registration_number": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "stock_code": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "representative": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "address": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "industry_code": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "establishment_date": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "fiscal_year_end": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "filing_profile": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "enum": [
+         "annual_report_filer",
+         "audit_report_only",
+         "not_on_dart",
+         "unknown",
+         null
+        ]
+       },
+       "match_rationale": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "verified_at": {
+        "type": [
+         "string",
+         "null"
+        ]
+       }
+      }
+     },
+     "roles": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "classification",
+        "status",
+        "rationale",
+        "source_url",
+        "verified_at"
+       ],
+       "properties": {
+        "classification": {
+         "type": "string",
+         "enum": [
+          "vasp",
+          "customer_asset_custodian",
+          "proprietary_crypto_holder",
+          "crypto_issuer",
+          "staking_operator",
+          "wallet_operator",
+          "broker",
+          "market_operator"
+         ]
+        },
+        "status": {
+         "type": "string",
+         "enum": [
+          "fact",
+          "inference",
+          "unverified"
+         ]
+        },
+        "rationale": {
+         "type": "string"
+        },
+        "source_url": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "verified_at": {
+         "type": [
+          "string",
+          "null"
+         ]
+        }
+       }
+      }
+     },
+     "revenue_models": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "classification",
+        "status",
+        "rationale",
+        "source_url",
+        "verified_at"
+       ],
+       "properties": {
+        "classification": {
+         "type": "string",
+         "enum": [
+          "trading_fee",
+          "withdrawal_fee",
+          "custody_fee",
+          "staking_fee",
+          "brokerage_fee",
+          "listing_related_revenue",
+          "spread",
+          "interest_income",
+          "proprietary_trading",
+          "other"
+         ]
+        },
+        "status": {
+         "type": "string",
+         "enum": [
+          "fact",
+          "inference",
+          "unverified"
+         ]
+        },
+        "rationale": {
+         "type": "string"
+        },
+        "source_url": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "verified_at": {
+         "type": [
+          "string",
+          "null"
+         ]
+        }
+       }
+      }
+     },
+     "source_url": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_title": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_authority": {
+      "type": "string",
+      "enum": [
+       "FIU",
+       "DART",
+       "COMPANY",
+       "OTHER"
+      ]
+     },
+     "receipt_number": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "DART 접수번호 14자리. DART 출처가 아니면 null"
+     },
+     "published_at": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "YYYY-MM-DD"
+     },
+     "retrieved_at": {
+      "type": "string",
+      "description": "YYYY-MM-DD, 확인일"
+     },
+     "confidence": {
+      "type": "string",
+      "enum": [
+       "verified",
+       "partially_verified",
+       "inferred",
+       "unverified"
+      ]
+     },
+     "notes": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "links": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "link_type",
+        "url",
+        "verified_at",
+        "status"
+       ],
+       "properties": {
+        "link_type": {
+         "type": "string",
+         "enum": [
+          "official_website",
+          "service_website",
+          "fiu_listing",
+          "dart_company",
+          "dart_latest_audit_report",
+          "project_website",
+          "whitepaper",
+          "official_docs",
+          "github",
+          "block_explorer",
+          "terms_of_service",
+          "fee_schedule",
+          "other"
+         ]
+        },
+        "label": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "url": {
+         "type": "string"
+        },
+        "how_identified": {
+         "type": [
+          "string",
+          "null"
+         ],
+         "description": "예: FIU 명단에 기재 / DART 기업개황 홈페이지 필드 / 회사 사이트 푸터"
+        },
+        "verified_at": {
+         "type": "string"
+        },
+        "status": {
+         "type": "string",
+         "enum": [
+          "verified",
+          "unreachable",
+          "changed",
+          "unverified"
+         ]
+        },
+        "notes": {
+         "type": [
+          "string",
+          "null"
+         ]
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

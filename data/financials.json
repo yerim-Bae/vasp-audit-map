@@ -1,0 +1,3012 @@
+{
+ "_meta": {
+  "generated_at": "2026-09-06T01:25:09.198091+00:00",
+  "basis_date": "2026-09-06",
+  "record_count": 20,
+  "status": "CORE_FIGURES_EXTRACTED",
+  "currency": "KRW",
+  "unit": "KRW"
+ },
+ "records": [
+  {
+   "vasp_id": "upbit",
+   "corp_code": "01310241",
+   "fiscal_year": 2025,
+   "reporting_basis": "K_IFRS",
+   "receipt_number": "20260330001631",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+   "source_title": "두나무 사업보고서 (2025.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_type": "separate",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원",
+   "figures": {
+    "revenue": {
+     "amount": 1521240741168,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "operating_income": {
+     "amount": 888363286078,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "net_income": {
+     "amount": 723056355377,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_assets": {
+     "amount": 12564407334969,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_liabilities": {
+     "amount": 6512334746079,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_equity": {
+     "amount": 6052072588890,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 333552631957,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "customer_deposits": {
+     "amount": 5783311361000,
+     "original_account_name": "예수부채",
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 주석13 상각후원가측정금융부채. 케이뱅크 실명확인 입출금계정 관련"
+    },
+    "crypto_assets_owned": {
+     "amount": 2256433873000,
+     "original_account_name": "무형자산 중 가상자산(기말)",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 무형자산 주석 (3) 무형자산으로 분류된 가상자산의 변동내역, 단위 천원"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": 62233459788000,
+     "original_account_name": "회원이 위탁한 가상자산(공정가치 합계)",
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 감독지침 통제권 문단 직전 표(XML TABLE). 별도·연결 동일 | 재무제표 밖(주석 공시) 금액. 자산으로 인식되지 않음"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": "(계상 없음)",
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "6개사 모두 고객 위탁 가상자산의 통제권이 고객에게 있다고 보아 부채로 계상하지 않음(off-balance). 0 이 아니라 null."
+    },
+    "fee_revenue": {
+     "amount": 1521240741000,
+     "original_account_name": "고객과의 계약에서 생기는 수익",
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "고객과의 계약에서 생기는 수익 전체(수수료 종류별 세분 없음, 스테이킹 수익 포함 가능)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류(승인 4): 회사별 범위 차이로 이번 정규화에서 제외"
+    },
+    "intangible_assets": {
+     "amount": 2019261693119,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    }
+   },
+   "confidence": "verified",
+   "fiscal_period_end": "2025-12-31",
+   "notes": "기본계정 원문 대조. 미확인/범위가 복합적인 가상자산·금융자산 총액은 null. fnlttSinglAcntAll.json + document.xml cross-check | 2026-09-07 복합계정 4개 반영(docs/COMPLEX_ACCOUNTS_RECOMMENDATION.md, 사용자 승인). financial_assets 보류 | 2026-09-07 revenue_breakdown·fee_revenue 추가(손익계산서·수익 주석)",
+   "revenue_breakdown": [
+    {
+     "original_account_name": "고객과의 계약에서 생기는 수익",
+     "normalized": "fee_revenue",
+     "amount": 1521240741000,
+     "share_of_total": 1.0,
+     "note_number": "22",
+     "notes": "주석 22. 거래수수료 중심이나 원문에 수수료 종류별 세분 없음. 한 시점 인식 1,519,564,344천원 / 기간에 걸쳐 인식 1,676,397천원"
+    },
+    {
+     "original_account_name": "영업수익 합계",
+     "normalized": "total_operating_revenue",
+     "amount": 1521240741000,
+     "share_of_total": null,
+     "note_number": "22",
+     "notes": null
+    }
+   ]
+  },
+  {
+   "vasp_id": "upbit",
+   "corp_code": "01310241",
+   "fiscal_year": 2025,
+   "reporting_basis": "K_IFRS",
+   "receipt_number": "20260330001631",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+   "source_title": "두나무 사업보고서 (2025.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_type": "consolidated",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원",
+   "figures": {
+    "revenue": {
+     "amount": 1557760166552,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "operating_income": {
+     "amount": 869268274741,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "net_income": {
+     "amount": 708885660928,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_assets": {
+     "amount": 13172595576448,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_liabilities": {
+     "amount": 6970478834316,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_equity": {
+     "amount": 6202116742132,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 403244410149,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "customer_deposits": {
+     "amount": 5783311361000,
+     "original_account_name": "예수부채",
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 주석13 상각후원가측정금융부채. 케이뱅크 실명확인 입출금계정 관련"
+    },
+    "crypto_assets_owned": {
+     "amount": 2256433873000,
+     "original_account_name": "무형자산 중 가상자산(기말)",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 무형자산 주석 (3) 무형자산으로 분류된 가상자산의 변동내역, 단위 천원"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": 62233459788000,
+     "original_account_name": "회원이 위탁한 가상자산(공정가치 합계)",
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 감독지침 통제권 문단 직전 표(XML TABLE). 별도·연결 동일 | 재무제표 밖(주석 공시) 금액. 자산으로 인식되지 않음"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": "(계상 없음)",
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "6개사 모두 고객 위탁 가상자산의 통제권이 고객에게 있다고 보아 부채로 계상하지 않음(off-balance). 0 이 아니라 null."
+    },
+    "fee_revenue": {
+     "amount": 1550592791000,
+     "original_account_name": "고객과의 계약에서 생기는 수익",
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "고객과의 계약에서 생기는 수익 전체(수수료 종류별 세분 없음, 스테이킹 수익 포함 가능)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류(승인 4): 회사별 범위 차이로 이번 정규화에서 제외"
+    },
+    "intangible_assets": {
+     "amount": 2332643752356,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20260330001631",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    }
+   },
+   "confidence": "verified",
+   "fiscal_period_end": "2025-12-31",
+   "notes": "기본계정 원문 대조. 미확인/범위가 복합적인 가상자산·금융자산 총액은 null. fnlttSinglAcntAll.json + document.xml cross-check | 2026-09-07 복합계정 4개 반영(docs/COMPLEX_ACCOUNTS_RECOMMENDATION.md, 사용자 승인). financial_assets 보류 | 2026-09-07 revenue_breakdown·fee_revenue 추가(손익계산서·수익 주석)",
+   "revenue_breakdown": [
+    {
+     "original_account_name": "고객과의 계약에서 생기는 수익",
+     "normalized": "fee_revenue",
+     "amount": 1550592791000,
+     "share_of_total": 0.9954,
+     "note_number": "25",
+     "notes": "주석 25(연결). 세분 없음"
+    },
+    {
+     "original_account_name": "기타",
+     "normalized": "other_operating",
+     "amount": 7167376000,
+     "share_of_total": 0.0046,
+     "note_number": "25",
+     "notes": null
+    },
+    {
+     "original_account_name": "영업수익 합계",
+     "normalized": "total_operating_revenue",
+     "amount": 1557760167000,
+     "share_of_total": null,
+     "note_number": "25",
+     "notes": null
+    }
+   ]
+  },
+  {
+   "vasp_id": "upbit",
+   "corp_code": "01310241",
+   "fiscal_year": 2024,
+   "reporting_basis": "K_IFRS",
+   "receipt_number": "20250327001208",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+   "source_title": "두나무 사업보고서 (2024.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_type": "separate",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원",
+   "figures": {
+    "revenue": {
+     "amount": 1709580837278,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "operating_income": {
+     "amount": 1251756950839,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "net_income": {
+     "amount": 988170741835,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_assets": {
+     "amount": 14699309486110,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_liabilities": {
+     "amount": 8987279168731,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_equity": {
+     "amount": 5712030317379,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 471679158822,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "customer_deposits": {
+     "amount": 8053176703000,
+     "original_account_name": "예수부채",
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 주석14 상각후원가측정금융부채"
+    },
+    "crypto_assets_owned": {
+     "amount": 2549568182000,
+     "original_account_name": "무형자산 중 가상자산(기말)",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 무형자산 주석 (3), 단위 천원"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": 81546219019000,
+     "original_account_name": "회원이 위탁한 가상자산(공정가치 합계)",
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 감독지침 문단 직전 표 | 재무제표 밖(주석 공시) 금액. 자산으로 인식되지 않음"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": "(계상 없음)",
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "6개사 모두 고객 위탁 가상자산의 통제권이 고객에게 있다고 보아 부채로 계상하지 않음(off-balance). 0 이 아니라 null."
+    },
+    "fee_revenue": {
+     "amount": 1709580837000,
+     "original_account_name": "고객과의 계약에서 생기는 수익",
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "고객과의 계약에서 생기는 수익 전체(수수료 종류별 세분 없음, 스테이킹 수익 포함 가능)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류(승인 4): 회사별 범위 차이로 이번 정규화에서 제외"
+    },
+    "intangible_assets": {
+     "amount": 2280765691743,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    }
+   },
+   "confidence": "verified",
+   "fiscal_period_end": "2024-12-31",
+   "notes": "기본계정 원문 대조. 미확인/범위가 복합적인 가상자산·금융자산 총액은 null. fnlttSinglAcntAll.json + document.xml cross-check | 2026-09-07 복합계정 4개 반영(docs/COMPLEX_ACCOUNTS_RECOMMENDATION.md, 사용자 승인). financial_assets 보류 | 2026-09-07 revenue_breakdown·fee_revenue 추가(손익계산서·수익 주석)",
+   "revenue_breakdown": [
+    {
+     "original_account_name": "고객과의 계약에서 생기는 수익",
+     "normalized": "fee_revenue",
+     "amount": 1709580837000,
+     "share_of_total": 1.0,
+     "note_number": "22",
+     "notes": "주석 22(2025 보고서 전기 열). 한 시점 1,706,974,107천원 / 기간 2,606,730천원"
+    },
+    {
+     "original_account_name": "영업수익 합계",
+     "normalized": "total_operating_revenue",
+     "amount": 1709580837000,
+     "share_of_total": null,
+     "note_number": "22",
+     "notes": null
+    }
+   ]
+  },
+  {
+   "vasp_id": "upbit",
+   "corp_code": "01310241",
+   "fiscal_year": 2024,
+   "reporting_basis": "K_IFRS",
+   "receipt_number": "20250327001208",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+   "source_title": "두나무 사업보고서 (2024.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_type": "consolidated",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원",
+   "figures": {
+    "revenue": {
+     "amount": 1731557448456,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "operating_income": {
+     "amount": 1186322768717,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "net_income": {
+     "amount": 983762224616,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_assets": {
+     "amount": 15320523983361,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_liabilities": {
+     "amount": 9435345265464,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_equity": {
+     "amount": 5885178717897,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 505347921137,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "customer_deposits": {
+     "amount": 8053176703000,
+     "original_account_name": "예수부채",
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 주석14 상각후원가측정금융부채"
+    },
+    "crypto_assets_owned": {
+     "amount": 2549568182000,
+     "original_account_name": "무형자산 중 가상자산(기말)",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 무형자산 주석 (3), 단위 천원"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": 81546219019000,
+     "original_account_name": "회원이 위탁한 가상자산(공정가치 합계)",
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 감독지침 문단 직전 표 | 재무제표 밖(주석 공시) 금액. 자산으로 인식되지 않음"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": "(계상 없음)",
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "6개사 모두 고객 위탁 가상자산의 통제권이 고객에게 있다고 보아 부채로 계상하지 않음(off-balance). 0 이 아니라 null."
+    },
+    "fee_revenue": {
+     "amount": 1723975073000,
+     "original_account_name": "고객과의 계약에서 생기는 수익",
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "고객과의 계약에서 생기는 수익 전체(수수료 종류별 세분 없음, 스테이킹 수익 포함 가능)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류(승인 4): 회사별 범위 차이로 이번 정규화에서 제외"
+    },
+    "intangible_assets": {
+     "amount": 2601704668917,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20250327001208",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250327001208",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    }
+   },
+   "confidence": "verified",
+   "fiscal_period_end": "2024-12-31",
+   "notes": "기본계정 원문 대조. 미확인/범위가 복합적인 가상자산·금융자산 총액은 null. fnlttSinglAcntAll.json + document.xml cross-check | 2026-09-07 복합계정 4개 반영(docs/COMPLEX_ACCOUNTS_RECOMMENDATION.md, 사용자 승인). financial_assets 보류 | 2026-09-07 revenue_breakdown·fee_revenue 추가(손익계산서·수익 주석)",
+   "revenue_breakdown": [
+    {
+     "original_account_name": "고객과의 계약에서 생기는 수익",
+     "normalized": "fee_revenue",
+     "amount": 1723975073000,
+     "share_of_total": 0.9956,
+     "note_number": "25",
+     "notes": "2025 보고서 주석 25 전기 열"
+    },
+    {
+     "original_account_name": "기타",
+     "normalized": "other_operating",
+     "amount": 7582375000,
+     "share_of_total": 0.0044,
+     "note_number": "25",
+     "notes": null
+    },
+    {
+     "original_account_name": "영업수익 합계",
+     "normalized": "total_operating_revenue",
+     "amount": 1731557448000,
+     "share_of_total": null,
+     "note_number": "25",
+     "notes": null
+    }
+   ]
+  },
+  {
+   "vasp_id": "upbit",
+   "corp_code": "01310241",
+   "fiscal_year": 2023,
+   "reporting_basis": "K_IFRS",
+   "receipt_number": "20240328001689",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+   "source_title": "두나무 사업보고서 (2023.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_type": "consolidated",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원",
+   "figures": {
+    "revenue": {
+     "amount": 1015399741655,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20240328001689",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "operating_income": {
+     "amount": 640861518069,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20240328001689",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "net_income": {
+     "amount": 805020100902,
+     "original_account_name": "당기순이익",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20240328001689",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_assets": {
+     "amount": 8551191312795,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20240328001689",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_liabilities": {
+     "amount": 4582230625073,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20240328001689",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_equity": {
+     "amount": 3968960687722,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20240328001689",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 4299701540679,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20240328001689",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "customer_deposits": {
+     "amount": 3828050358000,
+     "original_account_name": "예수부채",
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": "20240328001689",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 2024 보고서 주석14 전기 열"
+    },
+    "crypto_assets_owned": {
+     "amount": 985958806000,
+     "original_account_name": "무형자산 중 가상자산(기말)",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20240328001689",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 2024 보고서 변동표의 기초 금액 = 2023 기말. 2023 원문 직접 확인 안 함"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": 33555181199000,
+     "original_account_name": "회원이 위탁한 가상자산(공정가치 합계)",
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": "20240328001689",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 2024 보고서 표의 전기 열. 2023 원문 직접 확인 안 함 | 재무제표 밖(주석 공시) 금액. 자산으로 인식되지 않음"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": "(계상 없음)",
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "6개사 모두 고객 위탁 가상자산의 통제권이 고객에게 있다고 보아 부채로 계상하지 않음(off-balance). 0 이 아니라 null."
+    },
+    "fee_revenue": null,
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류(승인 4): 회사별 범위 차이로 이번 정규화에서 제외"
+    },
+    "intangible_assets": {
+     "amount": 1039330399297,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20240328001689",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    }
+   },
+   "confidence": "verified",
+   "fiscal_period_end": "2023-12-31",
+   "notes": "기본계정 원문 대조. 미확인/범위가 복합적인 가상자산·금융자산 총액은 null. fnlttSinglAcntAll.json + document.xml cross-check | 2026-09-07 복합계정 4개 반영(docs/COMPLEX_ACCOUNTS_RECOMMENDATION.md, 사용자 승인). financial_assets 보류",
+   "revenue_breakdown": null
+  },
+  {
+   "vasp_id": "upbit",
+   "corp_code": "01310241",
+   "fiscal_year": 2023,
+   "reporting_basis": "K_IFRS",
+   "receipt_number": "20240328001689",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+   "source_title": "두나무 사업보고서 (2023.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_type": "separate",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원",
+   "figures": {
+    "revenue": {
+     "amount": 986280323037,
+     "original_account_name": "영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20240328001689",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "operating_income": {
+     "amount": 677714327692,
+     "original_account_name": "영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20240328001689",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "net_income": {
+     "amount": 781191355738,
+     "original_account_name": "당기순이익",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20240328001689",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_assets": {
+     "amount": 8116373025443,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20240328001689",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_liabilities": {
+     "amount": 4181435824191,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20240328001689",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_equity": {
+     "amount": 3934937201252,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20240328001689",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 4256393144811,
+     "original_account_name": "현금및현금성자산",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20240328001689",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "customer_deposits": {
+     "amount": 3828050358000,
+     "original_account_name": "예수부채",
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": "20240328001689",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 2024 보고서 주석14 전기 열"
+    },
+    "crypto_assets_owned": {
+     "amount": 985958806000,
+     "original_account_name": "무형자산 중 가상자산(기말)",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20240328001689",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 2024 보고서 변동표의 기초 금액 = 2023 기말. 2023 원문 직접 확인 안 함"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": 33555181199000,
+     "original_account_name": "회원이 위탁한 가상자산(공정가치 합계)",
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": "20240328001689",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 2024 보고서 표의 전기 열. 2023 원문 직접 확인 안 함 | 재무제표 밖(주석 공시) 금액. 자산으로 인식되지 않음"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": "(계상 없음)",
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "6개사 모두 고객 위탁 가상자산의 통제권이 고객에게 있다고 보아 부채로 계상하지 않음(off-balance). 0 이 아니라 null."
+    },
+    "fee_revenue": null,
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류(승인 4): 회사별 범위 차이로 이번 정규화에서 제외"
+    },
+    "intangible_assets": {
+     "amount": 907370548548,
+     "original_account_name": "무형자산",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20240328001689",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240328001689",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    }
+   },
+   "confidence": "verified",
+   "fiscal_period_end": "2023-12-31",
+   "notes": "기본계정 원문 대조. 미확인/범위가 복합적인 가상자산·금융자산 총액은 null. fnlttSinglAcntAll.json + document.xml cross-check | 2026-09-07 복합계정 4개 반영(docs/COMPLEX_ACCOUNTS_RECOMMENDATION.md, 사용자 승인). financial_assets 보류",
+   "revenue_breakdown": null
+  },
+  {
+   "vasp_id": "coinone",
+   "corp_code": "01263378",
+   "fiscal_year": 2025,
+   "reporting_basis": "K_GAAP",
+   "receipt_number": "20260429000738",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260429000738",
+   "source_title": "코인원 [기재정정]감사보고서 (2025.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_type": "separate",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원",
+   "figures": {
+    "revenue": {
+     "amount": 45488146502,
+     "original_account_name": "Ⅰ. 영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20260429000738",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260429000738",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "operating_income": {
+     "amount": -6343494622,
+     "original_account_name": "Ⅲ. 영업이익",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20260429000738",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260429000738",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "net_income": {
+     "amount": 2677460373,
+     "original_account_name": "Ⅷ. 당기순이익",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20260429000738",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260429000738",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_assets": {
+     "amount": 269929193773,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20260429000738",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260429000738",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_liabilities": {
+     "amount": 188018378063,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20260429000738",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260429000738",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_equity": {
+     "amount": 81910815710,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20260429000738",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260429000738",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 195410784274,
+     "original_account_name": "현금및현금성자산(주석3)",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20260429000738",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260429000738",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "customer_deposits": {
+     "amount": 183327099463,
+     "original_account_name": "회원예치금",
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": "20260429000738",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260429000738",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 재무상태표 부채(주석12)"
+    },
+    "crypto_assets_owned": {
+     "amount": 44265531512,
+     "original_account_name": "가상자산 + 투자가상자산 + 대여가상자산",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20260429000738",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260429000738",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 합산(승인). 내역: 가상자산 30,556,128,066 / 투자가상자산 13,700,074,816 / 대여가상자산 9,328,630 원"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": 2744721721000,
+     "original_account_name": "회원 위탁 보관 가상자산(주석 6(3) 합계)",
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": "20260429000738",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260429000738",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 단위 천원 | 재무제표 밖(주석 공시) 금액. 자산으로 인식되지 않음"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": "(계상 없음)",
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "6개사 모두 고객 위탁 가상자산의 통제권이 고객에게 있다고 보아 부채로 계상하지 않음(off-balance). 0 이 아니라 null."
+    },
+    "fee_revenue": {
+     "amount": 45488146502,
+     "original_account_name": "수수료매출",
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": "20260429000738",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260429000738",
+     "notes": "손익계산서 수수료매출(영업수익 전액)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류(승인 4): 회사별 범위 차이로 이번 정규화에서 제외"
+    },
+    "intangible_assets": {
+     "amount": 82550235,
+     "original_account_name": "(3) 무형자산(주석10)",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20260429000738",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260429000738",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    }
+   },
+   "confidence": "verified",
+   "fiscal_period_end": "2025-12-31",
+   "notes": "기본계정 원문 대조. 미확인/범위가 복합적인 가상자산·금융자산 총액은 null. document.xml | 2026-09-07 복합계정 4개 반영(docs/COMPLEX_ACCOUNTS_RECOMMENDATION.md, 사용자 승인). financial_assets 보류 | 2026-09-07 revenue_breakdown·fee_revenue 추가(손익계산서·수익 주석)",
+   "revenue_breakdown": [
+    {
+     "original_account_name": "수수료매출",
+     "normalized": "fee_revenue",
+     "amount": 45488146502,
+     "share_of_total": 1.0,
+     "note_number": null,
+     "notes": "손익계산서. 영업수익 전액이 수수료"
+    },
+    {
+     "original_account_name": "영업수익",
+     "normalized": "total_operating_revenue",
+     "amount": 45488146502,
+     "share_of_total": null,
+     "note_number": null,
+     "notes": null
+    }
+   ]
+  },
+  {
+   "vasp_id": "coinone",
+   "corp_code": "01263378",
+   "fiscal_year": 2024,
+   "reporting_basis": "K_GAAP",
+   "receipt_number": "20250409001569",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250409001569",
+   "source_title": "코인원 감사보고서 (2024.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_type": "separate",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원",
+   "figures": {
+    "revenue": {
+     "amount": 44155520137,
+     "original_account_name": "Ⅰ. 영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20250409001569",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250409001569",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "operating_income": {
+     "amount": -6059982282,
+     "original_account_name": "Ⅲ. 영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20250409001569",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250409001569",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "net_income": {
+     "amount": 15616350894,
+     "original_account_name": "Ⅷ. 당기순이익 (손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20250409001569",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250409001569",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_assets": {
+     "amount": 331765355252,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20250409001569",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250409001569",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_liabilities": {
+     "amount": 252535922515,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20250409001569",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250409001569",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_equity": {
+     "amount": 79229432737,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20250409001569",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250409001569",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 254567770490,
+     "original_account_name": "현금및현금성자산(주석3,20)",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20250409001569",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250409001569",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "customer_deposits": {
+     "amount": 244427483545,
+     "original_account_name": "회원예치금",
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": "20250409001569",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250409001569",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 2025 재무상태표 전기 열"
+    },
+    "crypto_assets_owned": {
+     "amount": 48502287074,
+     "original_account_name": "가상자산",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20250409001569",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250409001569",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 투자·대여 가상자산 없음"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": 3562955159000,
+     "original_account_name": "회원 위탁 보관 가상자산(주석 6(3) 합계)",
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": "20250409001569",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250409001569",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 단위 천원 | 재무제표 밖(주석 공시) 금액. 자산으로 인식되지 않음"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": "(계상 없음)",
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "6개사 모두 고객 위탁 가상자산의 통제권이 고객에게 있다고 보아 부채로 계상하지 않음(off-balance). 0 이 아니라 null."
+    },
+    "fee_revenue": {
+     "amount": 44155520137,
+     "original_account_name": "수수료매출",
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": "20250409001569",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250409001569",
+     "notes": "손익계산서 수수료매출(영업수익 전액)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류(승인 4): 회사별 범위 차이로 이번 정규화에서 제외"
+    },
+    "intangible_assets": {
+     "amount": 114937424,
+     "original_account_name": "(3) 무형자산(주석8)",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20250409001569",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250409001569",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    }
+   },
+   "confidence": "verified",
+   "fiscal_period_end": "2024-12-31",
+   "notes": "기본계정 원문 대조. 미확인/범위가 복합적인 가상자산·금융자산 총액은 null. document.xml | 2026-09-07 복합계정 4개 반영(docs/COMPLEX_ACCOUNTS_RECOMMENDATION.md, 사용자 승인). financial_assets 보류 | 2026-09-07 revenue_breakdown·fee_revenue 추가(손익계산서·수익 주석)",
+   "revenue_breakdown": [
+    {
+     "original_account_name": "수수료매출",
+     "normalized": "fee_revenue",
+     "amount": 44155520137,
+     "share_of_total": 1.0,
+     "note_number": null,
+     "notes": "손익계산서"
+    },
+    {
+     "original_account_name": "영업수익",
+     "normalized": "total_operating_revenue",
+     "amount": 44155520137,
+     "share_of_total": null,
+     "note_number": null,
+     "notes": null
+    }
+   ]
+  },
+  {
+   "vasp_id": "coinone",
+   "corp_code": "01263378",
+   "fiscal_year": 2023,
+   "reporting_basis": "K_GAAP",
+   "receipt_number": "20240405002672",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240405002672",
+   "source_title": "코인원 감사보고서 (2023.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_type": "separate",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원",
+   "figures": {
+    "revenue": {
+     "amount": 22460831640,
+     "original_account_name": "Ⅰ. 영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20240405002672",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240405002672",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "operating_income": {
+     "amount": -23538681803,
+     "original_account_name": "Ⅲ. 영업손실",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20240405002672",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240405002672",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "net_income": {
+     "amount": -6721569927,
+     "original_account_name": "Ⅷ. 당기순손실",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20240405002672",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240405002672",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_assets": {
+     "amount": 196211668929,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20240405002672",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240405002672",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_liabilities": {
+     "amount": 132646014886,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20240405002672",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240405002672",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_equity": {
+     "amount": 63565654043,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20240405002672",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240405002672",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 130583120494,
+     "original_account_name": "현금및현금성자산(주석3,20)",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20240405002672",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240405002672",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "원문 재무상태표·주석 직접 확인 필요(2023). 추정값 미기재"
+    },
+    "crypto_assets_owned": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "원문 재무상태표·주석 직접 확인 필요(2023). 추정값 미기재"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": 1767521822000,
+     "original_account_name": "회원 위탁 보관 가상자산(주석 6 합계)",
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": "20240405002672",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240405002672",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 2024 보고서 전기 열 | 재무제표 밖(주석 공시) 금액. 자산으로 인식되지 않음"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": "(계상 없음)",
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "6개사 모두 고객 위탁 가상자산의 통제권이 고객에게 있다고 보아 부채로 계상하지 않음(off-balance). 0 이 아니라 null."
+    },
+    "fee_revenue": {
+     "amount": 22229337252,
+     "original_account_name": "수수료매출",
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": "20240405002672",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240405002672",
+     "notes": "손익계산서 수수료매출(영업수익 전액)"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류(승인 4): 회사별 범위 차이로 이번 정규화에서 제외"
+    },
+    "intangible_assets": {
+     "amount": 198278926,
+     "original_account_name": "(3) 무형자산(주석8)",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20240405002672",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240405002672",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    }
+   },
+   "confidence": "verified",
+   "fiscal_period_end": "2023-12-31",
+   "notes": "기본계정 원문 대조. 미확인/범위가 복합적인 가상자산·금융자산 총액은 null. document.xml | 2026-09-07 복합계정 4개 반영(docs/COMPLEX_ACCOUNTS_RECOMMENDATION.md, 사용자 승인). financial_assets 보류 | 2026-09-07 revenue_breakdown·fee_revenue 추가(손익계산서·수익 주석)",
+   "revenue_breakdown": [
+    {
+     "original_account_name": "수수료매출",
+     "normalized": "fee_revenue",
+     "amount": 22229337252,
+     "share_of_total": 0.9897,
+     "note_number": null,
+     "notes": "2024 손익계산서 전기 열"
+    },
+    {
+     "original_account_name": "기타매출",
+     "normalized": "other_operating",
+     "amount": 231494388,
+     "share_of_total": 0.0103,
+     "note_number": null,
+     "notes": null
+    },
+    {
+     "original_account_name": "영업수익",
+     "normalized": "total_operating_revenue",
+     "amount": 22460831640,
+     "share_of_total": null,
+     "note_number": null,
+     "notes": null
+    }
+   ]
+  },
+  {
+   "vasp_id": "bithumb",
+   "corp_code": "01214044",
+   "fiscal_year": 2025,
+   "reporting_basis": "K_GAAP",
+   "receipt_number": "20260331004333",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260331004333",
+   "source_title": "빗썸 사업보고서 (2025.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_type": "separate",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원",
+   "figures": {
+    "revenue": {
+     "amount": 651331122964,
+     "original_account_name": "I.영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20260331004333",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260331004333",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "operating_income": {
+     "amount": 163516514472,
+     "original_account_name": "III.영업이익",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20260331004333",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260331004333",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "net_income": {
+     "amount": 78035077775,
+     "original_account_name": "X.당기순이익",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20260331004333",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260331004333",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_assets": {
+     "amount": 3324912648558,
+     "original_account_name": "자 산 총 계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20260331004333",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260331004333",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_liabilities": {
+     "amount": 2461041963765,
+     "original_account_name": "부 채 총 계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20260331004333",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260331004333",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_equity": {
+     "amount": 863870684793,
+     "original_account_name": "자 본 총 계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20260331004333",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260331004333",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 2168233924691,
+     "original_account_name": "현금및현금성자산(주석3)",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20260331004333",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260331004333",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "customer_deposits": {
+     "amount": 2035179075433,
+     "original_account_name": "회원예치금",
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": "20260331004333",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260331004333",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 재무상태표 부채, 원 단위"
+    },
+    "crypto_assets_owned": {
+     "amount": 279330115000,
+     "original_account_name": "가상자산",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20260331004333",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260331004333",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 주석 4.1 합계 = 재무상태표 가상자산(주석4) 279,330,115,581원"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": 17902068094000,
+     "original_account_name": "회원 위탁 보관 가상자산(주석 4.2 합계)",
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": "20260331004333",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260331004333",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 단위 천원 | 재무제표 밖(주석 공시) 금액. 자산으로 인식되지 않음"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": "(계상 없음)",
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "6개사 모두 고객 위탁 가상자산의 통제권이 고객에게 있다고 보아 부채로 계상하지 않음(off-balance). 0 이 아니라 null."
+    },
+    "fee_revenue": {
+     "amount": 636272999457,
+     "original_account_name": "수수료매출",
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": "20260331004333",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260331004333",
+     "notes": "손익계산서 수수료매출"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류(승인 4): 회사별 범위 차이로 이번 정규화에서 제외"
+    },
+    "intangible_assets": {
+     "amount": 15508544784,
+     "original_account_name": "(3)무형자산(주석10)",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20260331004333",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260331004333",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    }
+   },
+   "confidence": "verified",
+   "fiscal_period_end": "2025-12-31",
+   "notes": "기본계정 원문 대조. 미확인/범위가 복합적인 가상자산·금융자산 총액은 null. fnlttSinglAcntAll.json + document.xml cross-check | 2026-09-07 복합계정 4개 반영(docs/COMPLEX_ACCOUNTS_RECOMMENDATION.md, 사용자 승인). financial_assets 보류 | 2026-09-07 revenue_breakdown·fee_revenue 추가(손익계산서·수익 주석)",
+   "revenue_breakdown": [
+    {
+     "original_account_name": "수수료매출",
+     "normalized": "fee_revenue",
+     "amount": 636272999457,
+     "share_of_total": 0.9769,
+     "note_number": null,
+     "notes": "손익계산서"
+    },
+    {
+     "original_account_name": "기타매출",
+     "normalized": "other_operating",
+     "amount": 15058123507,
+     "share_of_total": 0.0231,
+     "note_number": null,
+     "notes": "손익계산서"
+    },
+    {
+     "original_account_name": "영업수익",
+     "normalized": "total_operating_revenue",
+     "amount": 651331122964,
+     "share_of_total": null,
+     "note_number": null,
+     "notes": null
+    }
+   ]
+  },
+  {
+   "vasp_id": "bithumb",
+   "corp_code": "01214044",
+   "fiscal_year": 2024,
+   "reporting_basis": "K_GAAP",
+   "receipt_number": "20250331003880",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250331003880",
+   "source_title": "빗썸 사업보고서 (2024.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_type": "separate",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원",
+   "figures": {
+    "revenue": {
+     "amount": 496354225037,
+     "original_account_name": "I.영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20250331003880",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250331003880",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "operating_income": {
+     "amount": 130795920873,
+     "original_account_name": "III.영업이익 (손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20250331003880",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250331003880",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "net_income": {
+     "amount": 161880023838,
+     "original_account_name": "VIII.당기순이익",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20250331003880",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250331003880",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_assets": {
+     "amount": 3782773052370,
+     "original_account_name": "자 산 총 계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20250331003880",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250331003880",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_liabilities": {
+     "amount": 2383116821945,
+     "original_account_name": "부 채 총 계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20250331003880",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250331003880",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_equity": {
+     "amount": 1399656230425,
+     "original_account_name": "자 본 총 계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20250331003880",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250331003880",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 2540125226620,
+     "original_account_name": "현금및현금성자산(주석3)",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20250331003880",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250331003880",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "customer_deposits": {
+     "amount": 2262995052492,
+     "original_account_name": "회원예치금",
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": "20250331003880",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250331003880",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 재무상태표 부채"
+    },
+    "crypto_assets_owned": {
+     "amount": 96579574000,
+     "original_account_name": "가상자산",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20250331003880",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250331003880",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 주석 4.1 합계"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": 20466509024000,
+     "original_account_name": "회원 위탁 보관 가상자산(주석 4.2 합계)",
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": "20250331003880",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250331003880",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 단위 천원 | 재무제표 밖(주석 공시) 금액. 자산으로 인식되지 않음"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": "(계상 없음)",
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "6개사 모두 고객 위탁 가상자산의 통제권이 고객에게 있다고 보아 부채로 계상하지 않음(off-balance). 0 이 아니라 null."
+    },
+    "fee_revenue": {
+     "amount": 496073909931,
+     "original_account_name": "수수료매출",
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": "20250331003880",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250331003880",
+     "notes": "손익계산서 수수료매출"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류(승인 4): 회사별 범위 차이로 이번 정규화에서 제외"
+    },
+    "intangible_assets": {
+     "amount": 14651767563,
+     "original_account_name": "(3)무형자산(주석10)",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20250331003880",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250331003880",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    }
+   },
+   "confidence": "verified",
+   "fiscal_period_end": "2024-12-31",
+   "notes": "기본계정 원문 대조. 미확인/범위가 복합적인 가상자산·금융자산 총액은 null. fnlttSinglAcntAll.json + document.xml cross-check | 2026-09-07 복합계정 4개 반영(docs/COMPLEX_ACCOUNTS_RECOMMENDATION.md, 사용자 승인). financial_assets 보류 | 2026-09-07 revenue_breakdown·fee_revenue 추가(손익계산서·수익 주석)",
+   "revenue_breakdown": [
+    {
+     "original_account_name": "수수료매출",
+     "normalized": "fee_revenue",
+     "amount": 496073909931,
+     "share_of_total": 0.9994,
+     "note_number": null,
+     "notes": "손익계산서"
+    },
+    {
+     "original_account_name": "기타매출",
+     "normalized": "other_operating",
+     "amount": 280315106,
+     "share_of_total": 0.0006,
+     "note_number": null,
+     "notes": null
+    },
+    {
+     "original_account_name": "영업수익",
+     "normalized": "total_operating_revenue",
+     "amount": 496354225037,
+     "share_of_total": null,
+     "note_number": null,
+     "notes": null
+    }
+   ]
+  },
+  {
+   "vasp_id": "bithumb",
+   "corp_code": "01214044",
+   "fiscal_year": 2023,
+   "reporting_basis": "K_GAAP",
+   "receipt_number": "20240401004312",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240401004312",
+   "source_title": "빗썸 사업보고서 (2023.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_type": "separate",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원",
+   "figures": {
+    "revenue": {
+     "amount": 135849194588,
+     "original_account_name": "I.영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20240401004312",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240401004312",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "operating_income": {
+     "amount": -14874409931,
+     "original_account_name": "III.영업이 익 (손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20240401004312",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240401004312",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "net_income": {
+     "amount": 24313381616,
+     "original_account_name": "VIII.당기순이익",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20240401004312",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240401004312",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_assets": {
+     "amount": 2145944540785,
+     "original_account_name": "자 산 총 계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20240401004312",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240401004312",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_liabilities": {
+     "amount": 906347764520,
+     "original_account_name": "부 채 총 계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20240401004312",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240401004312",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "total_equity": {
+     "amount": 1239596776265,
+     "original_account_name": "자 본 총 계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20240401004312",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240401004312",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 1147618448684,
+     "original_account_name": "현금및현금성자산(주석3)",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20240401004312",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240401004312",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    },
+    "customer_deposits": {
+     "amount": 859538581259,
+     "original_account_name": "회원예치금",
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": "20240401004312",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240401004312",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 2024 재무상태표 전기 열"
+    },
+    "crypto_assets_owned": {
+     "amount": 113924008000,
+     "original_account_name": "가상자산",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20240401004312",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240401004312",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 2025 재무상태표 전전기 열 113,924,008,296원. 2023 원문 직접 확인 안 함"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": 7374309606000,
+     "original_account_name": "회원 위탁 보관 가상자산",
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": "20240401004312",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240401004312",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 2024 주석 4.2 전기 열 | 재무제표 밖(주석 공시) 금액. 자산으로 인식되지 않음"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": "(계상 없음)",
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "6개사 모두 고객 위탁 가상자산의 통제권이 고객에게 있다고 보아 부채로 계상하지 않음(off-balance). 0 이 아니라 null."
+    },
+    "fee_revenue": {
+     "amount": 135763441866,
+     "original_account_name": "수수료매출",
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": "20240401004312",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240401004312",
+     "notes": "손익계산서 수수료매출"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류(승인 4): 회사별 범위 차이로 이번 정규화에서 제외"
+    },
+    "intangible_assets": {
+     "amount": 9751857128,
+     "original_account_name": "(3)무형자산(주석10)",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20240401004312",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240401004312",
+     "notes": "당기 열 사용. 원 단위 정수. fnlttSinglAcntAll.json + document.xml cross-check"
+    }
+   },
+   "confidence": "verified",
+   "fiscal_period_end": "2023-12-31",
+   "notes": "기본계정 원문 대조. 미확인/범위가 복합적인 가상자산·금융자산 총액은 null. fnlttSinglAcntAll.json + document.xml cross-check | 2026-09-07 복합계정 4개 반영(docs/COMPLEX_ACCOUNTS_RECOMMENDATION.md, 사용자 승인). financial_assets 보류 | 2026-09-07 revenue_breakdown·fee_revenue 추가(손익계산서·수익 주석)",
+   "revenue_breakdown": [
+    {
+     "original_account_name": "수수료매출",
+     "normalized": "fee_revenue",
+     "amount": 135763441866,
+     "share_of_total": 0.9994,
+     "note_number": null,
+     "notes": "2025 손익계산서 전전기 열"
+    },
+    {
+     "original_account_name": "기타매출",
+     "normalized": "other_operating",
+     "amount": 85752722,
+     "share_of_total": 0.0006,
+     "note_number": null,
+     "notes": null
+    },
+    {
+     "original_account_name": "영업수익",
+     "normalized": "total_operating_revenue",
+     "amount": 135849194588,
+     "share_of_total": null,
+     "note_number": null,
+     "notes": null
+    }
+   ]
+  },
+  {
+   "vasp_id": "korbit",
+   "corp_code": "01221743",
+   "fiscal_year": 2025,
+   "reporting_basis": "K_GAAP",
+   "receipt_number": "20260414001243",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001243",
+   "source_title": "디지털엑스 감사보고서 (2025.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_type": "separate",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원",
+   "figures": {
+    "revenue": {
+     "amount": 9761931845,
+     "original_account_name": "I. 영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20260414001243",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001243",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "operating_income": {
+     "amount": -15402658416,
+     "original_account_name": "III. 영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20260414001243",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001243",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "net_income": {
+     "amount": -15759197899,
+     "original_account_name": "VIII. 당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20260414001243",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001243",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_assets": {
+     "amount": 168006077551,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20260414001243",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001243",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_liabilities": {
+     "amount": 129995556935,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20260414001243",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001243",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_equity": {
+     "amount": 38010520616,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20260414001243",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001243",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 2075984440,
+     "original_account_name": "현금및현금성자산(주석3)",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20260414001243",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001243",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "customer_deposits": {
+     "amount": 89531261351,
+     "original_account_name": "예수금",
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": "20260414001243",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001243",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 재무상태표 부채(주석27). 신한은행 실명확인 예수부채 포함"
+    },
+    "crypto_assets_owned": {
+     "amount": 65067033475,
+     "original_account_name": "가상자산 + 투자가상자산",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20260414001243",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001243",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 합산(승인). 내역: 가상자산 18,845,913,475 / 투자가상자산(제3자 대여·운용) 46,221,120,000 원"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": 1574559797000,
+     "original_account_name": "고객 소유분 가상자산 공정가치(가상자산 주석 (2) 당기말 표 합계)",
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": "20260414001243",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001243",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 단위 천원 | 재무제표 밖(주석 공시) 금액. 자산으로 인식되지 않음"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": "(계상 없음)",
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "6개사 모두 고객 위탁 가상자산의 통제권이 고객에게 있다고 보아 부채로 계상하지 않음(off-balance). 0 이 아니라 null."
+    },
+    "fee_revenue": {
+     "amount": 9760732655,
+     "original_account_name": "수수료수익",
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": "20260414001243",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001243",
+     "notes": "손익계산서 수수료수익"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류(승인 4): 회사별 범위 차이로 이번 정규화에서 제외"
+    },
+    "intangible_assets": {
+     "amount": 114449782,
+     "original_account_name": "(3) 무형자산(주석13)",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20260414001243",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001243",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    }
+   },
+   "confidence": "verified",
+   "fiscal_period_end": "2025-12-31",
+   "notes": "기본계정 원문 대조. 미확인/범위가 복합적인 가상자산·금융자산 총액은 null. document.xml | 2026-09-07 복합계정 4개 반영(docs/COMPLEX_ACCOUNTS_RECOMMENDATION.md, 사용자 승인). financial_assets 보류 | 2026-09-07 revenue_breakdown·fee_revenue 추가(손익계산서·수익 주석)",
+   "revenue_breakdown": [
+    {
+     "original_account_name": "수수료수익",
+     "normalized": "fee_revenue",
+     "amount": 9760732655,
+     "share_of_total": 0.9999,
+     "note_number": null,
+     "notes": "손익계산서. 주석 2.15: 거래수수료·출금수수료, 대리인 순액"
+    },
+    {
+     "original_account_name": "기타매출",
+     "normalized": "other_operating",
+     "amount": 1199190,
+     "share_of_total": 0.0001,
+     "note_number": null,
+     "notes": null
+    },
+    {
+     "original_account_name": "영업수익",
+     "normalized": "total_operating_revenue",
+     "amount": 9761931845,
+     "share_of_total": null,
+     "note_number": null,
+     "notes": null
+    }
+   ]
+  },
+  {
+   "vasp_id": "korbit",
+   "corp_code": "01221743",
+   "fiscal_year": 2024,
+   "reporting_basis": "K_GAAP",
+   "receipt_number": "20250403003055",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250403003055",
+   "source_title": "디지털엑스 감사보고서 (2024.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_type": "separate",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원",
+   "figures": {
+    "revenue": {
+     "amount": 8723741519,
+     "original_account_name": "I. 영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20250403003055",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250403003055",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "operating_income": {
+     "amount": -16761671951,
+     "original_account_name": "III. 영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20250403003055",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250403003055",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "net_income": {
+     "amount": 9841032751,
+     "original_account_name": "VIII. 당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20250403003055",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250403003055",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_assets": {
+     "amount": 226054456992,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20250403003055",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250403003055",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_liabilities": {
+     "amount": 172288929102,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20250403003055",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250403003055",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_equity": {
+     "amount": 53765527890,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20250403003055",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250403003055",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 3534907140,
+     "original_account_name": "1.현금및현금성자산(주석3)",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20250403003055",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250403003055",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "customer_deposits": {
+     "amount": 129233780864,
+     "original_account_name": "예수금",
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": "20250403003055",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250403003055",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 2025 재무상태표 전기 열"
+    },
+    "crypto_assets_owned": {
+     "amount": 78400008808,
+     "original_account_name": "가상자산 + 투자가상자산",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20250403003055",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250403003055",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 합산(승인). 내역: 가상자산 7,330,263,721 / 투자가상자산 71,069,745,087 원 (2025 재무상태표 전기 열)"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": 1959665194000,
+     "original_account_name": "고객 소유분 가상자산 공정가치",
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": "20250403003055",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250403003055",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 단위 천원 | 재무제표 밖(주석 공시) 금액. 자산으로 인식되지 않음"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": "(계상 없음)",
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "6개사 모두 고객 위탁 가상자산의 통제권이 고객에게 있다고 보아 부채로 계상하지 않음(off-balance). 0 이 아니라 null."
+    },
+    "fee_revenue": {
+     "amount": 8718501800,
+     "original_account_name": "수수료수익",
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": "20250403003055",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250403003055",
+     "notes": "손익계산서 수수료수익"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류(승인 4): 회사별 범위 차이로 이번 정규화에서 제외"
+    },
+    "intangible_assets": {
+     "amount": 148718174,
+     "original_account_name": "(3)무형자산(주석13)",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20250403003055",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250403003055",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    }
+   },
+   "confidence": "verified",
+   "fiscal_period_end": "2024-12-31",
+   "notes": "기본계정 원문 대조. 미확인/범위가 복합적인 가상자산·금융자산 총액은 null. document.xml | 2026-09-07 복합계정 4개 반영(docs/COMPLEX_ACCOUNTS_RECOMMENDATION.md, 사용자 승인). financial_assets 보류 | 2026-09-07 revenue_breakdown·fee_revenue 추가(손익계산서·수익 주석)",
+   "revenue_breakdown": [
+    {
+     "original_account_name": "수수료수익",
+     "normalized": "fee_revenue",
+     "amount": 8718501800,
+     "share_of_total": 0.9994,
+     "note_number": null,
+     "notes": "손익계산서"
+    },
+    {
+     "original_account_name": "기타매출",
+     "normalized": "other_operating",
+     "amount": 5239719,
+     "share_of_total": 0.0006,
+     "note_number": null,
+     "notes": null
+    },
+    {
+     "original_account_name": "영업수익",
+     "normalized": "total_operating_revenue",
+     "amount": 8723741519,
+     "share_of_total": null,
+     "note_number": null,
+     "notes": null
+    }
+   ]
+  },
+  {
+   "vasp_id": "korbit",
+   "corp_code": "01221743",
+   "fiscal_year": 2023,
+   "reporting_basis": "K_GAAP",
+   "receipt_number": "20240409002249",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240409002249",
+   "source_title": "디지털엑스 감사보고서 (2023.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_type": "separate",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원",
+   "figures": {
+    "revenue": {
+     "amount": 1691271488,
+     "original_account_name": "I. 영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20240409002249",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240409002249",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "operating_income": {
+     "amount": -26877255136,
+     "original_account_name": "III. 영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20240409002249",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240409002249",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "net_income": {
+     "amount": -14183876694,
+     "original_account_name": "VIII. 당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20240409002249",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240409002249",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_assets": {
+     "amount": 103377460005,
+     "original_account_name": "자산총계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20240409002249",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240409002249",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_liabilities": {
+     "amount": 61640938289,
+     "original_account_name": "부채총계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20240409002249",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240409002249",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_equity": {
+     "amount": 41736521716,
+     "original_account_name": "자본총계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20240409002249",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240409002249",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 62998249423,
+     "original_account_name": "1.현금및현금성자산(주석3)",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20240409002249",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240409002249",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "원문 재무상태표·주석 직접 확인 필요(2023). 추정값 미기재"
+    },
+    "crypto_assets_owned": {
+     "amount": 3653804000,
+     "original_account_name": "가상자산(회사 소유분 표 합계)",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20240409002249",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240409002249",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 투자가상자산 존재 여부 미확인 → 회사 소유분 표 합계만. 단위 천원"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": 892140126000,
+     "original_account_name": "고객 소유분 가상자산 공정가치",
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": "20240409002249",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240409002249",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 단위 천원 | 재무제표 밖(주석 공시) 금액. 자산으로 인식되지 않음"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": "(계상 없음)",
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "6개사 모두 고객 위탁 가상자산의 통제권이 고객에게 있다고 보아 부채로 계상하지 않음(off-balance). 0 이 아니라 null."
+    },
+    "fee_revenue": {
+     "amount": 1684021549,
+     "original_account_name": "수수료수익",
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": "20240409002249",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240409002249",
+     "notes": "손익계산서 수수료수익"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류(승인 4): 회사별 범위 차이로 이번 정규화에서 제외"
+    },
+    "intangible_assets": {
+     "amount": 255919138,
+     "original_account_name": "(3)무형자산(주석12)",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20240409002249",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240409002249",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    }
+   },
+   "confidence": "verified",
+   "fiscal_period_end": "2023-12-31",
+   "notes": "기본계정 원문 대조. 미확인/범위가 복합적인 가상자산·금융자산 총액은 null. document.xml | 2026-09-07 복합계정 4개 반영(docs/COMPLEX_ACCOUNTS_RECOMMENDATION.md, 사용자 승인). financial_assets 보류 | 2026-09-07 revenue_breakdown·fee_revenue 추가(손익계산서·수익 주석)",
+   "revenue_breakdown": [
+    {
+     "original_account_name": "수수료수익",
+     "normalized": "fee_revenue",
+     "amount": 1684021549,
+     "share_of_total": 0.9957,
+     "note_number": null,
+     "notes": "2024 손익계산서 전기 열"
+    },
+    {
+     "original_account_name": "기타매출",
+     "normalized": "other_operating",
+     "amount": 7249939,
+     "share_of_total": 0.0043,
+     "note_number": null,
+     "notes": null
+    },
+    {
+     "original_account_name": "영업수익",
+     "normalized": "total_operating_revenue",
+     "amount": 1691271488,
+     "share_of_total": null,
+     "note_number": null,
+     "notes": null
+    }
+   ]
+  },
+  {
+   "vasp_id": "gopax",
+   "corp_code": "01307618",
+   "fiscal_year": 2025,
+   "reporting_basis": "K_GAAP",
+   "receipt_number": "20260414001751",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001751",
+   "source_title": "스트리미 감사보고서 (2025.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_type": "separate",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원",
+   "figures": {
+    "revenue": {
+     "amount": 4326465065,
+     "original_account_name": "Ⅰ. 영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20260414001751",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001751",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "operating_income": {
+     "amount": -7675028140,
+     "original_account_name": "Ⅲ. 영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20260414001751",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001751",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "net_income": {
+     "amount": 13117443949,
+     "original_account_name": "VIII. 당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20260414001751",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001751",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_assets": {
+     "amount": 13468853460,
+     "original_account_name": "자 산 총 계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20260414001751",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001751",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_liabilities": {
+     "amount": 231995012073,
+     "original_account_name": "부 채 총 계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20260414001751",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001751",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_equity": {
+     "amount": -218526158613,
+     "original_account_name": "자 본 총 계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20260414001751",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001751",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 332455737,
+     "original_account_name": "1. 현금및현금성자산(주석3,7)",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20260414001751",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001751",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "customer_deposits": {
+     "amount": 10203442706,
+     "original_account_name": "고객예수부채",
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": "20260414001751",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001751",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 재무상태표 부채 = 고객예치금(자산) 동액"
+    },
+    "crypto_assets_owned": {
+     "amount": 1552878000,
+     "original_account_name": "가상자산",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20260414001751",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001751",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 주석 8(1) 합계 = 재무상태표 1,552,878,033원"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": 164612164000,
+     "original_account_name": "회원 위탁 보관 가상자산(주석 8(2) 합계)",
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": "20260414001751",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001751",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 단위 천원 | 재무제표 밖(주석 공시) 금액. 자산으로 인식되지 않음"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": "(계상 없음)",
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "6개사 모두 고객 위탁 가상자산의 통제권이 고객에게 있다고 보아 부채로 계상하지 않음(off-balance). 0 이 아니라 null."
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "손익계산서·주석에 수수료 세분 없음"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류(승인 4): 회사별 범위 차이로 이번 정규화에서 제외"
+    },
+    "intangible_assets": {
+     "amount": 590287015,
+     "original_account_name": "(3) 무형자산(주석11)",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20260414001751",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001751",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    }
+   },
+   "confidence": "verified",
+   "fiscal_period_end": "2025-12-31",
+   "notes": "기본계정 원문 대조. 미확인/범위가 복합적인 가상자산·금융자산 총액은 null. document.xml | 2026-09-07 복합계정 4개 반영(docs/COMPLEX_ACCOUNTS_RECOMMENDATION.md, 사용자 승인). financial_assets 보류 | 2026-09-07 revenue_breakdown·fee_revenue 추가(손익계산서·수익 주석)",
+   "revenue_breakdown": [
+    {
+     "original_account_name": "영업수익",
+     "normalized": "total_operating_revenue",
+     "amount": 4326465065,
+     "share_of_total": null,
+     "note_number": null,
+     "notes": "손익계산서에 수수료 세분 없음. 주석 2.15 에 따르면 거래수수료·출금수수료로 구성. 영업외수익에 가상자산평가이익 26,516,856,023원(영업수익의 6배)"
+    }
+   ]
+  },
+  {
+   "vasp_id": "gopax",
+   "corp_code": "01307618",
+   "fiscal_year": 2024,
+   "reporting_basis": "K_GAAP",
+   "receipt_number": "20250414001854",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250414001854",
+   "source_title": "스트리미 감사보고서 (2024.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_type": "separate",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원",
+   "figures": {
+    "revenue": {
+     "amount": 8032696209,
+     "original_account_name": "Ⅰ. 영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20250414001854",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250414001854",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "operating_income": {
+     "amount": -2984287875,
+     "original_account_name": "Ⅲ. 영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20250414001854",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250414001854",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "net_income": {
+     "amount": -130513773550,
+     "original_account_name": "VIII. 당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20250414001854",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250414001854",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_assets": {
+     "amount": 16414612068,
+     "original_account_name": "자 산 총 계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20250414001854",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250414001854",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_liabilities": {
+     "amount": 248058214630,
+     "original_account_name": "부 채 총 계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20250414001854",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250414001854",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_equity": {
+     "amount": -231643602562,
+     "original_account_name": "자 본 총 계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20250414001854",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250414001854",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 2687789015,
+     "original_account_name": "1. 현금및현금성자산(주석3,7)",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20250414001854",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250414001854",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "customer_deposits": {
+     "amount": 10438084461,
+     "original_account_name": "고객예수부채",
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": "20250414001854",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250414001854",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 재무상태표"
+    },
+    "crypto_assets_owned": {
+     "amount": 1223024000,
+     "original_account_name": "가상자산",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20250414001854",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250414001854",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 주석 8(1)"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": 227342246000,
+     "original_account_name": "회원 위탁 보관 가상자산(주석 8(2) 합계)",
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": "20250414001854",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250414001854",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 2025 보고서 전기 열 | 재무제표 밖(주석 공시) 금액. 자산으로 인식되지 않음"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": "(계상 없음)",
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "6개사 모두 고객 위탁 가상자산의 통제권이 고객에게 있다고 보아 부채로 계상하지 않음(off-balance). 0 이 아니라 null."
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "손익계산서·주석에 수수료 세분 없음"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류(승인 4): 회사별 범위 차이로 이번 정규화에서 제외"
+    },
+    "intangible_assets": {
+     "amount": 662094272,
+     "original_account_name": "(3) 무형자산(주석12)",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20250414001854",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20250414001854",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    }
+   },
+   "confidence": "verified",
+   "fiscal_period_end": "2024-12-31",
+   "notes": "기본계정 원문 대조. 미확인/범위가 복합적인 가상자산·금융자산 총액은 null. document.xml | 2026-09-07 복합계정 4개 반영(docs/COMPLEX_ACCOUNTS_RECOMMENDATION.md, 사용자 승인). financial_assets 보류 | 2026-09-07 revenue_breakdown·fee_revenue 추가(손익계산서·수익 주석)",
+   "revenue_breakdown": [
+    {
+     "original_account_name": "영업수익",
+     "normalized": "total_operating_revenue",
+     "amount": 8032696209,
+     "share_of_total": null,
+     "note_number": null,
+     "notes": "세분 없음"
+    }
+   ]
+  },
+  {
+   "vasp_id": "gopax",
+   "corp_code": "01307618",
+   "fiscal_year": 2023,
+   "reporting_basis": "K_GAAP",
+   "receipt_number": "20240412001438",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412001438",
+   "source_title": "스트리미 감사보고서 (2023.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_type": "separate",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원",
+   "figures": {
+    "revenue": {
+     "amount": 3099138163,
+     "original_account_name": "Ⅰ. 영업수익",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20240412001438",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412001438",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "operating_income": {
+     "amount": -16941334090,
+     "original_account_name": "Ⅲ. 영업이익(손실)",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20240412001438",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412001438",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "net_income": {
+     "amount": -51389997210,
+     "original_account_name": "VIII. 당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20240412001438",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412001438",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_assets": {
+     "amount": 17278053106,
+     "original_account_name": "자 산 총 계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20240412001438",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412001438",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_liabilities": {
+     "amount": 118407882118,
+     "original_account_name": "부 채 총 계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20240412001438",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412001438",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_equity": {
+     "amount": -101129829012,
+     "original_account_name": "자 본 총 계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20240412001438",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412001438",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 2822287744,
+     "original_account_name": "1. 현금및현금성자산(주석4,8)",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20240412001438",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412001438",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "customer_deposits": {
+     "amount": 7925781344,
+     "original_account_name": "고객예수부채",
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": "20240412001438",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412001438",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 재무상태표"
+    },
+    "crypto_assets_owned": {
+     "amount": 1507834000,
+     "original_account_name": "가상자산",
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": "20240412001438",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412001438",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 재무상태표 1,507,833,592원(천원 반올림)"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": 136124014000,
+     "original_account_name": "회원 위탁 보관 가상자산(우발사항 주석)",
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": "20240412001438",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412001438",
+     "notes": "원 단위 정수(천원 원문은 ×1,000) | 단위 천원 | 재무제표 밖(주석 공시) 금액. 자산으로 인식되지 않음"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": "(계상 없음)",
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "6개사 모두 고객 위탁 가상자산의 통제권이 고객에게 있다고 보아 부채로 계상하지 않음(off-balance). 0 이 아니라 null."
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "손익계산서·주석에 수수료 세분 없음"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류(승인 4): 회사별 범위 차이로 이번 정규화에서 제외"
+    },
+    "intangible_assets": {
+     "amount": 722206802,
+     "original_account_name": "(3) 무형자산(주석13)",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20240412001438",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20240412001438",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    }
+   },
+   "confidence": "verified",
+   "fiscal_period_end": "2023-12-31",
+   "notes": "기본계정 원문 대조. 미확인/범위가 복합적인 가상자산·금융자산 총액은 null. document.xml | 2026-09-07 복합계정 4개 반영(docs/COMPLEX_ACCOUNTS_RECOMMENDATION.md, 사용자 승인). financial_assets 보류 | 2026-09-07 revenue_breakdown·fee_revenue 추가(손익계산서·수익 주석)",
+   "revenue_breakdown": [
+    {
+     "original_account_name": "영업수익",
+     "normalized": "total_operating_revenue",
+     "amount": 3099138163,
+     "share_of_total": null,
+     "note_number": null,
+     "notes": "세분 없음"
+    }
+   ]
+  },
+  {
+   "vasp_id": "wavebridge",
+   "corp_code": "01930869",
+   "fiscal_year": 2025,
+   "reporting_basis": "K_GAAP",
+   "receipt_number": "20260424000170",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260424000170",
+   "source_title": "웨이브릿지 연결감사보고서 (2025.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_type": "consolidated",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원",
+   "figures": {
+    "revenue": {
+     "amount": 2740033073,
+     "original_account_name": "영업수익(주석14)",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20260424000170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260424000170",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "operating_income": {
+     "amount": -8413208986,
+     "original_account_name": "영업손실",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20260424000170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260424000170",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "net_income": {
+     "amount": -8353886591,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20260424000170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260424000170",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_assets": {
+     "amount": 6088589308,
+     "original_account_name": "자 산 총 계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20260424000170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260424000170",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_liabilities": {
+     "amount": 7838516321,
+     "original_account_name": "부 채 총 계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20260424000170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260424000170",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_equity": {
+     "amount": -1749927013,
+     "original_account_name": "자 본 총 계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20260424000170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260424000170",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 3783863021,
+     "original_account_name": "현금및현금성자산(주석3)",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20260424000170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260424000170",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "별도 감사보고서에 가상자산·예치금 관련 주석 없음"
+    },
+    "crypto_assets_owned": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "별도 감사보고서에 가상자산·예치금 관련 주석 없음"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "별도 감사보고서에 가상자산·예치금 관련 주석 없음"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": "(계상 없음)",
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "6개사 모두 고객 위탁 가상자산의 통제권이 고객에게 있다고 보아 부채로 계상하지 않음(off-balance). 0 이 아니라 null."
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "손익계산서·주석에 수수료 세분 없음"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류(승인 4): 회사별 범위 차이로 이번 정규화에서 제외"
+    },
+    "intangible_assets": {
+     "amount": 44176216,
+     "original_account_name": "무형자산(주석8)",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20260424000170",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260424000170",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    }
+   },
+   "confidence": "verified",
+   "fiscal_period_end": "2025-12-31",
+   "notes": "기본계정 원문 대조. 미확인/범위가 복합적인 가상자산·금융자산 총액은 null. document.xml | 2026-09-07 revenue_breakdown·fee_revenue 추가(손익계산서·수익 주석)",
+   "revenue_breakdown": [
+    {
+     "original_account_name": "영업수익",
+     "normalized": "total_operating_revenue",
+     "amount": 2740033073,
+     "share_of_total": null,
+     "note_number": null,
+     "notes": "연결 손익계산서. 세분 미추출"
+    }
+   ]
+  },
+  {
+   "vasp_id": "wavebridge",
+   "corp_code": "01930869",
+   "fiscal_year": 2025,
+   "reporting_basis": "K_GAAP",
+   "receipt_number": "20260410001287",
+   "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260410001287",
+   "source_title": "웨이브릿지 감사보고서 (2025.12)",
+   "source_authority": "DART",
+   "retrieved_at": "2026-09-06",
+   "statement_type": "separate",
+   "currency": "KRW",
+   "unit": "KRW",
+   "original_unit": "원",
+   "figures": {
+    "revenue": {
+     "amount": 1889611268,
+     "original_account_name": "영업수익(주석16)",
+     "normalized_account_name": "revenue",
+     "receipt_number": "20260410001287",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260410001287",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "operating_income": {
+     "amount": -7218706951,
+     "original_account_name": "영업손실",
+     "normalized_account_name": "operating_income",
+     "receipt_number": "20260410001287",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260410001287",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "net_income": {
+     "amount": -8340524173,
+     "original_account_name": "당기순이익(손실)",
+     "normalized_account_name": "net_income",
+     "receipt_number": "20260410001287",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260410001287",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_assets": {
+     "amount": 18515282467,
+     "original_account_name": "자 산 총 계",
+     "normalized_account_name": "total_assets",
+     "receipt_number": "20260410001287",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260410001287",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_liabilities": {
+     "amount": 20239990389,
+     "original_account_name": "부 채 총 계",
+     "normalized_account_name": "total_liabilities",
+     "receipt_number": "20260410001287",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260410001287",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "total_equity": {
+     "amount": -1724707922,
+     "original_account_name": "자 본 총 계",
+     "normalized_account_name": "total_equity",
+     "receipt_number": "20260410001287",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260410001287",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "cash_and_cash_equivalents": {
+     "amount": 3052524226,
+     "original_account_name": "현금및현금성자산(주석3)",
+     "normalized_account_name": "cash_and_cash_equivalents",
+     "receipt_number": "20260410001287",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260410001287",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    },
+    "customer_deposits": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "customer_deposits",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "별도 감사보고서에 가상자산·예치금 관련 주석 없음"
+    },
+    "crypto_assets_owned": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_owned",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "별도 감사보고서에 가상자산·예치금 관련 주석 없음"
+    },
+    "crypto_assets_held_for_customers": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "crypto_assets_held_for_customers",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "별도 감사보고서에 가상자산·예치금 관련 주석 없음"
+    },
+    "customer_crypto_liabilities": {
+     "amount": null,
+     "original_account_name": "(계상 없음)",
+     "normalized_account_name": "customer_crypto_liabilities",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "6개사 모두 고객 위탁 가상자산의 통제권이 고객에게 있다고 보아 부채로 계상하지 않음(off-balance). 0 이 아니라 null."
+    },
+    "fee_revenue": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "fee_revenue",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "손익계산서·주석에 수수료 세분 없음"
+    },
+    "financial_assets": {
+     "amount": null,
+     "original_account_name": null,
+     "normalized_account_name": "financial_assets",
+     "receipt_number": null,
+     "source_url": null,
+     "notes": "보류(승인 4): 회사별 범위 차이로 이번 정규화에서 제외"
+    },
+    "intangible_assets": {
+     "amount": 44176216,
+     "original_account_name": "무형자산(주석9)",
+     "normalized_account_name": "intangible_assets",
+     "receipt_number": "20260410001287",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260410001287",
+     "notes": "당기 열 사용. 원 단위 정수. document.xml"
+    }
+   },
+   "confidence": "verified",
+   "fiscal_period_end": "2025-12-31",
+   "notes": "기본계정 원문 대조. 미확인/범위가 복합적인 가상자산·금융자산 총액은 null. document.xml | 2026-09-07 revenue_breakdown·fee_revenue 추가(손익계산서·수익 주석)",
+   "revenue_breakdown": [
+    {
+     "original_account_name": "서비스 매출",
+     "normalized": "other_operating",
+     "amount": 1057563350,
+     "share_of_total": 0.5597,
+     "note_number": "16",
+     "notes": "주석 16. 가상자산 거래 수수료인지 원문에 명시 없음"
+    },
+    {
+     "original_account_name": "솔루션 매출",
+     "normalized": "other_operating",
+     "amount": 832047918,
+     "share_of_total": 0.4403,
+     "note_number": "16",
+     "notes": "주석 16"
+    },
+    {
+     "original_account_name": "영업수익",
+     "normalized": "total_operating_revenue",
+     "amount": 1889611268,
+     "share_of_total": null,
+     "note_number": "16",
+     "notes": null
+    }
+   ]
+  }
+ ]
+}

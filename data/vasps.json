@@ -1,0 +1,3720 @@
+{
+ "_meta": {
+  "generated_at": "2026-09-06T01:31:01.611395+00:00",
+  "basis_date": "2026-09-06",
+  "record_count": 45,
+  "status": "PARTIAL_VERIFIED_DATASET",
+  "fiu_basis_date": "2026-08-31",
+  "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do"
+ },
+ "records": [
+  {
+   "vasp_id": "upbit",
+   "legal_name_ko": "두나무 주식회사",
+   "service_names": [
+    "업비트"
+   ],
+   "business_registration_number": "119-86-54968",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2025-12-23",
+   "registration_date_type": "renewal",
+   "reported_activities": [
+    "다",
+    "라",
+    "마"
+   ],
+   "fiu_business_type_ko": "거래업자",
+   "proprietary_trading_reported": false,
+   "business_categories": [
+    "exchange",
+    "transfer",
+    "custody",
+    "broker"
+   ],
+   "market_type": "krw",
+   "official_website": "https://www.upbit.com/",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "exact",
+    "corp_code": "01310241",
+    "match_rationale": "corpCode.xml 후보 및 company.json bizr_no가 FIU 사업자등록번호와 일치.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "annual_report_filer",
+    "corp_name": "두나무 주식회사",
+    "corp_name_en": "Dunamu Inc.",
+    "corporate_registration_number": "1101114834853",
+    "stock_code": null,
+    "representative": "오경석",
+    "address": "서울특별시 서초구 강남대로 369 (서초동, 디에프타워) 8층, 12층, 15층, 17층, 18층",
+    "industry_code": "63",
+    "establishment_date": "20120403",
+    "fiscal_year_end": "12",
+    "business_registration_number": "119-86-54968",
+    "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01310241",
+    "source_authority": "DART",
+    "confidence": "verified",
+    "receipt_number": null
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    },
+    {
+     "classification": "proprietary_crypto_holder",
+     "status": "fact",
+     "rationale": "2025 사업연도 감사보고서 주석: 회사 보유 가상자산을 무형자산으로 분류한다.",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "verified_at": "2026-09-06",
+     "fiscal_year": 2025,
+     "receipt_number": "20260330001631",
+     "source_authority": "DART",
+     "retrieved_at": "2026-09-06",
+     "confidence": "verified"
+    }
+   ],
+   "revenue_models": [
+    {
+     "classification": "trading_fee",
+     "status": "fact",
+     "rationale": "2025 사업연도 감사보고서 주석: 가상자산 매매거래의 완료 또는 발생 시점에 중개수수료 수익을 인식한다.",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260330001631",
+     "verified_at": "2026-09-06",
+     "fiscal_year": 2025,
+     "receipt_number": "20260330001631",
+     "source_authority": "DART",
+     "retrieved_at": "2026-09-06",
+     "confidence": "verified"
+    }
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-06 business_categories 에 exchange 추가(FIU 사업자유형 거래업자, docs/SOURCES.md 규칙)",
+   "website_evidence": {
+    "source_url": "https://docs.upbit.com/kr/docs/krw-market-info",
+    "source_title": "원화(KRW) 마켓 주문 가격 단위 / 최소 주문 가능 금액",
+    "source_authority": "COMPANY",
+    "retrieved_at": "2026-09-06",
+    "confidence": "verified",
+    "receipt_number": null,
+    "rationale": "공식 문서의 원화마켓 주문 정책 및 회사 사업자번호 확인."
+   },
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://upbit.com",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200, 최종 https://www.upbit.com/"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    },
+    {
+     "link_type": "dart_company",
+     "label": "DART 공시검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?corpCode=01310241",
+     "how_identified": "DART corp_code 로 구성한 공시검색 URL",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    }
+   ]
+  },
+  {
+   "vasp_id": "korbit",
+   "legal_name_ko": "디지털엑스 주식회사",
+   "service_names": [
+    "코빗"
+   ],
+   "business_registration_number": "220-88-61399",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2026-02-06",
+   "registration_date_type": "renewal",
+   "reported_activities": [
+    "다",
+    "라",
+    "마"
+   ],
+   "fiu_business_type_ko": "거래업자",
+   "proprietary_trading_reported": false,
+   "business_categories": [
+    "exchange",
+    "transfer",
+    "custody",
+    "broker"
+   ],
+   "market_type": "krw",
+   "official_website": "https://www.korbit.co.kr/",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "exact",
+    "corp_code": "01221743",
+    "match_rationale": "corpCode.xml 후보 및 company.json bizr_no가 FIU 사업자등록번호와 일치.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "audit_report_only",
+    "corp_name": "디지털엑스 주식회사",
+    "corp_name_en": "KORBIT INC",
+    "corporate_registration_number": "1101115175975",
+    "stock_code": null,
+    "representative": "오세진",
+    "address": "서울특별시 강남구 테헤란로5길 7 (역삼동, KGTower) 4층",
+    "industry_code": "62",
+    "establishment_date": "20130705",
+    "fiscal_year_end": "12",
+    "business_registration_number": "220-88-61399",
+    "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01221743",
+    "source_authority": "DART",
+    "confidence": "verified",
+    "receipt_number": null
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    },
+    {
+     "classification": "proprietary_crypto_holder",
+     "status": "fact",
+     "rationale": "2025 사업연도 감사보고서 주석: 보유 가상자산을 자산으로 인식하고 예상 실현 시점에 따라 유동자산으로 분류한다.",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001243",
+     "verified_at": "2026-09-06",
+     "fiscal_year": 2025,
+     "receipt_number": "20260414001243",
+     "source_authority": "DART",
+     "retrieved_at": "2026-09-06",
+     "confidence": "verified"
+    },
+    {
+     "classification": "customer_asset_custodian",
+     "status": "fact",
+     "rationale": "2025 사업연도 감사보고서 주석: 고객 위탁 가상자산을 회사의 자산으로 인식하지 않는 정책을 공시한다.",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001243",
+     "verified_at": "2026-09-06",
+     "fiscal_year": 2025,
+     "receipt_number": "20260414001243",
+     "source_authority": "DART",
+     "retrieved_at": "2026-09-06",
+     "confidence": "verified"
+    }
+   ],
+   "revenue_models": [
+    {
+     "classification": "trading_fee",
+     "status": "fact",
+     "rationale": "주석 2.15: 거래수수료·출금수수료 수익",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001243",
+     "verified_at": "2026-09-07"
+    },
+    {
+     "classification": "withdrawal_fee",
+     "status": "fact",
+     "rationale": "주석 2.15: 거래수수료·출금수수료 수익",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001243",
+     "verified_at": "2026-09-07"
+    }
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-06 business_categories 에 exchange 추가(FIU 사업자유형 거래업자, docs/SOURCES.md 규칙) | 2026-09-07 market_type=krw (FIU 실명확인 입출금계정 변경신고 있음 + 감사보고서에 은행 실명확인 예수부채/고객예치금 계상)",
+   "website_evidence": {
+    "source_url": "https://korbit.co.kr/company/",
+    "source_title": "코빗 회사소개",
+    "source_authority": "COMPANY",
+    "retrieved_at": "2026-09-06",
+    "confidence": "partially_verified",
+    "receipt_number": null,
+    "rationale": "공식 회사소개 확인. 시장 유형은 직접 확인 가능한 현재 거래 화면 대조 대기."
+   },
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://lightning.korbit.co.kr",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    },
+    {
+     "link_type": "dart_company",
+     "label": "DART 공시검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?corpCode=01221743",
+     "how_identified": "DART corp_code 로 구성한 공시검색 URL",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    }
+   ]
+  },
+  {
+   "vasp_id": "coinone",
+   "legal_name_ko": "주식회사 코인원",
+   "service_names": [
+    "코인원"
+   ],
+   "business_registration_number": "261-81-07437",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2026-05-29",
+   "registration_date_type": "renewal",
+   "reported_activities": [
+    "다",
+    "라",
+    "마"
+   ],
+   "fiu_business_type_ko": "거래업자",
+   "proprietary_trading_reported": false,
+   "business_categories": [
+    "exchange",
+    "transfer",
+    "custody",
+    "broker"
+   ],
+   "market_type": "krw",
+   "official_website": "https://coinone.co.kr/",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "exact",
+    "corp_code": "01263378",
+    "match_rationale": "corpCode.xml 후보 및 company.json bizr_no가 FIU 사업자등록번호와 일치.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "audit_report_only",
+    "corp_name": "주식회사 코인원",
+    "corp_name_en": "Coinone Inc.",
+    "corporate_registration_number": "1101115341906",
+    "stock_code": null,
+    "representative": "차명훈",
+    "address": "서울특별시 영등포구 여의대로 108 파크원 타워1 45층, 46층",
+    "industry_code": "62090",
+    "establishment_date": "20140218",
+    "fiscal_year_end": "12",
+    "business_registration_number": "261-81-07437",
+    "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01263378",
+    "source_authority": "DART",
+    "confidence": "verified",
+    "receipt_number": null
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    },
+    {
+     "classification": "proprietary_crypto_holder",
+     "status": "fact",
+     "rationale": "2025 사업연도 감사보고서 주석: 보유 가상자산을 자산으로 인식하고 예상 실현 시점에 따라 유동자산으로 분류한다.",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260429000738",
+     "verified_at": "2026-09-06",
+     "fiscal_year": 2025,
+     "receipt_number": "20260429000738",
+     "source_authority": "DART",
+     "retrieved_at": "2026-09-06",
+     "confidence": "verified"
+    },
+    {
+     "classification": "customer_asset_custodian",
+     "status": "fact",
+     "rationale": "2025 사업연도 감사보고서 주석: 고객 위탁 가상자산을 회사의 자산으로 인식하지 않는 정책을 공시한다.",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260429000738",
+     "verified_at": "2026-09-06",
+     "fiscal_year": 2025,
+     "receipt_number": "20260429000738",
+     "source_authority": "DART",
+     "retrieved_at": "2026-09-06",
+     "confidence": "verified"
+    }
+   ],
+   "revenue_models": [
+    {
+     "classification": "trading_fee",
+     "status": "fact",
+     "rationale": "2025 사업연도 감사보고서 주석: 가상자산 매매거래의 완료 또는 발생 시점에 중개수수료 수익을 인식한다.",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260429000738",
+     "verified_at": "2026-09-06",
+     "fiscal_year": 2025,
+     "receipt_number": "20260429000738",
+     "source_authority": "DART",
+     "retrieved_at": "2026-09-06",
+     "confidence": "verified"
+    }
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-06 business_categories 에 exchange 추가(FIU 사업자유형 거래업자, docs/SOURCES.md 규칙)",
+   "website_evidence": {
+    "source_url": "https://coinone.co.kr/",
+    "source_title": "코인원 공식 홈페이지",
+    "source_authority": "COMPANY",
+    "retrieved_at": "2026-09-06",
+    "confidence": "verified",
+    "receipt_number": null,
+    "rationale": "원화입금 메뉴, 가상자산 거래 서비스와 회사 사업자번호 확인."
+   },
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://coinone.co.kr",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    },
+    {
+     "link_type": "dart_company",
+     "label": "DART 공시검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?corpCode=01263378",
+     "how_identified": "DART corp_code 로 구성한 공시검색 URL",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    }
+   ]
+  },
+  {
+   "vasp_id": "bithumb",
+   "legal_name_ko": "주식회사 빗썸",
+   "service_names": [
+    "빗썸"
+   ],
+   "business_registration_number": "220-88-71844",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2021-12-02",
+   "registration_date_type": "initial_acceptance",
+   "reported_activities": [
+    "가",
+    "나",
+    "다",
+    "라",
+    "마"
+   ],
+   "fiu_business_type_ko": "거래업자",
+   "proprietary_trading_reported": true,
+   "business_categories": [
+    "exchange",
+    "transfer",
+    "custody",
+    "broker"
+   ],
+   "market_type": "krw",
+   "official_website": "https://www.bithumb.com/",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "exact",
+    "corp_code": "01214044",
+    "match_rationale": "corpCode.xml 후보 및 company.json bizr_no가 FIU 사업자등록번호와 일치.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "annual_report_filer",
+    "corp_name": "주식회사 빗썸",
+    "corp_name_en": "Bithumb Co., Ltd.",
+    "corporate_registration_number": "1101115307388",
+    "stock_code": null,
+    "representative": "이재원",
+    "address": "서울특별시 강남구 테헤란로 124 (역삼동, 삼원타워 15, 16층)",
+    "industry_code": "4791",
+    "establishment_date": "20140105",
+    "fiscal_year_end": "12",
+    "business_registration_number": "220-88-71844",
+    "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01214044",
+    "source_authority": "DART",
+    "confidence": "verified",
+    "receipt_number": null
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    },
+    {
+     "classification": "proprietary_crypto_holder",
+     "status": "fact",
+     "rationale": "2025 사업연도 감사보고서 주석: 회사 보유 가상자산을 전송수수료 지급 등 사업 목적으로 사용한다.",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260331004333",
+     "verified_at": "2026-09-06",
+     "fiscal_year": 2025,
+     "receipt_number": "20260331004333",
+     "source_authority": "DART",
+     "retrieved_at": "2026-09-06",
+     "confidence": "verified"
+    }
+   ],
+   "revenue_models": [
+    {
+     "classification": "trading_fee",
+     "status": "fact",
+     "rationale": "2025 사업연도 감사보고서 주석: 가상자산 매매거래의 완료 또는 발생 시점에 중개수수료 수익을 인식한다.",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260331004333",
+     "verified_at": "2026-09-06",
+     "fiscal_year": 2025,
+     "receipt_number": "20260331004333",
+     "source_authority": "DART",
+     "retrieved_at": "2026-09-06",
+     "confidence": "verified"
+    }
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음.",
+   "website_evidence": {
+    "source_url": "https://feed.bithumb.com/notice?category=8",
+    "source_title": "빗썸 공지사항",
+    "source_authority": "COMPANY",
+    "retrieved_at": "2026-09-06",
+    "confidence": "verified",
+    "receipt_number": null,
+    "rationale": "2026년 원화마켓 추가 공지 및 회사 사업자번호 확인."
+   },
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.bithumb.com",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200, 최종 https://www.bithumb.com/react/"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    },
+    {
+     "link_type": "dart_company",
+     "label": "DART 공시검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?corpCode=01214044",
+     "how_identified": "DART corp_code 로 구성한 공시검색 URL",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    }
+   ]
+  },
+  {
+   "vasp_id": "flybit",
+   "legal_name_ko": "주식회사 한국디지털거래소",
+   "service_names": [
+    "플라이빗"
+   ],
+   "business_registration_number": "194-87-00761",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2025-03-22",
+   "registration_date_type": "renewal",
+   "reported_activities": [
+    "다",
+    "라",
+    "마"
+   ],
+   "fiu_business_type_ko": "거래업자",
+   "proprietary_trading_reported": false,
+   "business_categories": [
+    "exchange",
+    "transfer",
+    "custody",
+    "broker"
+   ],
+   "market_type": "coin_only",
+   "official_website": "https://flybit.com",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-06 business_categories 에 exchange 추가(FIU 사업자유형 거래업자, docs/SOURCES.md 규칙) | 2026-09-07 market_type=coin_only (추론: FIU 명단에 실명확인 입출금계정 신고 이력 없음 → 원화마켓 운영 불가. 회사 사이트로 재확인 권장)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://flybit.com",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "gopax",
+   "legal_name_ko": "주식회사 스트리미",
+   "service_names": [
+    "고팍스"
+   ],
+   "business_registration_number": "432-87-00120",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2021-12-09",
+   "registration_date_type": "initial_acceptance",
+   "reported_activities": [
+    "가",
+    "나",
+    "다",
+    "라",
+    "마"
+   ],
+   "fiu_business_type_ko": "거래업자",
+   "proprietary_trading_reported": true,
+   "business_categories": [
+    "exchange",
+    "transfer",
+    "custody",
+    "broker"
+   ],
+   "market_type": "krw",
+   "official_website": "https://www.gopax.co.kr/",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "exact",
+    "corp_code": "01307618",
+    "match_rationale": "corpCode.xml 후보 및 company.json bizr_no가 FIU 사업자등록번호와 일치.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "audit_report_only",
+    "corp_name": "(주)스트리미",
+    "corp_name_en": "streami",
+    "corporate_registration_number": "1101115790236",
+    "stock_code": null,
+    "representative": "이준행",
+    "address": "서울특별시 강남구 영동대로 704 (청담동, 삼강빌딩) 7층",
+    "industry_code": "62010",
+    "establishment_date": "20150728",
+    "fiscal_year_end": "12",
+    "business_registration_number": "432-87-00120",
+    "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01307618",
+    "source_authority": "DART",
+    "confidence": "verified",
+    "receipt_number": null
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    },
+    {
+     "classification": "proprietary_crypto_holder",
+     "status": "fact",
+     "rationale": "2025 사업연도 감사보고서 주석: 보유 가상자산을 자산으로 인식하고 예상 실현 시점에 따라 유동자산으로 분류한다.",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001751",
+     "verified_at": "2026-09-06",
+     "fiscal_year": 2025,
+     "receipt_number": "20260414001751",
+     "source_authority": "DART",
+     "retrieved_at": "2026-09-06",
+     "confidence": "verified"
+    }
+   ],
+   "revenue_models": [
+    {
+     "classification": "trading_fee",
+     "status": "fact",
+     "rationale": "2025 사업연도 감사보고서 주석: 가상자산 매매거래의 완료 또는 발생 시점에 중개수수료 수익을 인식한다.",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260414001751",
+     "verified_at": "2026-09-06",
+     "fiscal_year": 2025,
+     "receipt_number": "20260414001751",
+     "source_authority": "DART",
+     "retrieved_at": "2026-09-06",
+     "confidence": "verified"
+    }
+   ],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-07 market_type=krw (FIU 실명확인 입출금계정 변경신고 있음 + 감사보고서에 은행 실명확인 예수부채/고객예치금 계상)",
+   "website_evidence": {
+    "source_url": "https://www.gopax.co.kr/",
+    "source_title": "고팍스 공식 홈페이지",
+    "source_authority": "COMPANY",
+    "retrieved_at": "2026-09-06",
+    "confidence": "partially_verified",
+    "receipt_number": null,
+    "rationale": "공식 홈페이지 접속/제목 확인. 동적 본문을 읽지 못해 원화마켓은 미확인 유지."
+   },
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.gopax.co.kr",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    },
+    {
+     "link_type": "dart_company",
+     "label": "DART 공시검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?corpCode=01307618",
+     "how_identified": "DART corp_code 로 구성한 공시검색 URL",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    }
+   ]
+  },
+  {
+   "vasp_id": "btx",
+   "legal_name_ko": "차일들리 주식회사",
+   "service_names": [
+    "BTX"
+   ],
+   "business_registration_number": "729-86-01268",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2026-02-06",
+   "registration_date_type": "renewal",
+   "reported_activities": [
+    "다",
+    "라",
+    "마"
+   ],
+   "fiu_business_type_ko": "거래업자",
+   "proprietary_trading_reported": false,
+   "business_categories": [
+    "exchange",
+    "transfer",
+    "custody",
+    "broker"
+   ],
+   "market_type": "coin_only",
+   "official_website": "https://btxpro.co.kr/ko",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-06 business_categories 에 exchange 추가(FIU 사업자유형 거래업자, docs/SOURCES.md 규칙) | 2026-09-07 market_type=coin_only (추론: FIU 명단에 실명확인 입출금계정 신고 이력 없음 → 원화마켓 운영 불가. 회사 사이트로 재확인 권장)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://btxpro.co.kr/ko",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "foblgate",
+   "legal_name_ko": "주식회사 포블게이트",
+   "service_names": [
+    "포블"
+   ],
+   "business_registration_number": "136-87-01478",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2025-03-22",
+   "registration_date_type": "renewal",
+   "reported_activities": [
+    "다",
+    "라",
+    "마"
+   ],
+   "fiu_business_type_ko": "거래업자",
+   "proprietary_trading_reported": false,
+   "business_categories": [
+    "exchange",
+    "transfer",
+    "custody",
+    "broker"
+   ],
+   "market_type": "coin_only",
+   "official_website": "https://www.foblgate.com",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "exact",
+    "corp_code": "01551848",
+    "match_rationale": "corpCode.xml 후보 및 company.json bizr_no가 FIU 사업자등록번호와 일치.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown",
+    "corp_name": "주식회사 포블게이트",
+    "corp_name_en": "FOBLGATE Co. Ltd.",
+    "corporate_registration_number": "1101116979558",
+    "stock_code": null,
+    "representative": "안현준",
+    "address": "서울특별시 서초구 서초대로 397 (서초동, 부띠크모나코) A동 201호",
+    "industry_code": "58221",
+    "establishment_date": "20190118",
+    "fiscal_year_end": "12",
+    "business_registration_number": "136-87-01478",
+    "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01551848",
+    "source_authority": "DART",
+    "confidence": "verified",
+    "receipt_number": null
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-06 business_categories 에 exchange 추가(FIU 사업자유형 거래업자, docs/SOURCES.md 규칙) | 2026-09-07 market_type=coin_only (추론: FIU 명단에 실명확인 입출금계정 신고 이력 없음 → 원화마켓 운영 불가. 회사 사이트로 재확인 권장)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.foblgate.com",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    },
+    {
+     "link_type": "dart_company",
+     "label": "DART 공시검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?corpCode=01551848",
+     "how_identified": "DART corp_code 로 구성한 공시검색 URL",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    }
+   ]
+  },
+  {
+   "vasp_id": "coredax",
+   "legal_name_ko": "㈜코어닥스",
+   "service_names": [
+    "코어닥스"
+   ],
+   "business_registration_number": "894-86-01183",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2021-12-17",
+   "registration_date_type": "initial_acceptance",
+   "reported_activities": [
+    "가",
+    "나",
+    "다",
+    "라",
+    "마"
+   ],
+   "fiu_business_type_ko": "거래업자",
+   "proprietary_trading_reported": true,
+   "business_categories": [
+    "exchange",
+    "transfer",
+    "custody",
+    "broker"
+   ],
+   "market_type": "coin_only",
+   "official_website": "https://www.coredax.com",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "exact",
+    "corp_code": "01891038",
+    "match_rationale": "corpCode.xml 후보 및 company.json bizr_no가 FIU 사업자등록번호와 일치.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown",
+    "corp_name": "(주)코어닥스",
+    "corp_name_en": "Coredax",
+    "corporate_registration_number": "1101116838217",
+    "stock_code": null,
+    "representative": "임요송",
+    "address": "서울특별시 구로구 디지털로 242 (구로동, 한화비즈메트로1차) 1307호",
+    "industry_code": "63992",
+    "establishment_date": "20181001",
+    "fiscal_year_end": "12",
+    "business_registration_number": "894-86-01183",
+    "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01891038",
+    "source_authority": "DART",
+    "confidence": "verified",
+    "receipt_number": null
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-07 market_type=coin_only (추론: FIU 명단에 실명확인 입출금계정 신고 이력 없음 → 원화마켓 운영 불가. 회사 사이트로 재확인 권장)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.coredax.com",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    },
+    {
+     "link_type": "dart_company",
+     "label": "DART 공시검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?corpCode=01891038",
+     "how_identified": "DART corp_code 로 구성한 공시검색 URL",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    }
+   ]
+  },
+  {
+   "vasp_id": "beeblock",
+   "legal_name_ko": "주식회사 그레이브릿지",
+   "service_names": [
+    "비블록"
+   ],
+   "business_registration_number": "155-86-01720",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2025-02-15",
+   "registration_date_type": "renewal",
+   "reported_activities": [
+    "다",
+    "라",
+    "마"
+   ],
+   "fiu_business_type_ko": "거래업자",
+   "proprietary_trading_reported": false,
+   "business_categories": [
+    "exchange",
+    "transfer",
+    "custody",
+    "broker"
+   ],
+   "market_type": "coin_only",
+   "official_website": "https://www.beeblock.co.kr/home",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-06 business_categories 에 exchange 추가(FIU 사업자유형 거래업자, docs/SOURCES.md 규칙) | 2026-09-07 market_type=coin_only (추론: FIU 명단에 실명확인 입출금계정 신고 이력 없음 → 원화마켓 운영 불가. 회사 사이트로 재확인 권장)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.beeblock.co.kr/home",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "cryptocom_korea",
+   "legal_name_ko": "주식회사 포리스닥스코리아리미티드",
+   "service_names": [
+    "크립토닷컴"
+   ],
+   "business_registration_number": "885-88-00694",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2021-12-30",
+   "registration_date_type": "initial_acceptance",
+   "reported_activities": [
+    "가",
+    "나",
+    "다",
+    "라",
+    "마"
+   ],
+   "fiu_business_type_ko": "거래업자",
+   "proprietary_trading_reported": true,
+   "business_categories": [
+    "exchange",
+    "transfer",
+    "custody",
+    "broker"
+   ],
+   "market_type": "coin_only",
+   "official_website": "https://crypto.com/kr",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-07 market_type=coin_only (추론: FIU 명단에 실명확인 입출금계정 신고 이력 없음 → 원화마켓 운영 불가. 회사 사이트로 재확인 권장)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://crypto.com/kr",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "bitcmon",
+   "legal_name_ko": "주식회사 골든퓨쳐스",
+   "service_names": [
+    "빗크몬"
+   ],
+   "business_registration_number": "791-81-00992",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2025-04-25",
+   "registration_date_type": "renewal",
+   "reported_activities": [
+    "다",
+    "라",
+    "마"
+   ],
+   "fiu_business_type_ko": "거래업자",
+   "proprietary_trading_reported": false,
+   "business_categories": [
+    "exchange",
+    "transfer",
+    "custody",
+    "broker"
+   ],
+   "market_type": "coin_only",
+   "official_website": "https://bitcmon.co.kr",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-06 business_categories 에 exchange 추가(FIU 사업자유형 거래업자, docs/SOURCES.md 규칙) | 2026-09-07 market_type=coin_only (추론: FIU 명단에 실명확인 입출금계정 신고 이력 없음 → 원화마켓 운영 불가. 회사 사이트로 재확인 권장)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://bitcmon.co.kr",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "unreachable",
+     "notes": "HTTP None, <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certi"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "prabang",
+   "legal_name_ko": "주식회사 프라뱅",
+   "service_names": [
+    "프라뱅"
+   ],
+   "business_registration_number": "681-81-01205",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2025-01-03",
+   "registration_date_type": "renewal",
+   "reported_activities": [
+    "다",
+    "라",
+    "마"
+   ],
+   "fiu_business_type_ko": "거래업자",
+   "proprietary_trading_reported": false,
+   "business_categories": [
+    "exchange",
+    "transfer",
+    "custody",
+    "broker"
+   ],
+   "market_type": "coin_only",
+   "official_website": "https://www.pravang.com",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-06 business_categories 에 exchange 추가(FIU 사업자유형 거래업자, docs/SOURCES.md 규칙) | 2026-09-07 market_type=coin_only (추론: FIU 명단에 실명확인 입출금계정 신고 이력 없음 → 원화마켓 운영 불가. 회사 사이트로 재확인 권장)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.pravang.com",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200, 최종 https://www.pravang.com/index"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "borabit",
+   "legal_name_ko": "주식회사 보라비트",
+   "service_names": [
+    "보라비트"
+   ],
+   "business_registration_number": "280-88-00977",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2021-12-30",
+   "registration_date_type": "initial_acceptance",
+   "reported_activities": [
+    "가",
+    "나",
+    "다",
+    "라",
+    "마"
+   ],
+   "fiu_business_type_ko": "거래업자",
+   "proprietary_trading_reported": true,
+   "business_categories": [
+    "exchange",
+    "transfer",
+    "custody",
+    "broker"
+   ],
+   "market_type": "coin_only",
+   "official_website": "https://www.borabit.com",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-07 market_type=coin_only (추론: FIU 명단에 실명확인 입출금계정 신고 이력 없음 → 원화마켓 운영 불가. 회사 사이트로 재확인 권장)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.borabit.com",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "koda",
+   "legal_name_ko": "주식회사 한국디지털에셋",
+   "service_names": [
+    "코다(KODA)"
+   ],
+   "business_registration_number": "618-81-36254",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2025-02-28",
+   "registration_date_type": "renewal",
+   "reported_activities": [
+    "다",
+    "라"
+   ],
+   "fiu_business_type_ko": "보관관리업자",
+   "proprietary_trading_reported": false,
+   "business_categories": [
+    "transfer",
+    "custody"
+   ],
+   "market_type": "non_exchange",
+   "official_website": "https://kodax.com",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-07 market_type=non_exchange (FIU 사업자유형 보관관리업자, 거래업 아님)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://kodax.com",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200, 최종 https://www.kodax.com/"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "kdac",
+   "legal_name_ko": "주식회사 한국디지털자산수탁",
+   "service_names": [
+    "케이닥(KDAC)"
+   ],
+   "business_registration_number": "809-86-01583",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2025-03-22",
+   "registration_date_type": "renewal",
+   "reported_activities": [
+    "다",
+    "라"
+   ],
+   "fiu_business_type_ko": "보관관리업자",
+   "proprietary_trading_reported": false,
+   "business_categories": [
+    "transfer",
+    "custody"
+   ],
+   "market_type": "non_exchange",
+   "official_website": "https://www.kdac.io",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-07 market_type=non_exchange (FIU 사업자유형 보관관리업자, 거래업 아님)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.kdac.io",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "ohigh_wallet",
+   "legal_name_ko": "주식회사 헥토월렛원",
+   "service_names": [
+    "오하이월렛"
+   ],
+   "business_registration_number": "636-88-00831",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2025-03-28",
+   "registration_date_type": "renewal",
+   "reported_activities": [
+    "다",
+    "라"
+   ],
+   "fiu_business_type_ko": "보관관리업자",
+   "proprietary_trading_reported": false,
+   "business_categories": [
+    "transfer",
+    "custody"
+   ],
+   "market_type": "non_exchange",
+   "official_website": "https://ohiwallet.com",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-07 market_type=non_exchange (FIU 사업자유형 보관관리업자, 거래업 아님)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://ohiwallet.com",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "hyperithm",
+   "legal_name_ko": "하이퍼리즘 유한책임회사",
+   "service_names": [
+    "하이퍼리즘"
+   ],
+   "business_registration_number": "477-86-01090",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2022-01-07",
+   "registration_date_type": "initial_acceptance",
+   "reported_activities": [
+    "가",
+    "나",
+    "다"
+   ],
+   "fiu_business_type_ko": "지갑서비스업자",
+   "proprietary_trading_reported": true,
+   "business_categories": [
+    "exchange",
+    "transfer",
+    "wallet"
+   ],
+   "market_type": "non_exchange",
+   "official_website": "https://www.hyperithm.com",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "exact",
+    "corp_code": "01909841",
+    "match_rationale": "corpCode.xml 후보 및 company.json bizr_no가 FIU 사업자등록번호와 일치.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown",
+    "corp_name": "주식회사 하이퍼리즘",
+    "corp_name_en": "HYPERITHM Inc.",
+    "corporate_registration_number": "1101116669844",
+    "stock_code": null,
+    "representative": "오상록, 이원준",
+    "address": "서울특별시 관악구 관악로 217 (봉천동, 동진빌딩) 2층",
+    "industry_code": "58222",
+    "establishment_date": "20180223",
+    "fiscal_year_end": "12",
+    "business_registration_number": "477-86-01090",
+    "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01909841",
+    "source_authority": "DART",
+    "confidence": "verified",
+    "receipt_number": null
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-07 market_type=non_exchange (FIU 사업자유형 지갑서비스업자, 거래업 아님)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.hyperithm.com",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    },
+    {
+     "link_type": "dart_company",
+     "label": "DART 공시검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?corpCode=01909841",
+     "how_identified": "DART corp_code 로 구성한 공시검색 URL",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    }
+   ]
+  },
+  {
+   "vasp_id": "oasis",
+   "legal_name_ko": "㈜가디언홀딩스",
+   "service_names": [
+    "오아시스거래소"
+   ],
+   "business_registration_number": "826-81-00997",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2022-02-10",
+   "registration_date_type": "initial_acceptance",
+   "reported_activities": [
+    "가",
+    "나",
+    "다",
+    "라",
+    "마"
+   ],
+   "fiu_business_type_ko": "거래업자",
+   "proprietary_trading_reported": true,
+   "business_categories": [
+    "exchange",
+    "transfer",
+    "custody",
+    "broker"
+   ],
+   "market_type": "coin_only",
+   "official_website": "https://oasisexc.com",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "DART 유일 동명 후보 '주식회사 가디언홀딩스'(corp_code 00513115)는 사업자등록번호 214-87-62284, 대표 박정삼, 서울 강동구 성내동, 설립 2004-11-25 로 FIU 신고 법인(826-81-00997, 대표 이동민, 서울 강남구 도산대로 146)과 사업자번호·대표자·주소가 모두 다르다. 동명이인 법인이므로 연결하지 않음. DART 기업개황 조회 2026-09-06.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-06 DART 동명 법인(00513115)은 별개 법인으로 확인, match_status needs_review→not_found (Claude, DART company.json 대조) | 2026-09-07 market_type=coin_only (추론: FIU 명단에 실명확인 입출금계정 신고 이력 없음 → 원화마켓 운영 불가. 회사 사이트로 재확인 권장)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://oasisexc.com",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "custella",
+   "legal_name_ko": "주식회사 마인드시프트",
+   "service_names": [
+    "커스텔라"
+   ],
+   "business_registration_number": "634-86-01747",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2022-06-27",
+   "registration_date_type": "initial_acceptance",
+   "reported_activities": [
+    "다",
+    "라"
+   ],
+   "fiu_business_type_ko": "보관관리업자",
+   "proprietary_trading_reported": false,
+   "business_categories": [
+    "transfer",
+    "custody"
+   ],
+   "market_type": "non_exchange",
+   "official_website": "https://www.mindshift.co.kr/",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-07 market_type=non_exchange (FIU 사업자유형 보관관리업자, 거래업 아님)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.mindshift.co.kr/",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "infiniteblock",
+   "legal_name_ko": "주식회사 인피닛블록",
+   "service_names": [
+    "인피닛블록"
+   ],
+   "business_registration_number": "306-88-02374",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2023-08-07",
+   "registration_date_type": "initial_acceptance",
+   "reported_activities": [
+    "다",
+    "라"
+   ],
+   "fiu_business_type_ko": "보관관리업자",
+   "proprietary_trading_reported": false,
+   "business_categories": [
+    "transfer",
+    "custody"
+   ],
+   "market_type": "non_exchange",
+   "official_website": "https://inbl.io",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-07 market_type=non_exchange (FIU 사업자유형 보관관리업자, 거래업 아님)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://inbl.io",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "unreachable",
+     "notes": "HTTP None, The read operation timed out"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "dsrv",
+   "legal_name_ko": "㈜디에스알브이랩스",
+   "service_names": [
+    "디에스알브이랩스"
+   ],
+   "business_registration_number": "659-87-01307",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2024-09-25",
+   "registration_date_type": "initial_acceptance",
+   "reported_activities": [
+    "다",
+    "라"
+   ],
+   "fiu_business_type_ko": "보관관리업자",
+   "proprietary_trading_reported": false,
+   "business_categories": [
+    "transfer",
+    "custody"
+   ],
+   "market_type": "non_exchange",
+   "official_website": "https://www.dsrvlabs.com/",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "exact",
+    "corp_code": "01935785",
+    "match_rationale": "corpCode.xml 후보 및 company.json bizr_no가 FIU 사업자등록번호와 일치.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown",
+    "corp_name": "주식회사 디에스알브이랩스",
+    "corp_name_en": "dsrv labs Co., Ltd.",
+    "corporate_registration_number": "1101117233739",
+    "stock_code": null,
+    "representative": "김지윤",
+    "address": "서울특별시 강남구 봉은사로20길 38 (역삼동, 데미테르)",
+    "industry_code": "58221",
+    "establishment_date": "20190917",
+    "fiscal_year_end": "12",
+    "business_registration_number": "659-87-01307",
+    "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01935785",
+    "source_authority": "DART",
+    "confidence": "verified",
+    "receipt_number": null
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-07 market_type=non_exchange (FIU 사업자유형 보관관리업자, 거래업 아님)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.dsrvlabs.com/",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "unreachable",
+     "notes": "HTTP None, <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certi"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    },
+    {
+     "link_type": "dart_company",
+     "label": "DART 공시검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?corpCode=01935785",
+     "how_identified": "DART corp_code 로 구성한 공시검색 URL",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    }
+   ]
+  },
+  {
+   "vasp_id": "bdacs",
+   "legal_name_ko": "비댁스 주식회사",
+   "service_names": [
+    "비댁스"
+   ],
+   "business_registration_number": "376-88-02126",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2024-09-25",
+   "registration_date_type": "initial_acceptance",
+   "reported_activities": [
+    "다",
+    "라"
+   ],
+   "fiu_business_type_ko": "보관관리업자",
+   "proprietary_trading_reported": false,
+   "business_categories": [
+    "transfer",
+    "custody"
+   ],
+   "market_type": "non_exchange",
+   "official_website": "https://www.bdacs.co.kr/ko",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-07 market_type=non_exchange (FIU 사업자유형 보관관리업자, 거래업 아님)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.bdacs.co.kr/ko",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "inex",
+   "legal_name_ko": "㈜인피니티익스체인지코리아",
+   "service_names": [
+    "INEX(인엑스)"
+   ],
+   "business_registration_number": "783-81-02738",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2024-10-15",
+   "registration_date_type": "initial_acceptance",
+   "reported_activities": [
+    "다",
+    "라",
+    "마"
+   ],
+   "fiu_business_type_ko": "거래업자",
+   "proprietary_trading_reported": false,
+   "business_categories": [
+    "exchange",
+    "transfer",
+    "custody",
+    "broker"
+   ],
+   "market_type": "coin_only",
+   "official_website": "https://www.inexkr.com/",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-06 business_categories 에 exchange 추가(FIU 사업자유형 거래업자, docs/SOURCES.md 규칙) | 2026-09-07 market_type=coin_only (추론: FIU 명단에 실명확인 입출금계정 신고 이력 없음 → 원화마켓 운영 불가. 회사 사이트로 재확인 권장)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.inexkr.com/",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200, 최종 https://www.inexcoin.com:443/"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "wavebridge",
+   "legal_name_ko": "㈜웨이브릿지",
+   "service_names": [
+    "웨이브릿지 프라임"
+   ],
+   "business_registration_number": "767-88-01245",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2024-12-18",
+   "registration_date_type": "initial_acceptance",
+   "reported_activities": [
+    "나",
+    "다",
+    "라",
+    "마"
+   ],
+   "fiu_business_type_ko": "거래업자",
+   "proprietary_trading_reported": false,
+   "business_categories": [
+    "exchange",
+    "transfer",
+    "custody",
+    "broker"
+   ],
+   "market_type": "coin_only",
+   "official_website": "https://www.wavebridge.com/ko",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "exact",
+    "corp_code": "01930869",
+    "match_rationale": "corpCode.xml 후보 및 company.json bizr_no가 FIU 사업자등록번호와 일치.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "audit_report_only",
+    "corp_name": "주식회사 웨이브릿지",
+    "corp_name_en": "Wavebridge Inc.",
+    "corporate_registration_number": "1101116925709",
+    "stock_code": null,
+    "representative": "오종욱",
+    "address": "서울특별시 중구 서소문로 50 (중림동, CENTRALPLACE)",
+    "industry_code": "58222",
+    "establishment_date": "20181126",
+    "fiscal_year_end": "12",
+    "business_registration_number": "767-88-01245",
+    "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01930869",
+    "source_authority": "DART",
+    "confidence": "verified",
+    "receipt_number": null
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    },
+    {
+     "classification": "proprietary_crypto_holder",
+     "status": "fact",
+     "rationale": "2025 사업연도 감사보고서 주석: 보유 가상자산을 자산으로 인식하고 예상 실현 시점에 따라 유동자산으로 분류한다.",
+     "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcptNo=20260410001287",
+     "verified_at": "2026-09-06",
+     "fiscal_year": 2025,
+     "receipt_number": "20260410001287",
+     "source_authority": "DART",
+     "retrieved_at": "2026-09-06",
+     "confidence": "verified"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-07 market_type=coin_only (추론: FIU 명단에 실명확인 입출금계정 신고 이력 없음 → 원화마켓 운영 불가. 회사 사이트로 재확인 권장)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.wavebridge.com/ko",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    },
+    {
+     "link_type": "dart_company",
+     "label": "DART 공시검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?corpCode=01930869",
+     "how_identified": "DART corp_code 로 구성한 공시검색 URL",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    }
+   ]
+  },
+  {
+   "vasp_id": "bowman",
+   "legal_name_ko": "㈜해피블록",
+   "service_names": [
+    "바우맨"
+   ],
+   "business_registration_number": "712-86-02691",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2025-01-17",
+   "registration_date_type": "initial_acceptance",
+   "reported_activities": [
+    "나",
+    "다",
+    "라",
+    "마"
+   ],
+   "fiu_business_type_ko": "거래업자",
+   "proprietary_trading_reported": false,
+   "business_categories": [
+    "exchange",
+    "transfer",
+    "custody",
+    "broker"
+   ],
+   "market_type": "coin_only",
+   "official_website": "https://www.happyblock.io/",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-07 market_type=coin_only (추론: FIU 명단에 실명확인 입출금계정 신고 이력 없음 → 원화마켓 운영 불가. 회사 사이트로 재확인 권장)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.happyblock.io/",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "robit",
+   "legal_name_ko": "㈜블로세이프",
+   "service_names": [
+    "로빗"
+   ],
+   "business_registration_number": "741-86-02855",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2025-08-29",
+   "registration_date_type": "initial_acceptance",
+   "reported_activities": [
+    "다",
+    "라"
+   ],
+   "fiu_business_type_ko": "보관관리업자",
+   "proprietary_trading_reported": false,
+   "business_categories": [
+    "transfer",
+    "custody"
+   ],
+   "market_type": "non_exchange",
+   "official_website": "https://www.blosafe.com/",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-07 market_type=non_exchange (FIU 사업자유형 보관관리업자, 거래업 아님)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.blosafe.com/",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "abc_cloud_wallet",
+   "legal_name_ko": "㈜안랩블록체인컴퍼니",
+   "service_names": [
+    "ABC Cloud Wallet"
+   ],
+   "business_registration_number": "411-87-02306",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2026-04-23",
+   "registration_date_type": "initial_acceptance",
+   "reported_activities": [
+    "다",
+    "라"
+   ],
+   "fiu_business_type_ko": "보관관리업자",
+   "proprietary_trading_reported": false,
+   "business_categories": [
+    "transfer",
+    "custody"
+   ],
+   "market_type": "non_exchange",
+   "official_website": "https://cloudwallet.ahnlabblockchain.company/",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-07 market_type=non_exchange (FIU 사업자유형 보관관리업자, 거래업 아님)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://cloudwallet.ahnlabblockchain.company/",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "bitgo_korea",
+   "legal_name_ko": "비트고코리아㈜",
+   "service_names": [
+    "비트고코리아"
+   ],
+   "business_registration_number": "549-88-03024",
+   "registration_status": "active",
+   "registration_status_ko": "신고 유효",
+   "registration_date": "2026-08-18",
+   "registration_date_type": "initial_acceptance",
+   "reported_activities": [
+    "다",
+    "라",
+    "마"
+   ],
+   "fiu_business_type_ko": "거래업자",
+   "proprietary_trading_reported": false,
+   "business_categories": [
+    "exchange",
+    "transfer",
+    "custody",
+    "broker"
+   ],
+   "market_type": "coin_only",
+   "official_website": null,
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-06 business_categories 에 exchange 추가(FIU 사업자유형 거래업자, docs/SOURCES.md 규칙) | 2026-09-07 market_type=coin_only (추론: FIU 명단에 실명확인 입출금계정 신고 이력 없음 → 원화마켓 운영 불가. 회사 사이트로 재확인 권장)"
+  },
+  {
+   "vasp_id": "gdac",
+   "legal_name_ko": "㈜피어테크",
+   "service_names": [
+    "지닥(GDAC)"
+   ],
+   "business_registration_number": null,
+   "registration_status": "expired_not_renewed",
+   "registration_status_ko": "유효기간 만료(미갱신)",
+   "registration_date": null,
+   "registration_date_type": "unknown",
+   "reported_activities": [],
+   "fiu_business_type_ko": null,
+   "proprietary_trading_reported": null,
+   "business_categories": [
+    "other"
+   ],
+   "market_type": "unverified",
+   "official_website": "https://www.gdac.com",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음.",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.gdac.com",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "unreachable",
+     "notes": "HTTP None, <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostn"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "probit",
+   "legal_name_ko": "오션스㈜",
+   "service_names": [
+    "프로비트"
+   ],
+   "business_registration_number": "262-88-00547",
+   "registration_status": "expired_not_renewed",
+   "registration_status_ko": "유효기간 만료(미갱신)",
+   "registration_date": null,
+   "registration_date_type": "unknown",
+   "reported_activities": [],
+   "fiu_business_type_ko": null,
+   "proprietary_trading_reported": null,
+   "business_categories": [
+    "other"
+   ],
+   "market_type": "unverified",
+   "official_website": "https://www.oceansinc.kr/",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "exact",
+    "corp_code": "01560624",
+    "match_rationale": "2024-07-30 기준 FIU 명단(신고수리 당시)의 사업자등록번호 262-88-00547 가 DART company.json bizr_no 와 일치. 당시 대표 도현수, 소재지 서울특별시 강남구 테헤란로2길 21. 현재(2026-08-31) FIU 미갱신 명단에는 사업자번호가 공란이라 과거 명단으로 확정.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown",
+    "corp_name": "오션스주식회사",
+    "corp_name_en": "oceans inc.",
+    "corporate_registration_number": "1101116362662",
+    "stock_code": null,
+    "representative": "도현수",
+    "address": "서울특별시 강남구 테헤란로4길 28 (역삼동, 송민빌딩) 8층",
+    "industry_code": "58221",
+    "establishment_date": "20170403",
+    "fiscal_year_end": "12",
+    "business_registration_number": "262-88-00547",
+    "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01560624",
+    "source_authority": "DART",
+    "confidence": "partially_verified",
+    "receipt_number": null
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-06 사업자등록번호는 2024-07-30 FIU 명단에서 보충(seed/raw/…2024.7.30. 기준.xlsx). probable→exact (Claude)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.oceansinc.kr/",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "unreachable",
+     "notes": "HTTP None, <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    },
+    {
+     "link_type": "dart_company",
+     "label": "DART 공시검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?corpCode=01560624",
+     "how_identified": "DART corp_code 로 구성한 공시검색 URL",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    }
+   ]
+  },
+  {
+   "vasp_id": "huobi_korea",
+   "legal_name_ko": "후오비㈜",
+   "service_names": [
+    "후오비코리아"
+   ],
+   "business_registration_number": "420-87-00883",
+   "registration_status": "expired_not_renewed",
+   "registration_status_ko": "유효기간 만료(미갱신)",
+   "registration_date": null,
+   "registration_date_type": "unknown",
+   "reported_activities": [],
+   "fiu_business_type_ko": null,
+   "proprietary_trading_reported": null,
+   "business_categories": [
+    "other"
+   ],
+   "market_type": "unverified",
+   "official_website": "https://www.hb.co.kr/ko-kr",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "exact",
+    "corp_code": "01625666",
+    "match_rationale": "2024-07-30 기준 FIU 명단(신고수리 당시)의 사업자등록번호 420-87-00883 가 DART company.json bizr_no 와 일치. 당시 대표 최준용, 소재지 서울특별시 성동구 아차산로17길 48. DART 현 대표와 다르나 사업자번호 일치로 동일 법인(대표 변경). 현재(2026-08-31) FIU 미갱신 명단에는 사업자번호가 공란이라 과거 명단으로 확정.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown",
+    "corp_name": "후오비(주)",
+    "corp_name_en": "Huobi Co., Ltd.",
+    "corporate_registration_number": "1101116536382",
+    "stock_code": null,
+    "representative": "박시덕",
+    "address": "서울특별시 강남구 테헤란로 316 2층 (역삼동, 메트라이프타워)",
+    "industry_code": "63999",
+    "establishment_date": "20171012",
+    "fiscal_year_end": "12",
+    "business_registration_number": "420-87-00883",
+    "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01625666",
+    "source_authority": "DART",
+    "confidence": "partially_verified",
+    "receipt_number": null
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-06 사업자등록번호는 2024-07-30 FIU 명단에서 보충(seed/raw/…2024.7.30. 기준.xlsx). probable→exact (Claude)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.hb.co.kr/ko-kr",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "unreachable",
+     "notes": "HTTP 503"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    },
+    {
+     "link_type": "dart_company",
+     "label": "DART 공시검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?corpCode=01625666",
+     "how_identified": "DART corp_code 로 구성한 공시검색 URL",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    }
+   ]
+  },
+  {
+   "vasp_id": "flata_exchange",
+   "legal_name_ko": "㈜플랫타이엑스",
+   "service_names": [
+    "플랫타익스체인지"
+   ],
+   "business_registration_number": null,
+   "registration_status": "expired_not_renewed",
+   "registration_status_ko": "유효기간 만료(미갱신)",
+   "registration_date": null,
+   "registration_date_type": "unknown",
+   "reported_activities": [],
+   "fiu_business_type_ko": null,
+   "proprietary_trading_reported": null,
+   "business_categories": [
+    "other"
+   ],
+   "market_type": "unverified",
+   "official_website": "https://www.flata.exchange",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음.",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.flata.exchange",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "unreachable",
+     "notes": "HTTP None, <urlopen error [Errno 11002] getaddrinfo failed>"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "hanbitco",
+   "legal_name_ko": "㈜한빗코코리아",
+   "service_names": [
+    "한빗코"
+   ],
+   "business_registration_number": null,
+   "registration_status": "expired_not_renewed",
+   "registration_status_ko": "유효기간 만료(미갱신)",
+   "registration_date": null,
+   "registration_date_type": "unknown",
+   "reported_activities": [],
+   "fiu_business_type_ko": null,
+   "proprietary_trading_reported": null,
+   "business_categories": [
+    "other"
+   ],
+   "market_type": "unverified",
+   "official_website": "https://www.hanbitco.com",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음.",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.hanbitco.com",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200, 최종 https://hanbitco.notion.site/cb7380cde9d44728851d721cfe4c9b80"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "bitrade",
+   "legal_name_ko": "㈜블록체인컴퍼니",
+   "service_names": [
+    "비트레이드"
+   ],
+   "business_registration_number": null,
+   "registration_status": "expired_not_renewed",
+   "registration_status_ko": "유효기간 만료(미갱신)",
+   "registration_date": null,
+   "registration_date_type": "unknown",
+   "reported_activities": [],
+   "fiu_business_type_ko": null,
+   "proprietary_trading_reported": null,
+   "business_categories": [
+    "other"
+   ],
+   "market_type": "unverified",
+   "official_website": "https://www.btrade.co.kr/",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음.",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.btrade.co.kr/",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "unreachable",
+     "notes": "HTTP None, <urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1081)>"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "coinncoin",
+   "legal_name_ko": "㈜코엔코코리아",
+   "service_names": [
+    "코인엔코인"
+   ],
+   "business_registration_number": null,
+   "registration_status": "expired_not_renewed",
+   "registration_status_ko": "유효기간 만료(미갱신)",
+   "registration_date": null,
+   "registration_date_type": "unknown",
+   "reported_activities": [],
+   "fiu_business_type_ko": null,
+   "proprietary_trading_reported": null,
+   "business_categories": [
+    "other"
+   ],
+   "market_type": "unverified",
+   "official_website": "https://concokorea.com",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음.",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://concokorea.com",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "unreachable",
+     "notes": "HTTP None, <urlopen error [Errno 11002] getaddrinfo failed>"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "cashierest",
+   "legal_name_ko": "㈜뉴링크",
+   "service_names": [
+    "캐셔레스트"
+   ],
+   "business_registration_number": null,
+   "registration_status": "expired_not_renewed",
+   "registration_status_ko": "유효기간 만료(미갱신)",
+   "registration_date": null,
+   "registration_date_type": "unknown",
+   "reported_activities": [],
+   "fiu_business_type_ko": null,
+   "proprietary_trading_reported": null,
+   "business_categories": [
+    "other"
+   ],
+   "market_type": "unverified",
+   "official_website": "https://www.cashierest.com",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음.",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.cashierest.com",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "tennten",
+   "legal_name_ko": "㈜텐앤텐",
+   "service_names": [
+    "텐앤텐"
+   ],
+   "business_registration_number": null,
+   "registration_status": "expired_not_renewed",
+   "registration_status_ko": "유효기간 만료(미갱신)",
+   "registration_date": null,
+   "registration_date_type": "unknown",
+   "reported_activities": [],
+   "fiu_business_type_ko": null,
+   "proprietary_trading_reported": null,
+   "business_categories": [
+    "other"
+   ],
+   "market_type": "unverified",
+   "official_website": "https://www.tennten.com/",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음.",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.tennten.com/",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "unreachable",
+     "notes": "HTTP None, <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certi"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "aprobit",
+   "legal_name_ko": "㈜에이프로코리아",
+   "service_names": [
+    "에이프로빗"
+   ],
+   "business_registration_number": null,
+   "registration_status": "expired_not_renewed",
+   "registration_status_ko": "유효기간 만료(미갱신)",
+   "registration_date": null,
+   "registration_date_type": "unknown",
+   "reported_activities": [],
+   "fiu_business_type_ko": null,
+   "proprietary_trading_reported": null,
+   "business_categories": [
+    "other"
+   ],
+   "market_type": "unverified",
+   "official_website": "https://www.aprobit.com",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음.",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.aprobit.com",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200, 최종 https://aprobit-notification.pages.dev/"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "mykeepin_wallet",
+   "legal_name_ko": "㈜씨피랩스",
+   "service_names": [
+    "마이키핀월렛"
+   ],
+   "business_registration_number": null,
+   "registration_status": "expired_not_renewed",
+   "registration_status_ko": "유효기간 만료(미갱신)",
+   "registration_date": null,
+   "registration_date_type": "unknown",
+   "reported_activities": [],
+   "fiu_business_type_ko": null,
+   "proprietary_trading_reported": null,
+   "business_categories": [
+    "other"
+   ],
+   "market_type": "unverified",
+   "official_website": "https://cplabs.io/company",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음.",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://cplabs.io/company",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "unreachable",
+     "notes": "HTTP 404"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "qbit",
+   "legal_name_ko": "큐비트㈜",
+   "service_names": [
+    "큐비트"
+   ],
+   "business_registration_number": "778-81-01931",
+   "registration_status": "expired_not_renewed",
+   "registration_status_ko": "유효기간 만료(미갱신)",
+   "registration_date": null,
+   "registration_date_type": "unknown",
+   "reported_activities": [],
+   "fiu_business_type_ko": null,
+   "proprietary_trading_reported": null,
+   "business_categories": [
+    "other"
+   ],
+   "market_type": "unverified",
+   "official_website": null,
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "exact",
+    "corp_code": "02030546",
+    "match_rationale": "2024-07-30 기준 FIU 명단(신고수리 당시)의 사업자등록번호 778-81-01931 가 DART company.json bizr_no 와 일치. 당시 대표 윤성준, 소재지 서울특별시 강남구 봉은사로82길 9-3. 현재(2026-08-31) FIU 미갱신 명단에는 사업자번호가 공란이라 과거 명단으로 확정.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown",
+    "corp_name": "큐비트 주식회사",
+    "corp_name_en": "Qbit Co., Ltd.",
+    "corporate_registration_number": "1101117687332",
+    "stock_code": null,
+    "representative": "윤성준",
+    "address": "서울특별시 강남구 테헤란로13길 31-1 지2층(역삼동, 일리빌딩)",
+    "industry_code": "6399",
+    "establishment_date": "20201118",
+    "fiscal_year_end": "12",
+    "business_registration_number": "778-81-01931",
+    "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=02030546",
+    "source_authority": "DART",
+    "confidence": "partially_verified",
+    "receipt_number": null
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-06 사업자등록번호는 2024-07-30 FIU 명단에서 보충(seed/raw/…2024.7.30. 기준.xlsx). probable→exact (Claude)"
+  },
+  {
+   "vasp_id": "cardo",
+   "legal_name_ko": "㈜카르도",
+   "service_names": [
+    "카르도"
+   ],
+   "business_registration_number": null,
+   "registration_status": "expired_not_renewed",
+   "registration_status_ko": "유효기간 만료(미갱신)",
+   "registration_date": null,
+   "registration_date_type": "unknown",
+   "reported_activities": [],
+   "fiu_business_type_ko": null,
+   "proprietary_trading_reported": null,
+   "business_categories": [
+    "other"
+   ],
+   "market_type": "unverified",
+   "official_website": "https://cardo.kr",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음.",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://cardo.kr",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "unreachable",
+     "notes": "HTTP None, <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "delio",
+   "legal_name_ko": "㈜델리오",
+   "service_names": [
+    "델리오"
+   ],
+   "business_registration_number": "283-88-00879",
+   "registration_status": "expired_not_renewed",
+   "registration_status_ko": "유효기간 만료(미갱신)",
+   "registration_date": null,
+   "registration_date_type": "unknown",
+   "reported_activities": [],
+   "fiu_business_type_ko": null,
+   "proprietary_trading_reported": null,
+   "business_categories": [
+    "other"
+   ],
+   "market_type": "unverified",
+   "official_website": "https://delio.io",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "exact",
+    "corp_code": "01588259",
+    "match_rationale": "2024-07-30 기준 FIU 명단(신고수리 당시)의 사업자등록번호 283-88-00879 가 DART company.json bizr_no 와 일치. 당시 대표 정상호, 소재지 서울특별시 강남구 삼성로 85길 26 / 경기도 성남시 분당구 매화로 51. 현재(2026-08-31) FIU 미갱신 명단에는 사업자번호가 공란이라 과거 명단으로 확정.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown",
+    "corp_name": "주식회사 델리오",
+    "corp_name_en": "DELIO",
+    "corporate_registration_number": "1101116653475",
+    "stock_code": null,
+    "representative": "정상호",
+    "address": "경기도 성남시 분당구 매화로 51 (야탑동, 로즈프라자) 302-4",
+    "industry_code": "47912",
+    "establishment_date": "20180210",
+    "fiscal_year_end": "12",
+    "business_registration_number": "283-88-00879",
+    "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01588259",
+    "source_authority": "DART",
+    "confidence": "partially_verified",
+    "receipt_number": null
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-06 사업자등록번호는 2024-07-30 FIU 명단에서 보충(seed/raw/…2024.7.30. 기준.xlsx). probable→exact (Claude)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://delio.io",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "unreachable",
+     "notes": "HTTP None, <urlopen error [WinError 10054] 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다>"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    },
+    {
+     "link_type": "dart_company",
+     "label": "DART 공시검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?corpCode=01588259",
+     "how_identified": "DART corp_code 로 구성한 공시검색 URL",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    }
+   ]
+  },
+  {
+   "vasp_id": "paycoin",
+   "legal_name_ko": "PayProtocol AG",
+   "service_names": [
+    "페이코인"
+   ],
+   "business_registration_number": null,
+   "registration_status": "expired_not_renewed",
+   "registration_status_ko": "유효기간 만료(미갱신)",
+   "registration_date": null,
+   "registration_date_type": "unknown",
+   "reported_activities": [],
+   "fiu_business_type_ko": null,
+   "proprietary_trading_reported": null,
+   "business_categories": [
+    "other"
+   ],
+   "market_type": "unverified",
+   "official_website": "https://www.payprotocol.io",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "not_found",
+    "corp_code": null,
+    "match_rationale": "최신 corpCode.xml 정규화 법인명 검색 및 시드 후보에서 찾지 못함. 외감 대상 여부는 판단하지 않음.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown"
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음.",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "https://www.payprotocol.io",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    }
+   ]
+  },
+  {
+   "vasp_id": "coinbit",
+   "legal_name_ko": "㈜엑시아소프트",
+   "service_names": [
+    "코인빗"
+   ],
+   "business_registration_number": "120-87-79307",
+   "registration_status": "expired_not_renewed",
+   "registration_status_ko": "유효기간 만료(미갱신)",
+   "registration_date": null,
+   "registration_date_type": "unknown",
+   "reported_activities": [],
+   "fiu_business_type_ko": null,
+   "proprietary_trading_reported": null,
+   "business_categories": [
+    "other"
+   ],
+   "market_type": "unverified",
+   "official_website": "http://coinbit.com/",
+   "fiu_source_url": "https://www.kofiu.go.kr/kor/notification/notice.do",
+   "verified_at": "2026-09-06",
+   "dart_match": {
+    "match_status": "exact",
+    "corp_code": "01380684",
+    "match_rationale": "2024-07-30 기준 FIU 명단(신고수리 당시)의 사업자등록번호 120-87-79307 가 DART company.json bizr_no 와 일치. 당시 대표 조강호, 소재지 서울특별시 강남구 봉은사로 426. 현재(2026-08-31) FIU 미갱신 명단에는 사업자번호가 공란이라 과거 명단으로 확정.",
+    "verified_at": "2026-09-06",
+    "filing_profile": "unknown",
+    "corp_name": "주식회사 엑시아소프트",
+    "corp_name_en": "Axia Soft Co.,Ltd.",
+    "corporate_registration_number": "1101114802066",
+    "stock_code": null,
+    "representative": "조강호",
+    "address": "서울특별시 송파구 문정로 155 (가락동, 명륜재빌딩)",
+    "industry_code": "58221",
+    "establishment_date": "20120222",
+    "fiscal_year_end": "12",
+    "business_registration_number": "120-87-79307",
+    "source_url": "https://opendart.fss.or.kr/api/company.json?corp_code=01380684",
+    "source_authority": "DART",
+    "confidence": "partially_verified",
+    "receipt_number": null
+   },
+   "roles": [
+    {
+     "classification": "vasp",
+     "status": "fact",
+     "rationale": "FIU 작성 명단의 DAXA 미러에 포함. 현행 영업 여부와 구분.",
+     "source_url": "https://kdaxa.org/support/vasp.php",
+     "verified_at": "2026-09-06"
+    }
+   ],
+   "revenue_models": [],
+   "source_url": "https://kdaxa.org/support/vasp.php",
+   "source_title": "FIU 가상자산사업자 신고 현황 (2026-08-31), DAXA 미러",
+   "source_authority": "FIU",
+   "receipt_number": null,
+   "published_at": null,
+   "retrieved_at": "2026-09-06",
+   "confidence": "partially_verified",
+   "notes": "시드 원문 기준일 2026-08-31. FIU 직접 수집 TLS 오류; 최신성 미확정. DAXA 페이지에서 동일 기준일 첨부 표시 확인. 신고업무는 실제 영업/자산 보유의 증거가 아니므로 역할·수익을 추가 추정하지 않음. | 2026-09-06 사업자등록번호는 2024-07-30 FIU 명단에서 보충(seed/raw/…2024.7.30. 기준.xlsx). probable→exact (Claude)",
+   "links": [
+    {
+     "link_type": "official_website",
+     "label": "홈페이지(DAXA 명단 기재)",
+     "url": "http://coinbit.com/",
+     "how_identified": "DAXA 가상자산사업자 명단 페이지(https://kdaxa.org/support/vasp.php)의 '홈페이지 바로가기' 링크",
+     "verified_at": "2026-09-07",
+     "status": "unreachable",
+     "notes": "HTTP None, <urlopen error [Errno 11002] getaddrinfo failed>"
+    },
+    {
+     "link_type": "fiu_listing",
+     "label": "FIU 신고현황(DAXA 미러)",
+     "url": "https://kdaxa.org/support/vasp.php",
+     "how_identified": "FIU 자료를 DAXA 가 게시",
+     "verified_at": "2026-09-06",
+     "status": "verified",
+     "notes": "FIU 원문 게시글은 접속 불가로 미러 사용"
+    },
+    {
+     "link_type": "dart_company",
+     "label": "DART 공시검색",
+     "url": "https://dart.fss.or.kr/dsab007/main.do?corpCode=01380684",
+     "how_identified": "DART corp_code 로 구성한 공시검색 URL",
+     "verified_at": "2026-09-07",
+     "status": "verified",
+     "notes": "HTTP 200"
+    }
+   ]
+  }
+ ]
+}
