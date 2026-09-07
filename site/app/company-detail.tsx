@@ -21,7 +21,6 @@ export default function CompanyDetail({ vasp, reports, financials, notes, risks,
         <div className="flex flex-wrap items-center justify-between gap-3"><div className="flex flex-wrap gap-2"><Badge className="bg-orange text-ivory">{display(vasp.registration_status_ko)}</Badge><Badge variant="outline" className="border-ink-14 text-ink">{marketLabel(vasp.market_type)}</Badge></div><span className="font-mono text-xs text-ink-60">{vasp.vasp_id}</span></div>
         <p className="mt-5 text-sm text-ink-60">{vasp.legal_name_ko}</p><h2 className="mt-1 text-3xl font-bold tracking-tight text-ink">{vasp.service_names.join(' · ') || vasp.legal_name_ko}</h2>
       </header>
-      {reviews.length > 0 && <ReviewBanner reviews={reviews} />}
       {!hasAudit ? <NoAuditDetail vasp={vasp} /> : (
         <div className="space-y-10 p-5 sm:p-7">
           <RevenueSection vasp={vasp} financials={financials} />
@@ -36,9 +35,6 @@ export default function CompanyDetail({ vasp, reports, financials, notes, risks,
   );
 }
 
-function ReviewBanner({ reviews }: { reviews: Review[] }) {
-  return <details className="group border-b border-amber/20 bg-amber/15/[0.07] px-5 py-4 sm:px-7"><summary className="flex cursor-pointer list-none items-center justify-between gap-3 text-[#8a5a00]"><span className="flex items-center gap-2"><ShieldAlert className="size-4" /><strong>검토 중인 항목 {reviews.length}건</strong></span><span className="text-xs group-open:hidden">펼치기</span><span className="hidden text-xs group-open:inline">접기</span></summary><ul className="mt-3 space-y-2">{reviews.map((review) => <li key={review.review_id} className="rounded-lg border border-amber/15 bg-ink-08 px-3 py-2 text-sm text-amber-50"><span className="font-mono text-xs text-[#8a5a00]">{review.review_id}</span> · {review.issue_type === 'dart_match_failed' ? 'DART에서 법인을 찾지 못함' : review.description}</li>)}</ul></details>;
-}
 
 function NoAuditDetail({ vasp }: { vasp: Vasp }) {
   return <div className="p-5 sm:p-7"><div className="mb-6 rounded-xl border border-ink-40/15 bg-ink-40/[0.055] p-5"><FileSearch className="mb-3 size-5 text-ink-60" /><h3 className="font-semibold text-ink">감사보고서 데이터 없음</h3><p className="mt-2 text-sm leading-6 text-ink-60">DART에서 감사보고서를 확보하지 못했습니다. 외부감사 대상이 아니라는 의미로 확정할 수는 없습니다.</p></div><dl className="grid gap-3 sm:grid-cols-2"><KeyValue label="FIU 명단 법인명" value={vasp.legal_name_ko} /><KeyValue label="신고 상태" value={display(vasp.registration_status_ko)} /><KeyValue label="시장유형" value={marketLabel(vasp.market_type)} analysis={vasp.market_type === 'coin_only'} /><KeyValue label="신고일" value={display(vasp.registration_date)} /></dl><div className="mt-6"><SectionTitle icon={Link2} title="확인 링크" /><LinkList links={vasp.links ?? []} /></div></div>;
