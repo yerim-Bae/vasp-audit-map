@@ -54,7 +54,7 @@ export function formatFigure(figure: Figure | null, originalUnit: string | null,
 
 export function EvidenceQuote({ text, receipt, url }: { text: string; receipt: string | null; url: string | null }) {
   return (
-    <blockquote className="mt-3 border-l-2 border-orange/45 bg-orange/[0.045] px-3 py-2.5 text-sm leading-6 text-ivory">
+    <blockquote className="mt-3 border-l-2 border-orange/45 bg-orange/[0.06] px-3 py-2.5 text-sm leading-6 text-ink">
       <div className="mb-1 flex items-center justify-between gap-3">
         <Badge className="border-orange/20 bg-orange/10 text-orange">원문 인용</Badge>
         {url && <a href={url} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-xs text-orange hover:underline">접수번호 {display(receipt)}<ExternalLink className="size-3" /></a>}
