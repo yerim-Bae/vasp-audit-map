@@ -1,0 +1,34 @@
+/* 공지 창 — 포트폴리오(archive.html)의 공지와 같은 모양.
+   화면 왼쪽에 붙고, 좁은 화면에서는 아래쪽 전체 폭으로 바뀝니다. */
+.nt-veil{position:fixed;inset:0;z-index:2147482000;background:rgba(28,26,25,.26);opacity:0;transition:opacity .24s ease}
+.nt-veil.on{opacity:1}
+.nt{position:fixed;z-index:2147482100;left:clamp(16px,3vw,44px);top:50%;
+  transform:translateY(-50%) translateX(-20px);width:min(480px,calc(100vw - 32px));
+  background:var(--paper);border:1px solid var(--ink);border-top:3px solid var(--orange);
+  padding:32px 34px 26px;opacity:0;
+  transition:opacity .26s ease,transform .26s cubic-bezier(.22,1,.36,1)}
+.nt.on{opacity:1;transform:translateY(-50%) translateX(0)}
+.nt-kicker{font-family:var(--font-geist-sans);font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--orange);margin:0 0 12px}
+.nt .nt-lead{font-family:var(--font-geist-sans);font-size:17.5px;font-weight:700;letter-spacing:-.02em;line-height:1.55;color:var(--ink);margin:0 0 16px}
+.nt p{font-family:var(--font-serif-kr);font-size:14.5px;line-height:1.9;color:var(--ink-60);margin:0 0 13px;word-break:keep-all}
+.nt p:last-of-type{margin-bottom:22px}
+.nt p b{color:var(--ink);font-weight:600}
+.nt-acts{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end}
+.nt-acts button{font:inherit;font-family:var(--font-geist-sans);font-size:13.5px;font-weight:600;padding:11px 17px;border-radius:2px;cursor:pointer;
+  transition:border-color .2s ease,background-color .2s ease,color .2s ease}
+.nt-later{border:1px solid var(--ink-40);background:none;color:var(--ink-60)}
+.nt-later:hover{border-color:var(--ink);color:var(--ink)}
+.nt-close{border:1px solid var(--orange);background:var(--orange);color:#fff}
+.nt-close:hover{background:var(--rust);border-color:var(--rust)}
+@media(max-width:640px){
+  .nt{right:16px;left:16px;top:auto;bottom:16px;width:auto;transform:translateY(18px);padding:24px 22px 20px}
+  .nt.on{transform:translateY(0)}
+  .nt .nt-lead{font-size:16px;margin-bottom:13px}
+  .nt p{font-size:13.5px;line-height:1.85}
+  .nt-acts button{flex:1}
+}
+@media (prefers-reduced-motion:reduce){
+  .nt,.nt-veil{transition:none}
+  .nt{transform:translateY(-50%)}
+}
+@media (prefers-reduced-motion:reduce) and (max-width:640px){ .nt{transform:none} }

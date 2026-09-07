@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import '../app/globals.css';
 import './fonts.css';
 import Home from '../app/page';
+import Notice from './Notice';
 
 function Disclaimer() {
   return (
@@ -27,7 +28,17 @@ function Disclaimer() {
       <p style={{ margin: '8px 0 0' }}>
         만든 과정(출처 우선순위, 법인 매칭, 사실·추론 구분, 품질검사)과 데이터·소스 코드는{' '}
         <a href="https://github.com/yerim-Bae/vasp-audit-map" target="_blank" rel="noreferrer" style={{ color: '#9F3F2F' }}>github.com/yerim-Bae/vasp-audit-map</a>에
-        있습니다. © 2026 Yerim Bae
+        있습니다. © 2026 Yerim Bae ·{' '}
+        <a
+          href="#"
+          onClick={(e) => {
+            e.preventDefault();
+            window.dispatchEvent(new Event('vasp-notice:open'));
+          }}
+          style={{ color: '#9F3F2F' }}
+        >
+          안내 다시 보기
+        </a>
       </p>
     </footer>
   );
@@ -37,5 +48,6 @@ createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Home />
     <Disclaimer />
+    <Notice />
   </React.StrictMode>,
 );
