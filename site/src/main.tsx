@@ -22,11 +22,12 @@ function Disclaimer() {
         DART 공시(감사보고서·사업보고서)에서 확인한 사실, 그 요약, 그리고 분석적 추론을 구분해 표시합니다.
         &ldquo;분석&rdquo;으로 표시된 내용은 감사보고서에 직접 기재된 사실이 아니라 공개 자료를 바탕으로 한 개인 의견이며,
         특정 회사에 대한 평가나 투자 판단의 근거로 쓰일 수 없습니다. 오류를 발견하시면{' '}
-        <a href="https://github.com/yerim-Bae" style={{ color: '#2451b3' }}>GitHub</a>으로 알려주세요.
+        <a href="https://github.com/yerim-Bae/vasp-audit-map" target="_blank" rel="noreferrer" style={{ color: '#9F3F2F' }}>GitHub 저장소</a>로 알려주세요.
       </p>
       <p style={{ margin: '8px 0 0' }}>
-        데이터 구축 과정(출처 우선순위, 법인 매칭, 사실·추론 구분, 품질검사)은 사이트 안의 &ldquo;검토 중&rdquo; 항목과
-        출처 목록에서 그대로 볼 수 있습니다. © 2026 Yerim Bae
+        만든 과정(출처 우선순위, 법인 매칭, 사실·추론 구분, 품질검사)과 데이터·소스 코드는{' '}
+        <a href="https://github.com/yerim-Bae/vasp-audit-map" target="_blank" rel="noreferrer" style={{ color: '#9F3F2F' }}>github.com/yerim-Bae/vasp-audit-map</a>에
+        있습니다. © 2026 Yerim Bae
       </p>
     </footer>
   );
